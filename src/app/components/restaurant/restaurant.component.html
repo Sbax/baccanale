@@ -1,0 +1,9 @@
+<article>
+  <div class="header">
+    {{restaurant.name}}
+  </div>
+
+  <div *ngFor="let menu of restaurant.menus">
+    <app-menu [menu]="menu"></app-menu>
+  </div>
+</article>

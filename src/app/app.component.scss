@@ -1,0 +1,57 @@
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.custom-input {
+  display: inline-block;
+  border-radius: 1.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+
+  min-width: 3rem;
+  text-align: center;
+
+  cursor: pointer;
+  position: relative;
+  input {
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background: none;
+  }
+
+  + .custom-input {
+    margin-left: 1rem;
+  }
+}
+
+.search {
+  padding: 0.5rem 1rem;
+
+  input {
+    padding: 0 1rem;
+  }
+}
+
+section {
+  margin: 2rem 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  grid-gap: 1rem;
+}
+
+article {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  border: 1px solid #eeeeee;
+}

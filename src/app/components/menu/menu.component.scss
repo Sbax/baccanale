@@ -1,0 +1,16 @@
+article {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: #efefef;
+    padding: 1rem;
+  }
+
+  .price {
+    font-weight: 600;
+  }
+
+  .content {
+    padding: 1rem 0.5rem;
+  }
+}

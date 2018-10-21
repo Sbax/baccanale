@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Ristorante Poggio Pollino",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "25.00 €",
+        "extended": "<p>Involtini di verza ai tre formaggi<br>Gratin di patate al Parmigiano<br><br>Crema di zucca con i suoi semi tostati, yogurt e gocce di balsamico<br>Morbidelle di ricotta con burro nocciola e Parmigiano<br><br>Carr&#xE9; di maiale con salsa al latte e vino bianco<br>Pur&#xE9; di patate<br><br>Il latte in piedi</p><br>bevande escluse, acqua compresa"
+      }
+    ]
+  },
+  {
+    "name": "Cucinot",
+    "menus": [
+      {
+        "name": "I mille e un latte ",
+        "price": "25.00 €",
+        "extended": "Vellutata di topinambur al latte di cocco<br><br>Tortelli di spinaci e ricotta di soia con crema di barbabietole<br><br>Tarte tatin salata alla zucca e formaggio di riso<br><br>Insalata di spinacino e vinaigrette al melograno<br><br>Millefoglie di verdure con labna di soia all&apos;erba cipollina<br><br>Pannacotta al latte di noce con caramello al caff&#xE8;<br>coperto, acqua in caraffa e caff&#xE8; inclusi. Altre bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "GUT - Birreria e cucineria",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "25.00 €",
+        "extended": "<p>Tigel Croque Monsieur<br><br>Tortelli di ricotta di Comellini alle olive nere e arancio in brodetto di Parmigiano all&apos;erba cipollina<br><br>Guancia di vitello con pur&#xE8; di zucca e tortino di patate filante<br><br>Crostatina al contrario con fragole al balsamico, gelato al Parmigiano e pasta frolla</p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Agriturismo La Marletta",
+    "menus": [
+      {
+        "name": "I pascoli di Romagna ",
+        "price": "29.00 €",
+        "extended": "Tortino di verdure dell&apos;orto e Parmigiano Reggiano<br>Fichi caramellati dell&apos;agriturismo con caciotta biologica &quot;La Bordona&quot;<br><br>Ravioli di formaggio di fossa in crema di latte profumata al tartufo<br>Spaghetti alla chitarra in salsa di formaggio ubriaco<br>Garganelli di Imola squacquerone, rucola e prosciutto di Parma croccante<br><br>Arrosto di vitello in latte di mandorla e salsa di caprino<br><br>Tavolozza di formaggi biologici &quot;La Bordona&quot; con le confetture extra dell&apos;agriturismo<br><br>Latte alla portoghese<br>acqua e coperto compresi, vini esclusi"
+      }
+    ]
+  },
+  {
+    "name": "Officina Sapori",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "33.00 €",
+        "extended": "<p>Piccolo benvenuto dalla nostra cucina</p><p>Uovo cotto a bassa temperatura con crema di ricotta, bruciatini di pancetta affumicata, cannella e pepe di Sichuan</p><p>Tortelli di formaggio grigio, emulsione di cipolla tropea, crescione d&apos;orto e polvere di rapa rossa</p><p>Agnello arrostito marinato allo yogurt, purea di lenticchie decorticate e salsa al mango</p><p>Bavarese al fior di latte, salsa al cioccolato, nocciole tostate e amare sciroppate</p><p></p><br>inclusi acqua e coperto. &#x20AC; 43.00 con vini in abbinamento"
+      }
+    ]
+  },
+  {
+    "name": "Le Magie di Bacco",
+    "menus": [
+      {
+        "name": "Il latte... protagonista! ",
+        "price": "32.00 €",
+        "extended": "<p><b><i>Colazione con il latte...</i></b></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\">Cappuccino di soia con fagottino di broccoli</span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><br></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><b><i>...ci sono anche qui...</i></b></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\">Raviolini cacio e pepe</span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><br></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><b><i>...io ho mangiato solo latte...</i></b></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\">Maialino da latte disossato al forno con rost&#xEC; di patate</span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><br></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><i><b>...latte e miele...</b></i></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\">Selezione di formaggi di tre variet&#xE0; di latte con miele e confettura</span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><br></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\"><b><i>...latte, uova e zucchero.</i></b></span></p><p><span style=\"font-size: 1em; -webkit-text-size-adjust: 100%;\">Cheesecake cr&#xE8;me br&#xFB;l&#xE9;e</span></p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Opera Dulcis",
+    "menus": [
+      {
+        "name": "Menu di pesce ",
+        "price": "30.00 €",
+        "extended": "Capesante scottate su crema di nocciole, intenerite su latte salato e spugna al cerfoglio<br><br>Tagliolini su crema di piselli al kefir e seppia croccante<br><br>Polipo a bassa temperatura su cappuccino di patate e olive nere tostate<br><br>Latte brul&#xE9; all&apos;artusiana con spuma agli agrumi su cialda alle madorle e salsa al cardamomo<br>bevande escluse"
+      },
+      {
+        "name": "Menu di carne ",
+        "price": "25.00 €",
+        "extended": "Tortino di Parmigiano su spuma di mortadella e pistacchi<br><br>Garganelli su vellutata di zucca con squacquerone e salsiccia<br><br>Filetto di maialino al latte al pepe rosa con patate al Parmigiano<br><br>Latte brul&#xE9; all&apos;artusiana con spuma agli agrumi su cialda alle madorle e salsa al cardamomo<br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Caffè Bologna ",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "28.00 €",
+        "extended": "<p>Crema di latte allo zafferano con ricotta di bufala affumicata e gambero rosso di Sicilia<br>Sformatino di ricotta con verdure e salsa di pomodoro fresco al basilico<br><br>Gnocchi di patate al Castelmagno<br>Lasagnetta Goccia d&apos;Oro<br><br>Tomino alla griglia con verdure<br><br>Panna al forno<br><em>oppure<br></em>Cheesecake ai frutti rossi</p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Da Noi Osteria e Vini",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "32.00 €",
+        "extended": "<p>Savarin di zucca con dadolata di pancetta di Mora Romagnola e scaglie di Pecorino<br><br>Sfoia lorda della tradizione<br><br>Filettino di maiale con mele al latte, miele e Calvados<br><br>Cheesecake di ricotta e pere</p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Agriturismo Frascineti",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "32.00 €",
+        "extended": "<p>Polenta e squacquerone con piadina al testo</p><p>Tortelli di ricotta e taleggio burro ed erba cipollina</p><p>Tagliolini gorgonzola, panna e noci</p><p>Coniglio al forno con latte, grana ed olive<br><br>Pav&#xE9; di patate al latte<br><br>Panna cotta</p><br>caff&#xE8; e digestivi compresi"
+      }
+    ]
+  },
+  {
+    "name": "Pancake",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "9.00 €",
+        "extended": "<p><b>#Baccanale1 - dal 3 all&#x2019;11 novembre</b></p><p>Pan brioche artigianale, medaglione di scottona da 150gr, spuma di mortadella e Parmigiano Reggiano 24 mesi, cialda croccante di Parmigiano Reggiano 50 mesi, radicchio spadellato con aceto balsamico di Modena e granella di pistacchi</p><p><b><br>#Baccanale2 - dal 12 al 18 novembre</b></p><p>Pan brioche artigianale, medaglione di scottona da 150gr, formaggio latteria Fiorida 1&#xB0; premio alla mostra del Bitto, Speck IGP dell&#x2019;Alto Adige, patate dorate, cipolle caramellate, crema di Asiago e tartufo nero</p><p><b><br>#Baccanale3 - dal 19 al 25 novembre</b></p><p>Pan brioche artigianale, medaglione di scottona da 150gr, Blu di capra - caseificio dell&#x2019;Alta Langa, doppio bacon affumicato al legno di faggio, cipolle sfumate al Porto, salsa barbecue ai mirtilli fatta in casa, rucola e crumble di nocciole con pecorino Gran Gru di grotta - Brisighella</p><p><b><br>#VeggieBaccanale - dal 3 al 25 novembre</b></p><p>Pan brioche artigianale ai 5 cereali, burger di lupini e spinaci con soli ingredienti biologici, formaggio blueveg stile erborinato, pomodoro, rucola, salsa barbecue ai mirtilli fatta in casa e nocciole tostate</p><br>tutti i menu; con contorno di patate &#x20AC; 12.00"
+      }
+    ]
+  },
+  {
+    "name": "Osteria del Vicolo Nuovo - Da Ambra e Rosa",
+    "menus": [
+      {
+        "name": "Il Trionfo dell'Oro Bianco ",
+        "price": "34.00 €",
+        "extended": "<p><b>Un vero gioiello a latte crudo<br><br></b>Souffl&#xE8; al Parmigiano Reggiano di Bianca Modenese Presidio Slow Food<br>con funghi porcini di stagione e Squacquerone di Romagna in cialda croccante<br><br><b>Al contadino non far sapere&#x2026;<br><br></b>Lasagne gratinate con formaggio caprino e pere<br><br><b>Il mito nel piatto<br><br></b>Guancia di maialino brasata con polentina in fonduta e tartufo<br><br><b>Abbinamenti armonici dalla nostra ampia Carta dei Vini</b></p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Osteria Callegherie",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "40.00 €",
+        "extended": "<p>Zuppetta di lenticchie e orzo perlato<br><br>Polpette di scamorza, pomodoro e purea di patate affumicata<br><br>Cavatelli fatti in casa con finferli, crema di mascarpone e pancetta<br><br>Taglio di vitello, vellutata di mais al latte e aceto balsamico<br><br>Mousse al cioccolato bianco e latte di cocco, salsa soffice all&#x2019;arancia<br><br>Piccola Pasticceria&#xA0;</p><br>coperto incluso, bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Caffè Bistrot Ristorantino",
+    "menus": [
+      {
+        "name": "Menu di carne ",
+        "price": "24.00 €",
+        "extended": "Gelato di Parmigiano 36 mesi con gnocco fritto<br><em>Vino proposto in abbinamento: calice di Prosecco Asolo Dal Bello</em><br><br><br>Tortellacci di ricotta di bufala<br><em>Vino proposto in abbinamento: calice di Nespoli Pinot Bianco</em><br><br><br>Arrosto di vitello alle nocciole e latte con carciofi croccanti<br><em>Vino proposto in abbinamento: calice di Nespoli Sangiovese Prugneto</em><br><br><br>Gelo di cacao amaro con panna montata e mandorle tostate<br><em>Vino proposto in abbinamento: calice di vino dolce passito</em><br>acqua, caff&#xE8; e coperto compresi, vini esclusi"
+      },
+      {
+        "name": "Menu di pesce ",
+        "price": "24.00 €",
+        "extended": "Capasanta gratinata con salsa bianca<br><em>Vino proposto in abbinamento: calice di Fos Marai Prosecco</em><br><br>Gnocchetti di ricotta e spinaci con gamberi<br><em>Vino proposto in abbinamento: calice di Clemente primo (bianco)</em><br><br>Calamari scottadito con purea di cavolfiore<br><em>Vino proposto in abbinamento: calice di Friulano Angoris</em><br><br>Panna cotta con crumble di arance<br><em>Vino proposto in abbinamento: calice di vino dolce passito</em><br><br><br><br>acqua, caff&#xE8; e coperto compresi, vini esclusi"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante Donna Laura",
+    "menus": [
+      {
+        "name": "Käse e Latte: dai pascoli alpini alle colline imolesi ",
+        "price": "28.00 €",
+        "extended": "<p class=\"Testopreformattato\">Il formaggio Fioralp su pane di Altamura bruschettato<br> scaldato dalla Zuppetta ai profumi autunnali e Stravecchio<br><br>La delicatezza di S&#xFC;dtiroler Alpkaese e topinambur <br>custodita dalla patata rossa della Pusteria e dallo Speck Nocker Dobbiaco<br> insieme alle polpettine di Chianina al latte con sughetto aromatico<br><br>Il cremoso caramello al latte di Kefir&#xA0;</p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Osteria del Piolo",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "32.00 €",
+        "extended": "Bavarese allo squacquerone con guancialino croccante e emulsione alla rucola<br><br>Cappellacci con ricotta di pecora su vellutata di zucca e spuma di mortadella di Bologna<br><br>Bianchetto di vitello dell&apos;Appennino IGP con fantasia di verdure e quenelle di polenta<br><br>Latte alla portoghese della nostra tradizione con aroma di caff&#xE8;<br><br><br><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante E Parlamintè",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "30.00 €",
+        "extended": "<p>Spuma di ricotta e mortadella con piadina<br><br><span style=\"font-size: 1em;\">Garganelli di Romagna cacio e pepe<br><br></span>Faraona alla crema con funghi porcini secchi<br><br>Crema catalana</p><br>compreso pane e coperto. Bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante L'Artusi",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "32.00 €",
+        "extended": "<p>Fl&#xFB;te di benvenuto con prosecco di Valdobbiadene<br><br>Sformatino di ricotta di pecora con zucchine di campo, erba cipollina e mozzarelline su crema di spinaci<br><br>Vellutata di broccoli con cipolla rossa, acciughine e cubetti di formaggio primosale al pepe nero<br><br>Mezzelune verdi di spinaci alla crema di Parmigiano Reggiano e gocce di aceto balsamico di Modena<br><br>Filetto di vitello al pepe verde e panna di montagna con patate duchessa al burro di Castel San Pietro<br><br>Crema caramellata con latte di soia ed amaretti sbriciolati</p><br>compresa acqua minerale, un calice di vino e caff&#xE8;"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante La Tavernetta",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "29.00 €",
+        "extended": "Sformatino di verdure e formaggi&#xA0;<br><br>Passatelli in crema di Parmigiano e scaglie di tartufo nero<br>Cannelloni di ricotta e besciamella<br><br>Tagliata di Angus con grana e salsa di pecorino di fossa<br><br>La nostra zuppa inglese<br><br><br><br><br><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Osteria del Teatro",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "29.00 €",
+        "extended": "<p>Bocconcini di pane con polpettine di carne su fonduta di fossa<br><br>Doppi triangoli al finocchio e barbabietola rossa con salsa Parmigiano e semi di papavero<br><br>Lombetto al latte e birra non retorica&#xA0;<br><br>Torretta di spinaci e caciotta&#xA0;<br><br>Bavarese alla ricotta con salsa arancio&#xA0;</p><br>compresi coperto e servizio, escluse bevande "
+      }
+    ]
+  },
+  {
+    "name": "Ristorante Molino Rosso",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "30.00 €",
+        "extended": "<p>Ricottina al forno con pesto di olive nere<br><br>Crema di lenticchie rosse con riduzione di latte di cocco<br><br>Insalatina in cestino di pane con pere abate, noci, melograno e quenelle di gorgonzola dolce<br><br><br>Gnocchetti verdi in fonduta di puzzone di Moena e guancialino croccante<br><br><br>Carr&#xE8; di maialino con crema di latte di riso al pepe rosa<br><br><br>Chips di patate rosse<br><br>Porcini trifolati<br><br><br>Biancomangiare ai lamponi&#xA0;</p><br>acqua e un calice di vino incluso"
+      }
+    ]
+  },
+  {
+    "name": "Osteria Calma e Gesso",
+    "menus": [
+      {
+        "name": "Siamo da uova e da latte ",
+        "price": "25.00 €",
+        "extended": "Rotolo di piada all&apos;alga spirulina con rucola, pesto di pomodoro e Parmigiano Reggiano dop 48 mesi<br><br>Tortelli di ricotta e crema di burrata<br># Tortelli di patata con pesto di pomodoro e basilico<br><br>Spezzatino di maiale al latte con patate rustiche<br># Tomino alla piastra con patate rustiche&#xA0;<br><br>Panna cotta al latte di mandorla e pistacchio<br><br><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ladi Ke Rigani",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "25.00 €",
+        "extended": "Piccoli peperoni ripieni con formaggi<br><br>Frittelle con kefalotiri e feta<br><br>Pasticcio di ziti con feta e besciamella<br><br>Souffl&#xE9; di 4 formaggi<br><br>Risogalo (risolatte)<br>escluso coperto, bevande e caff&#xE8;"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante del Viale",
+    "menus": [
+      {
+        "name": "Isola Flottante ",
+        "price": "35.00 €",
+        "extended": "<p>Mozzarella in carrozza con confettura di mirtilli<br>Cappuccino di piselli e menta<br>Tortino ai formaggi e tartufo bianco<span style=\"font-size: 1em;\"><br><br>Tortelloni alla Mora Romagnola<br><br>Filetto di maialino su latte di mandorle e spuma di ricotta<br>Quaglia glassata, con formaggio alle castagne e c<span style=\"font-size: 1em;\">avoletti di Bruxelles<br><br>Ile Flottante<br><br>Acqua, Vino (un calice a persona)<br><br>Caff&#xE8; e Digestivo<br></span></span></p><br>tutto compreso"
+      },
+      {
+        "name": "Isola Flottante - vegetariano ",
+        "price": "30.00 €",
+        "extended": "<p><span style=\"font-family: Helvetica;\">Mozzarella in carrozza con confettura di mirtilli<br></span><span style=\"font-family: Helvetica;\">Cappuccino di piselli e menta<br>Tortino ai formaggi e tartufo bianco<br><br></span><span style=\"font-family: Helvetica;\">Tortelloni di patate alla zucca e ceci<br></span></p><p><span style=\"font-family: Helvetica;\">Spiedini di verdura<br><o:p></o:p></span></p><p><span style=\"font-family: Helvetica;\">Involtini di verza e patate al curry<br></span><span style=\"font-family: Helvetica;\">Cavoletti di Bruxelles<br></span></p><p><span style=\"font-family: Helvetica;\">Ile Flottante<br><br></span><span style=\"font-family: Helvetica;\">Acqua, Vino (un calice a persona)<br><br></span><span style=\"font-family: Helvetica;\">Caff&#xE8; e Digestivo<o:p></o:p></span></p><br>tutto compreso"
+      }
+    ]
+  },
+  {
+    "name": "Osteria Forum Cornelii",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "30.00 €",
+        "extended": "<p>Sfogliata con fonduta di&#xA0;Castelmagno e crema di pere<br><br>Ravioli ripieni di burrata pugliese con pomodorini, pesto di alici e frutta secca<br><br>Strozzapreti al latte con spinaci saltati, uvetta, pinoli e prosciutto croccante<br><br>Cosciotti di maialino da latte steccato con radicchio rosso e finocchi gratinati<br><br>Latte Br&#xFB;l&#xE9;</p><br>inclusi acqua, coperto e caff&#xE8;"
+      }
+    ]
+  },
+  {
+    "name": "Caffè Roma Bistro",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "30.00 €",
+        "extended": "Sandwich di alici, pecorino e tartufo nero<br><br>Risotto al gorgonzola, liquirizia e gamberi rossi di Sicilia<br><br>Ravioli di baccal&#xE0; mantecato su salsa di latte di capra e taleggio, nocciole e radicchio al balsamico<br><br>Saut&#xE9; di polpo con carciofi, yogurt greco e sesamo nero<br><br>Crema al limone, coulis di cachi e croccante<br>compresi coperto e caff&#xE8;"
+      }
+    ]
+  },
+  {
+    "name": "Anonima Fornelli",
+    "menus": [
+      {
+        "name": "Si fa presto a dire latte... ",
+        "price": "30.00 €",
+        "extended": "<p>Ricottina di bufala al timo al forno con scorze di limone di costiera caramellate e nocciole piemontesi<br><br>Tortelli di patata con zucca, mandorle e crema di latte alla noce moscata<br><br>Guancette di maiale al latte di capra e rosmarino<br><br>Cocotte di riso cotto nel latte e vaniglia con mele cotogne flamb&#xE9;&#xA0;</p><p></p><br>bevande escluse"
+      },
+      {
+        "name": "...ma c'è anche altro latte! ",
+        "price": "30.00 €",
+        "extended": "<p>Zuppa orientale al latte di cocco, zenzero, curry, lemongrass e gamberi in tempura<br><br><em>Pad Thai</em> classico alla riduzione di latte di mandorle e arachidi<br><br>Seppia al suo nero e latte di riso basmati<br><br>Parfait allo zenzero e scorze di arancio candito al fondente<br><br></p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante Antico Tre Monti",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "26.00 €",
+        "extended": "Vellutata di patate<br><br>Cuori Tre Monti ai quattro formaggi<br>Tagliatelle al rag&#xF9;<br><br>Tagliata di Chianina<br>Purea di patate<br><br>Dolci della casa&#xA0;<br>(Cr&#xE8;me caramel - zuppa inglese - cassata siciliana - Monte Bianco)<br>Biscotteria della tradizione<br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante Hostaria 900",
+    "menus": [
+      {
+        "name": "Menu di carne ",
+        "price": "35.00 €",
+        "extended": "<p>Polenta morbida alla robiola con porri caramellati<br><br>Ravioli di mascarpone con rag&#xF9; d&#x2019;anatra<br><br>Tournedos dal cuore dolce con fonduta allo zafferano croccante<br><br>Parfait ai pistacchi in salsa di latte di mandorle</p><br>bevande escluse"
+      },
+      {
+        "name": "Menu di pesce ",
+        "price": "35.00 €",
+        "extended": "<p>Baccal&#xE0; al latte di mandorle, zafferano e cipolla caramellata<br><br>Passatelli con vongole in crema di zucca e topinambur<br><br>Gamberi con la feta<br><br>Seadas</p><br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante San Domenico",
+    "menus": [
+      {
+        "name": "Divertimenti ",
+        "price": "125.00 €",
+        "extended": "Filetto di ombrina arrostito, crema di sedano rapa al latte di mandorla e scaglie di lingotto di zafferano<br><br>Filetto di salmone scottato, topinambur cotti al forno, perle di scalogno<br><br>Ravioli di ricotta di latte di pecora, crema di Parmigiano all&apos;olio extra vergine<br><br>Lombetto di castrato al timo, cr&#xE8;me br&#xFB;l&#xE9;e di broccoli<br><br>La nostra pasticceria<br><br>Latte e caff&#xE8;<br>compresa acqua minerale, degustazione di vini e caff&#xE8;. Esclusi liquori"
+      }
+    ]
+  },
+  {
+    "name": "Trattoria Miseria e Nobiltà",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "29.00 €",
+        "extended": "Carpaccio di aringa marinata nel latte vaccino, crostini al burro e pepe nero<br><br>Cannelloni ripieni di ricotta di capra su vellutata di besciamella e pistacchi tostati<br><br>Risotto alla curcuma di latte zafferano e salvia in tempura<br><br>Polenta bianca al latte con baccal&#xE0; in guazzetto alla vicentina&#xA0;<br><br>Latte alla portoghese<br>bevande escluse"
+      }
+    ]
+  },
+  {
+    "name": "Ristorante Pizzeria Donatello",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "36.00 €",
+        "extended": "Millefoglie di baccal&#xE0; cotto a bassa temperatura con latte di capra accompagnato da scarole, capperi e olive taggiasche<br><br>Paccheri croccanti ripieni di ricciola con crema di latte, melograno e terra di pistacchio<br><br>Lasagnetta scomposta con salmone, lime e latte di cocco<br><br>Tagliata di tonno in crosta di sesamo con ristretto di latte e zenzero<br><br>Tortino con cuore di latte e frutti di bosco<br>bevande escluse"
+      },
+      {
+        "name": "Menu giovani ",
+        "price": "15.00 €",
+        "extended": "Tortino di patate, melanzane e basilico con crema di latte e pomodori di collina&#xA0;<br><br><br>Pizza del Baccanale: mozzarella, gamberi argentini, fiori di zucca e latte di bufala<br><br><em>oppure</em>&#xA0;<br><br>a scelta dal menu pizze<br><br><br>Tortino con cuore di latte e frutti di bosco<br><br><br><br>inclusa una bottiglia di acqua, escluse altre bevande"
+      }
+    ]
+  },
+  {
+    "name": "Vivanderia - Note e Aromi",
+    "menus": [
+      {
+        "name": "Menu",
+        "price": "35.00 €",
+        "extended": "<p>Entr&#xE9;e<br><br>Polpo, la sua maionese, su frisella al nero e Caciocavallo<br><br>Passatelli mantecati con capocollo e spinacini su crema di Parmigiano affumicato<br><br>Tronchetto di manzo leggermente rosolato, latte, cavolfiore e porro croccante<br><br>Ricotta</p><br>acqua, caff&#xE8;, coperto e vini inclusi"
+      }
+    ]
+  },
+  {
+    "name": "Ristoro Di Palazzo Monsignani",
+    "menus": [
+      {
+        "name": "Menu 2 ",
+        "price": "20.00 €",
+        "extended": "<p>Bruschetta di pane al latte con alici marinate <br><b>oppure</b> <br>Sarde fritte<br><br>Risotto al latte con fegatini di foie gras<br><br>Carr&#xE9; di maiale <br><b>oppure</b> <br>Vitello cotto a bassa temperatura al latte<br><br>Bavarese di latte di mandorle</p><br>bevande escluse"
+      },
+      {
+        "name": "Menu 1 ",
+        "price": "20.00 €",
+        "extended": "<p>Tortino di scamorza e patate con salsa di funghi<br><br>Tortelli di ricotta burro e salvia <br><b>oppure</b>&#xA0;<br>Passatelli in crema di Parmigiano<br><br>Guancia di maialino brasato <br><b>oppure</b>&#xA0;<br>Filetto di maialino al latte in salsa di castagne<br><br>Pur&#xE8; di patate <br><b>oppure</b>&#xA0;<br>Polenta alla griglia<br><br>Latte portoghese <br><b>oppure</b> <br>Mousse di ricotta al cioccolato <br><b>oppure</b> <br>Crema catalana</p><br>bevande escluse"
+      }
+    ]
+  }
+]
