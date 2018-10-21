@@ -1,15 +1,20 @@
 <main>
-  <span class="custom-input button" (click)="sort()">A - Z</span>
-  <span class="custom-input button" (click)="reverse()">Z - A</span>
-  <span class="custom-input button" (click)="cheaperFirst()">€ - €€€</span>
-  <span class="custom-input button" (click)="cheaperLast()">€€€ - €</span>
+  <h1>Baccanale 2018</h1>
 
-  <div class="custom-input search">
-    <fa-icon icon="search"></fa-icon>
-    <input type="text" [(ngModel)]="filter">
-  </div>
+  <section>
+    <section class="filters">
+      <span class="custom-input button" (click)="sort()">A - Z</span>
+      <span class="custom-input button" (click)="reverse()">Z - A</span>
+      <span class="custom-input button" (click)="cheaperFirst()">€ - €€€</span>
+      <span class="custom-input button" (click)="cheaperLast()">€€€ - €</span>
+    </section>
+    <div class="custom-input search">
+      <fa-icon icon="search"></fa-icon>
+      <input type="text" [(ngModel)]="filter">
+    </div>
+  </section>
 
-  <section id="restaurants">
+  <section class="restaurants" id="restaurants">
     <article *ngFor="let restaurant of filteredRestaurants">
       <app-restaurant [restaurant]="restaurant"></app-restaurant>
     </article>

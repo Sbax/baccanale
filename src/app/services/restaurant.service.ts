@@ -1,13 +1,12 @@
-import { Injectable } from '@angular/core';
-import restaurantsData from './restaurants.json';
-import { Restaurant } from '../interfaces/restaurant.js';
-import { Menu } from '../interfaces/menu.js';
+import { Injectable } from "@angular/core";
+import restaurantsData from "./restaurants.json";
+import { Restaurant } from "../interfaces/restaurant.js";
+import { Menu } from "../interfaces/menu.js";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class RestaurantService {
-
   restaurants: Restaurant[];
 
   constructor() {
@@ -25,7 +24,9 @@ export class RestaurantService {
       const restaurant: Restaurant = {
         name: restaurantData.name,
         menus: menus,
-        maxPrice: Math.max(...menus.map(e => e.price))
+        maxPrice: Math.max(...menus.map(e => e.price)),
+        address: restaurantData.address,
+        phone: restaurantData.phone
       };
 
       return restaurant;

@@ -1,9 +1,20 @@
 <article>
-  <div class="header">
+  <header>
     {{restaurant.name}}
-  </div>
+  </header>
 
   <div *ngFor="let menu of restaurant.menus">
     <app-menu [menu]="menu"></app-menu>
   </div>
+
+  <footer>
+    <div>
+      <fa-icon icon="map"></fa-icon>
+      <a href="https://www.google.com/maps/search/?api=1&query={{addressUrl}}">{{restaurant.address}}</a>
+    </div>
+    <div>
+      <fa-icon icon="phone"></fa-icon>
+      <a href="tel:{{restaurant.phone}}">{{restaurant.phone}}</a>
+    </div>
+  </footer>
 </article>

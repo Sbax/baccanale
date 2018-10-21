@@ -7,8 +7,11 @@ import { MenuComponent } from "./components/menu/menu.component";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faPhone, faMap } from "@fortawesome/free-solid-svg-icons";
 library.add(faSearch);
+
+library.add(faPhone);
+library.add(faMap);
 
 @NgModule({
   declarations: [AppComponent, RestaurantComponent, MenuComponent],
