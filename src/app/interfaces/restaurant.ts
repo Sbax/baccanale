@@ -6,4 +6,5 @@ export interface Restaurant {
   maxPrice: number;
   address: string;
   phone: string;
+  location?: any;
 }

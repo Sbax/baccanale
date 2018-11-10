@@ -2,6 +2,10 @@
   {
     "name": "Da Noi Osteria e Vini",
     "address": "Via Amendola, 63 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3568921,
+      "lng": 11.705852199999981
+    },
     "phone": "0542 24045",
     "menus": [
       {
@@ -14,6 +18,10 @@
   {
     "name": "Anonima Fornelli",
     "address": "Via Emilia, 38 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3554354,
+      "lng": 11.70936699999993
+    },
     "phone": "0542 24755",
     "menus": [
       {
@@ -31,6 +39,10 @@
   {
     "name": "Agriturismo Frascineti",
     "address": "Via Chiesa di Pediano, 2 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3041008,
+      "lng": 11.707089099999962
+    },
     "phone": "0542 657016",
     "menus": [
       {
@@ -43,6 +55,10 @@
   {
     "name": "Caffè Bistrot Ristorantino",
     "address": "Via Egidio Lenci, 6 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3552164,
+      "lng": 11.724684199999956
+    },
     "phone": "0542 28771",
     "menus": [
       {
@@ -60,6 +76,10 @@
   {
     "name": "Ladi Ke Rigani",
     "address": "Via Santerno , 13 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.345644,
+      "lng": 11.725944000000027
+    },
     "phone": "0542 29956",
     "menus": [
       {
@@ -72,6 +92,10 @@
   {
     "name": "Cucinot",
     "address": "Via Orsini , 9/A - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3544152,
+      "lng": 11.713250399999993
+    },
     "phone": "0542 381357",
     "menus": [
       {
@@ -84,6 +108,10 @@
   {
     "name": "Ristorante L'Artusi",
     "address": "Via Carlo Pisacane, 69 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.34558639999999,
+      "lng": 11.729538199999979
+    },
     "phone": "0542 28460",
     "menus": [
       {
@@ -96,6 +124,10 @@
   {
     "name": "Pancake",
     "address": "Via Turati, 3 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3610278,
+      "lng": 11.72493380000003
+    },
     "phone": "0542 1893584",
     "menus": [
       {
@@ -108,6 +140,10 @@
   {
     "name": "Trattoria Miseria e Nobiltà",
     "address": "Via Montanara - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3363561,
+      "lng": 11.682517800000028
+    },
     "phone": "0542 666681",
     "menus": [
       {
@@ -120,6 +156,10 @@
   {
     "name": "Officina Sapori",
     "address": "Vicolo Stagni, 1 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3534701,
+      "lng": 11.712283399999933
+    },
     "phone": "0542 28058",
     "menus": [
       {
@@ -132,6 +172,10 @@
   {
     "name": "Ristorante Antico Tre Monti",
     "address": "Via Bergullo, 52 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.30954,
+      "lng": 11.720429999999965
+    },
     "phone": "0542 657024",
     "menus": [
       {
@@ -144,6 +188,10 @@
   {
     "name": "Ristorante del Viale",
     "address": "Via Punta, 24 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3421406,
+      "lng": 11.68013730000007
+    },
     "phone": "0542 1905213",
     "menus": [
       {
@@ -161,6 +209,10 @@
   {
     "name": "Osteria del Teatro",
     "address": "Vicolo Fratelli Bartolini, 1 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.354938,
+      "lng": 11.710065999999983
+    },
     "phone": "0542 22954",
     "menus": [
       {
@@ -173,6 +225,10 @@
   {
     "name": "Ristorante E Parlamintè",
     "address": "Via G. Mameli, 33 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3519195,
+      "lng": 11.714346599999999
+    },
     "phone": "0542 30144",
     "menus": [
       {
@@ -185,6 +241,10 @@
   {
     "name": "Ristorante Molino Rosso",
     "address": "Prov. Selice, 49 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3801218,
+      "lng": 11.737568600000031
+    },
     "phone": "0542 63111",
     "menus": [
       {
@@ -197,6 +257,10 @@
   {
     "name": "Ristorante San Domenico",
     "address": "Via Sacchi, 1 - 40026 IMOLA (BO)",
+    "location": {
+      "lat": 44.355779,
+      "lng": 11.712456100000054
+    },
     "phone": "0542 29000",
     "menus": [
       {
@@ -209,6 +273,10 @@
   {
     "name": "Caffè Roma Bistro",
     "address": "Via Emilia, 137 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.353502,
+      "lng": 11.713627999999972
+    },
     "phone": "0542 30876",
     "menus": [
       {
@@ -221,6 +289,10 @@
   {
     "name": "Osteria Calma e Gesso",
     "address": "Via Venezia, 7 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3537466,
+      "lng": 11.71874790000004
+    },
     "phone": "0542 850709",
     "menus": [
       {
@@ -233,6 +305,10 @@
   {
     "name": "Vivanderia - Note e Aromi",
     "address": "Piazzale Vittime Lager Nazisti - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3495703,
+      "lng": 11.70962689999999
+    },
     "phone": "348 9061576",
     "menus": [
       {
@@ -245,6 +321,10 @@
   {
     "name": "Ristorante La Tavernetta",
     "address": "Via Tito Speri, 2 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.35452,
+      "lng": 11.712480000000028
+    },
     "phone": "0542 22339",
     "menus": [
       {
@@ -257,6 +337,10 @@
   {
     "name": "Osteria del Vicolo Nuovo - Da Ambra e Rosa",
     "address": "Via Codronchi-Angolo Calatafimi (centro storico), 6 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3538272,
+      "lng": 11.716240200000016
+    },
     "phone": "0542 32552",
     "menus": [
       {
@@ -269,6 +353,10 @@
   {
     "name": "Ristorante Poggio Pollino",
     "address": "Monte Meldola, 2/T - 40026 imola (bo)",
+    "location": {
+      "lat": 44.30803,
+      "lng": 11.668059999999969
+    },
     "phone": "3316125474",
     "menus": [
       {
@@ -281,6 +369,10 @@
   {
     "name": "Ristorante Hostaria 900",
     "address": "Viale Dante , 20 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.346605,
+      "lng": 11.713258999999994
+    },
     "phone": "0542 24211",
     "menus": [
       {
@@ -298,6 +390,10 @@
   {
     "name": "Osteria Forum Cornelii",
     "address": "Piazza Matteotti, 7 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.35273,
+      "lng": 11.715037299999949
+    },
     "phone": "0542 23903",
     "menus": [
       {
@@ -310,6 +406,10 @@
   {
     "name": "Ristoro Di Palazzo Monsignani",
     "address": "Via Emilia, 69 - 40026 Imola (Bo)",
+    "location": {
+      "lat": 44.354388,
+      "lng": 11.71189800000002
+    },
     "phone": "0542 23576",
     "menus": [
       {
@@ -327,6 +427,10 @@
   {
     "name": "GUT - Birreria e cucineria",
     "address": "Via Togliatti, 27 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3707394,
+      "lng": 11.725185900000042
+    },
     "phone": "0542641586",
     "menus": [
       {
@@ -339,6 +443,10 @@
   {
     "name": "Opera Dulcis",
     "address": "Piazza Matteotti, 18 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3529229,
+      "lng": 11.714304999999968
+    },
     "phone": "0542 24556",
     "menus": [
       {
@@ -356,6 +464,10 @@
   {
     "name": "Caffè Bologna",
     "address": "Via Emilia , 206 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3532214,
+      "lng": 11.715018200000031
+    },
     "phone": "0542 22517",
     "menus": [
       {
@@ -368,6 +480,10 @@
   {
     "name": "Ristorante Donna Laura",
     "address": "Via Suore, 38 - 40026 Imola - Fraz. Montecatone (BO)",
+    "location": {
+      "lat": 44.3425176,
+      "lng": 11.623362799999995
+    },
     "phone": "0542 43424",
     "menus": [
       {
@@ -380,6 +496,10 @@
   {
     "name": "Le Magie di Bacco",
     "address": "Via Appia, 41/45 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3548767,
+      "lng": 11.715269300000045
+    },
     "phone": "0542 31280",
     "menus": [
       {
@@ -392,6 +512,10 @@
   {
     "name": "Osteria Callegherie",
     "address": "Via Callegherie, 13 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3550087,
+      "lng": 11.716370500000039
+    },
     "phone": "0542 33507",
     "menus": [
       {
@@ -404,6 +528,10 @@
   {
     "name": "Osteria del Piolo",
     "address": "Via Appia, 80/82 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3555014,
+      "lng": 11.715659899999991
+    },
     "phone": "0542 850706",
     "menus": [
       {
@@ -416,6 +544,10 @@
   {
     "name": "Agriturismo La Marletta",
     "address": "Via Bergullo, 8 - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3434691,
+      "lng": 11.726948799999946
+    },
     "phone": "0542 27732",
     "menus": [
       {
@@ -428,6 +560,10 @@
   {
     "name": "Ristorante Pizzeria Donatello",
     "address": "Via T. Baruzzi, 15/A - 40026 Imola (BO)",
+    "location": {
+      "lat": 44.3458926,
+      "lng": 11.687678499999947
+    },
     "phone": "0542 690181",
     "menus": [
       {

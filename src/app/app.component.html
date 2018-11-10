@@ -1,7 +1,19 @@
 <main>
-  <h1>Baccanale 2018</h1>
-
-  <section>
+  <nav>
+    <h1>Baccanale 2018</h1>
+    <ul>
+      <li>
+        <a
+          [routerLinkActiveOptions]="{ exact: true }"
+          routerLinkActive="current"
+          routerLink="/"
+          >Home</a
+        >
+      </li>
+      <li><a routerLinkActive="current" routerLink="/map">Map</a></li>
+    </ul>
+  </nav>
+  <header>
     <section class="filters">
       <span class="custom-input button" (click)="sort()">A - Z</span>
       <span class="custom-input button" (click)="reverse()">Z - A</span>
@@ -10,13 +22,8 @@
     </section>
     <div class="custom-input search">
       <fa-icon icon="search"></fa-icon>
-      <input type="text" [(ngModel)]="filter">
+      <input type="text" [(ngModel)]="filter" />
     </div>
-  </section>
-
-  <section class="restaurants" id="restaurants">
-    <article *ngFor="let restaurant of filteredRestaurants">
-      <app-restaurant [restaurant]="restaurant"></app-restaurant>
-    </article>
-  </section>
+  </header>
+  <section><router-outlet></router-outlet></section>
 </main>

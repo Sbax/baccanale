@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { RestaurantService } from "./services/restaurant.service";
 import { Restaurant } from "./interfaces/restaurant";
+import { RestaurantService } from "./services/restaurant.service";
 
 @Component({
   selector: "app-root",
@@ -9,7 +9,6 @@ import { Restaurant } from "./interfaces/restaurant";
 })
 export class AppComponent {
   restaurants: Restaurant[];
-
   filteredRestaurants: Restaurant[];
 
   private _filter: string;
@@ -24,20 +23,19 @@ export class AppComponent {
 
   constructor(private restaurantService: RestaurantService) {
     this.restaurants = restaurantService.restaurants;
-    this.filteredRestaurants = this.restaurants;
 
     this.sort();
   }
 
   filterList(_filter) {
     if (!_filter) {
-      this.filteredRestaurants = this.restaurants;
+      this.restaurantService.filteredRestaurants = this.restaurants;
       return;
     }
 
     const filter = _filter.toLowerCase();
 
-    this.filteredRestaurants = this.restaurants.filter(e => {
+    this.restaurantService.filteredRestaurants = this.restaurants.filter(e => {
       const nameIncludesFilter = e.name.toLowerCase().includes(filter);
 
       const menusIncludeFilter = e.menus.filter(menu => {
@@ -52,34 +50,42 @@ export class AppComponent {
   }
 
   sort() {
-    this.filteredRestaurants.sort((a, b) => {
-      if (a.name < b.name) return -1;
-      if (a.name > b.name) return 1;
-      return 0;
-    });
+    this.restaurantService.filteredRestaurants = this.restaurantService.filteredRestaurants.sort(
+      (a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+      }
+    );
   }
 
   reverse() {
-    this.filteredRestaurants.sort((a, b) => {
-      if (a.name < b.name) return 1;
-      if (a.name > b.name) return -1;
-      return 0;
-    });
+    this.restaurantService.filteredRestaurants = this.restaurantService.filteredRestaurants.sort(
+      (a, b) => {
+        if (a.name < b.name) return 1;
+        if (a.name > b.name) return -1;
+        return 0;
+      }
+    );
   }
 
   cheaperFirst() {
-    this.filteredRestaurants.sort((a, b) => {
-      if (a.maxPrice < b.maxPrice) return -1;
-      if (a.maxPrice > b.maxPrice) return 1;
-      return 0;
-    });
+    this.restaurantService.filteredRestaurants = this.restaurantService.filteredRestaurants.sort(
+      (a, b) => {
+        if (a.maxPrice < b.maxPrice) return -1;
+        if (a.maxPrice > b.maxPrice) return 1;
+        return 0;
+      }
+    );
   }
 
   cheaperLast() {
-    this.filteredRestaurants.sort((a, b) => {
-      if (a.maxPrice < b.maxPrice) return 1;
-      if (a.maxPrice > b.maxPrice) return -1;
-      return 0;
-    });
+    this.restaurantService.filteredRestaurants = this.restaurantService.filteredRestaurants.sort(
+      (a, b) => {
+        if (a.maxPrice < b.maxPrice) return 1;
+        if (a.maxPrice > b.maxPrice) return -1;
+        return 0;
+      }
+    );
   }
 }

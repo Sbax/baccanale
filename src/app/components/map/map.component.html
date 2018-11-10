@@ -1,0 +1,15 @@
+<section class="main">
+  <section>
+    <div
+      style="height: 70vh;"
+      leaflet
+      [leafletOptions]="options"
+      [leafletLayers]="layers"
+    ></div>
+  </section>
+  <aside>
+    <article *ngIf="selectedRestaurant">
+      <app-restaurant [restaurant]="selectedRestaurant"></app-restaurant>
+    </article>
+  </aside>
+</section>
