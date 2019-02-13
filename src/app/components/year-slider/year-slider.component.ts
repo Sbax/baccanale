@@ -42,6 +42,6 @@ export class YearSliderComponent implements OnInit, OnDestroy {
   }
 
   valueChange(year: number) {
-    this.router.navigate(["/year", year]);
+    this.router.navigateByUrl(`year/${year}`);
   }
 }

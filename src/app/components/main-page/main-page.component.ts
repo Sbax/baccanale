@@ -55,7 +55,7 @@ export class MainPageComponent implements OnInit, OnDestroy {
       const { year } = params;
 
       if (year) {
-        if (this.restaurantService.years.includes(year))
+        if (this.restaurantService.years.includes(parseInt(year)))
           restaurantService.applyFilterForYear(parseInt(year));
         else
           router.navigate(["/year", this.restaurantService.lastYear], {
