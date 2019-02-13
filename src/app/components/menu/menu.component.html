@@ -1,14 +1,10 @@
 <article>
   <div class="header">
     <div>
-      {{menu.name}}
+      {{ menu.name }}
     </div>
-    <div class="price">
-      {{menu.price}} €
-    </div>
+    <div class="price">{{ menu.price }} €</div>
   </div>
 
-  <p class="content" [innerHTML]="menu.extended">
-
-  </p>
+  <p class="content" [innerHTML]="menu.description"></p>
 </article>

@@ -1,29 +1,43 @@
 <main>
   <nav>
-    <h1>Baccanale 2018</h1>
-    <ul>
-      <li>
-        <a
-          [routerLinkActiveOptions]="{ exact: true }"
-          routerLinkActive="current"
-          routerLink="/"
-          >Home</a
-        >
-      </li>
-      <li><a routerLinkActive="current" routerLink="/map">Map</a></li>
-    </ul>
+    <h1>Baccanale {{ year }}, {{ themes[year] }}</h1>
   </nav>
   <header>
-    <section class="filters">
-      <span class="custom-input button" (click)="sort()">A - Z</span>
-      <span class="custom-input button" (click)="reverse()">Z - A</span>
-      <span class="custom-input button" (click)="cheaperFirst()">€ - €€€</span>
-      <span class="custom-input button" (click)="cheaperLast()">€€€ - €</span>
+    <section class="line">
+      <section class="custom-input search">
+        <fa-icon icon="search"></fa-icon>
+        <input type="text" [(ngModel)]="filter" />
+      </section>
+      <section class="filters">
+        <span class="custom-input button" (click)="sort()">A - Z</span>
+        <span class="custom-input button" (click)="reverse()">Z - A</span>
+        <span class="custom-input button" (click)="cheaperFirst()"
+          >€ - €€€</span
+        >
+        <span class="custom-input button" (click)="cheaperLast()">€€€ - €</span>
+      </section>
+      <section class="expand" (click)="expanded = !expanded">
+        <span>Filtri</span>
+        <fa-icon [class.toggle]="expanded" icon="caret-down"></fa-icon>
+      </section>
     </section>
-    <div class="custom-input search">
-      <fa-icon icon="search"></fa-icon>
-      <input type="text" [(ngModel)]="filter" />
-    </div>
+    <section [class.collapsed]="!expanded">
+      <section class="places">
+        <span
+          *ngFor="let place of places"
+          class="custom-input button"
+          [class.active]="classIsActive(place)"
+          (click)="includePlace(place)"
+        >
+          {{ place }}
+        </span>
+      </section>
+      <section clas="year">
+        <app-year-slider></app-year-slider>
+      </section>
+    </section>
   </header>
-  <section><router-outlet></router-outlet></section>
+  <section>
+    <router-outlet></router-outlet>
+  </section>
 </main>

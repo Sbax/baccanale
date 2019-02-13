@@ -1,0 +1,47 @@
+::ng-deep {
+  .custom {
+    margin-top: 1rem;
+    border-radius: 3rem;
+
+    .ng5-slider {
+      * {
+        outline: none;
+      }
+
+      &-pointer {
+        background-color: black !important;
+        &-active:after {
+          background-color: #e5e5e5 !important;
+        }
+
+        &-min {
+          &.ng5-slider-active:after {
+            background-color: #e5e5e5 !important;
+          }
+        }
+      }
+
+      &-bubble {
+        color: black !important;
+
+        &.ng5-slider-limit {
+          visibility: none;
+          @media screen and (min-width: 1024px) {
+            visibility: visible;
+          }
+        }
+      }
+
+      &-tick {
+        background: #e5e5e5 !important;
+        &.ng5-slider-selected {
+          color: #e5e5e5 !important;
+        }
+      }
+
+      &-bar {
+        background: #e5e5e5 !important;
+      }
+    }
+  }
+}

@@ -18,20 +18,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "./node_modules/leaflet/dist/images",
-                "output": "./assets/"
-              },
-              "src/favicon.ico",
-              "src/assets",
-              "src/_redirects"
-            ],
-            "styles": [
-              "src/styles.scss",
-              "./node_modules/leaflet/dist/leaflet.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets", "src/_redirects"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -78,20 +66,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "styles": [
-              "src/styles.scss",
-              "./node_modules/leaflet/dist/leaflet.css"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": [],
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "./node_modules/leaflet/dist/images",
-                "output": "./assets/"
-              },
-              "src/favicon.ico",
-              "src/assets"
-            ]
+            "assets": ["src/favicon.ico", "src/assets"]
           }
         },
         "lint": {

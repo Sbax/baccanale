@@ -2,8 +2,8 @@ article {
   .header {
     display: flex;
     justify-content: space-between;
-    background: #efefef;
     padding: 1rem;
+    border-top: 2px solid black;
   }
 
   .price {
@@ -11,6 +11,7 @@ article {
   }
 
   .content {
+    white-space: pre-wrap;
     padding: 1rem 0.5rem;
   }
 }

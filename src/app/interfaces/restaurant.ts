@@ -7,4 +7,6 @@ export interface Restaurant {
   address: string;
   phone: string;
   location?: any;
+  year: number;
+  place: string;
 }
