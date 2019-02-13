@@ -95,7 +95,7 @@ export class RestaurantService {
     this.restaurants = restaurantsData.map((restaurantData, i) => {
       const menus: Menu[] = restaurantData.menus.map(menuData => {
         const menu: Menu = {
-          name: menuData.name,
+          year: restaurantData.year,
           price: parseFloat(menuData.price),
           description: menuData.description
         };
@@ -103,15 +103,23 @@ export class RestaurantService {
         return menu;
       });
 
+      const { name, address, phone, year, place, description } = restaurantData;
+      const slug = name
+        .toLowerCase()
+        .replace(/[^a-zA-Z ]/g, "")
+        .split(" ")
+        .join("-");
+
       const restaurant: Restaurant = {
-        name: restaurantData.name,
+        name,
+        description,
+        slug,
         menus: menus,
         maxPrice: Math.max(...menus.map(e => e.price)),
-        address: restaurantData.address,
-        location: restaurantData.location,
-        phone: restaurantData.phone,
-        year: restaurantData.year,
-        place: restaurantData.place
+        address,
+        phone,
+        year,
+        place
       };
 
       years.add(restaurantData.year);

@@ -15,6 +15,6 @@ export class HomeRedirectComponent implements OnInit {
 
   ngOnInit() {
     const year = this.restaurantService.lastYear;
-    this.router.navigate(["/year", year]);
+    this.router.navigate(["/year", year], { replaceUrl: true });
   }
 }

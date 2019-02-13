@@ -1,6 +1,8 @@
 <article>
   <header>
-    {{restaurant.name}}
+    <a routerLink="/restaurant/{{ restaurant.slug }}">
+      {{ restaurant.name }}
+    </a>
   </header>
 
   <div *ngFor="let menu of restaurant.menus">
@@ -10,11 +12,14 @@
   <footer>
     <div>
       <fa-icon icon="map"></fa-icon>
-      <a href="https://www.google.com/maps/search/?api=1&query={{addressUrl}}">{{restaurant.address}}</a>
+      <a
+        href="https://www.google.com/maps/search/?api=1&query={{ addressUrl }}"
+        >{{ restaurant.address }}</a
+      >
     </div>
     <div>
       <fa-icon icon="phone"></fa-icon>
-      <a href="tel:{{restaurant.phone}}">{{restaurant.phone}}</a>
+      <a href="tel:{{ restaurant.phone }}">{{ restaurant.phone }}</a>
     </div>
   </footer>
 </article>

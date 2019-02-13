@@ -6,11 +6,12 @@ import { Menu } from "src/app/interfaces/menu";
   templateUrl: "./menu.component.html",
   styleUrls: ["./menu.component.scss"]
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent {
   @Input()
   menu: Menu;
 
-  constructor() {}
+  @Input()
+  showYear: boolean;
 
-  ngOnInit() {}
+  constructor() {}
 }

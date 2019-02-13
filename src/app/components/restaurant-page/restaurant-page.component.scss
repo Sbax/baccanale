@@ -1,0 +1,33 @@
+.menus {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  grid-gap: 1rem;
+}
+
+article {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border: 2px solid black;
+  border-top: 0;
+}
+
+a {
+  color: black;
+  margin-left: 0.75rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.description {
+  > div {
+    margin-top: 1rem;
+  }
+}

@@ -13,8 +13,8 @@ footer {
   padding: 1rem 0.75rem;
 
   a {
+    color: black;
     margin-left: 0.75rem;
-    text-decoration: none;
 
     &:hover {
       opacity: 0.5;
@@ -26,4 +26,13 @@ article {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+a {
+  color: black;
+  margin-left: 0.75rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }

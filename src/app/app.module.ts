@@ -17,6 +17,8 @@ import { HomeComponent } from "./components/home/home.component";
 import { MenuComponent } from "./components/menu/menu.component";
 import { RestaurantComponent } from "./components/restaurant/restaurant.component";
 import { YearSliderComponent } from "./components/year-slider/year-slider.component";
+import { RestaurantPageComponent } from './components/restaurant-page/restaurant-page.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
 
 library.add(faSearch);
 library.add(faCaretDown);
@@ -30,7 +32,9 @@ library.add(faMap);
     MenuComponent,
     HomeComponent,
     HomeRedirectComponent,
-    YearSliderComponent
+    YearSliderComponent,
+    RestaurantPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,

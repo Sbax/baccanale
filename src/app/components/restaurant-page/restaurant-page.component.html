@@ -1,0 +1,28 @@
+<main>
+  <nav>
+    <a routerLink="/">Torna ai menu</a>
+  </nav>
+  <h1>{{ name }}</h1>
+
+  <section class="description">
+    {{ description }}
+
+    <div>
+      <fa-icon icon="map"></fa-icon>
+      <a
+        href="https://www.google.com/maps/search/?api=1&query={{ addressUrl }}"
+        >{{ address }}</a
+      >
+    </div>
+    <div>
+      <fa-icon icon="phone"></fa-icon>
+      <a href="tel:{{ phone }}">{{ phone }}</a>
+    </div>
+  </section>
+
+  <section class="menus">
+    <article *ngFor="let menu of menus">
+      <app-menu showYear="true" [menu]="menu"></app-menu>
+    </article>
+  </section>
+</main>

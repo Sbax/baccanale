@@ -1,5 +1,8 @@
 <article>
   <div class="header">
+    <div *ngIf="showYear">
+      {{ menu.year }}
+    </div>
     <div>
       {{ menu.name }}
     </div>
