@@ -7,15 +7,14 @@
   <section class="description">
     {{ description }}
 
-    <div>
-      <fa-icon icon="map"></fa-icon>
+    <div *ngIf="address">
       <a
         href="https://www.google.com/maps/search/?api=1&query={{ addressUrl }}"
-        >{{ address }}</a
       >
+        {{ address }}
+      </a>
     </div>
-    <div>
-      <fa-icon icon="phone"></fa-icon>
+    <div *ngIf="phone">
       <a href="tel:{{ phone }}">{{ phone }}</a>
     </div>
   </section>

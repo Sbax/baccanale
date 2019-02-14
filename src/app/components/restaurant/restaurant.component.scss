@@ -8,16 +8,19 @@ footer {
 footer {
   font-weight: normal;
   margin-top: auto;
-  border-top: 2px solid black;
 
-  padding: 1rem 0.75rem;
+  > * + * {
+    margin-top: 0.5rem;
+  }
 
   a {
-    color: black;
-    margin-left: 0.75rem;
+    padding: 0.1rem 0.25rem;
+    background: black;
+    color: white;
 
     &:hover {
-      opacity: 0.5;
+      background: white;
+      color: black;
     }
   }
 }
@@ -29,10 +32,15 @@ article {
 }
 
 a {
-  color: black;
-  margin-left: 0.75rem;
+  color: white;
+}
+
+header {
+  color: white;
+  background: black;
 
   &:hover {
-    opacity: 0.5;
+    background: white;
+    color: black;
   }
 }

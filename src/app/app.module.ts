@@ -3,27 +3,20 @@ import { FormsModule } from "@angular/forms";
 import { BrowserModule } from "@angular/platform-browser";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faMap,
-  faPhone,
-  faSearch,
-  faCaretDown
-} from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Ng5SliderModule } from "ng5-slider";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { HomeRedirectComponent } from "./components/home-redirect/home-redirect.component";
 import { HomeComponent } from "./components/home/home.component";
+import { MainPageComponent } from "./components/main-page/main-page.component";
 import { MenuComponent } from "./components/menu/menu.component";
+import { RestaurantPageComponent } from "./components/restaurant-page/restaurant-page.component";
 import { RestaurantComponent } from "./components/restaurant/restaurant.component";
 import { YearSliderComponent } from "./components/year-slider/year-slider.component";
-import { RestaurantPageComponent } from './components/restaurant-page/restaurant-page.component';
-import { MainPageComponent } from './components/main-page/main-page.component';
 
 library.add(faSearch);
 library.add(faCaretDown);
-library.add(faPhone);
-library.add(faMap);
 
 @NgModule({
   declarations: [

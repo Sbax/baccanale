@@ -11,18 +11,20 @@
 }
 
 article {
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  box-shadow: 0.25rem 0.25rem 0 black;
+
   border: 2px solid black;
   border-top: 0;
 }
 
 a {
-  color: black;
-  margin-left: 0.75rem;
+  padding: 0.1rem 0.25rem;
+  background: black;
+  color: white;
 
   &:hover {
-    opacity: 0.5;
+    background: white;
+    color: black;
   }
 }
 

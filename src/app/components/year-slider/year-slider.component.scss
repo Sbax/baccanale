@@ -1,7 +1,6 @@
 ::ng-deep {
   .custom {
     margin-top: 1rem;
-    border-radius: 3rem;
 
     .ng5-slider {
       * {
@@ -10,6 +9,12 @@
 
       &-pointer {
         background-color: black !important;
+        border-radius: 0 !important;
+
+        &:after {
+          border-radius: 0 !important;
+        }
+
         &-active:after {
           background-color: #e5e5e5 !important;
         }
@@ -33,6 +38,7 @@
       }
 
       &-tick {
+        border-radius: 0 !important;
         background: #e5e5e5 !important;
         &.ng5-slider-selected {
           color: #e5e5e5 !important;
