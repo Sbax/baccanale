@@ -1,0 +1,675 @@
+[
+    {
+        "name": "Agriturismo Frascineti",
+        "description": "\n Descrizione\n\nL&#x2019;azienda Vitivinicola Frascineti Maurizio &#xE8; ubicata sulle prime colline Imolesi, da sempre produttrice di vini e a conduzione familiare. Dal 1989 ha aperto anche l&#x2019;attivit&#xE0; agrituristica ristoratrice offrendo i piatti tipici Romagnoli; una delle nostre specialit&#xE0; &#xE8; la pasta tirata ancora col matterello.\n\n",
+        "menus": [
+            {
+                "description": "Tagliolini con erbe aromatiche e limone\n\nPollo arrosto con verdure\n\nPatate fritte\n\nTorta di noci e cacao\n&#xA0;\n&#xA0;\n&#xA0;",
+                "price": 18
+            },
+            {
+                "description": "Taglioline con erbe aromatiche e limone\n\nTortelli di patate al rag&#xF9;\n\nConiglio alla cacciatora\n\nPollo arrosto con verdure\n\nPatate fritte\n\nTorta di noci e cacao\n\nVini in abbinamento:\nPignoletto Rubicone Igt\nSangiovese Rubicone Igt\n\n",
+                "price": 26
+            }
+        ],
+        "address": "Via Chiesa di Pediano, 2 - 40026 Imola (BO)",
+        "phone": "0542 657016",
+        "mail": "frascineti@virgilio.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Agriturismo La Marletta",
+        "menus": [
+            {
+                "description": "Stuzzichino di casatella biologica allo scalogno caramellato\n\nMisto di formaggi biologici del caseificio Bordona con le nostre confetture extra di cipolla, pere cotogne, mele renette, nettarine e prugne selvatiche, albicocche caramellate\n\nTortino di zucchine all&apos;olio aromatico su letto di pat&#xE8; di patate al pecorino ed erba cipollina accompagnato dalla corte di crostini con le salse del nostro orto\n\nSpaghettoni alla chitarra con salsa di zucchine, melanzane e peperoni con pancetta croccante\n\nRavioli di ricotta e cuori di carciofo moretto con salsa ai porri\n\nFilettino di maiale con miele al tartufo, melanzane grigliate agli aromi, zucchine grigliate piccanti\n\nQuiche di patate alle erbe del laghetto con peperoni in agrodolce, zucchine agli arromi, scalogno al vino bianco\n\nTortino di carote con miele al mandarino, gelato di vaniglia e fichi caramellati",
+                "price": 29
+            }
+        ],
+        "address": "Via Bergullo, 8 - 40026 Imola (BO)",
+        "phone": "0542 27732",
+        "mail": "info@lamarletta.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Anonima Fornelli",
+        "menus": [
+            {
+                "description": "Vellutata di cardo gobbo con crostini al profumo di alici\n\nRavioli ripieni di radicchio rosso e faraona leggermente affumicata su salsa allo zafferano e petali di trevigiano in tempura\n\nReale di maialino croccante, pur&#xE8; di topinambur e salsa alla mela\n\nDolce di cachi e fondente con cialda al mosto d&apos;uva\n\n",
+                "price": 34
+            }
+        ],
+        "address": "Via Emilia, 38 - 40026 Imola (BO)",
+        "phone": "0542 24755",
+        "mail": "ristorante@anonimafornelli.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Caffè Roma Bistro",
+        "menus": [
+            {
+                "description": "Budino di fegatelli di pollo con salsa di porri e mandorle\n\nPassatelli con tartufo\n\nTortelli di zucca con sesamo, arancia candita e olio di nocciola\n\nRoll&#xE9; di coniglio e finferli con purea di patate e timo\n\nTortino di cioccolato e pere con salsa al rum\n\n",
+                "price": 28
+            }
+        ],
+        "address": "Via Emilia, 137 - 40026 Imola (BO)",
+        "phone": "0542 30876",
+        "mail": "",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Cucinot",
+        "description": "\n Descrizione\n\nCucinot propone i pi&#xF9; appetitosi piatti della tradizione reinterpretati con fantasia e passione senza utilizzo di derivati animali. Un&apos;inconsueta unione di gusto, ecosostenibilit&#xE0; e benessere, da assaporare in un ambiente familiare piacevolmente retr&#xF2;, realizzato in stile vintage di recupero.Il ristorante offre ogni giorno un men&#xF9; diverso a base di ingredienti di stagione, locali, e preferibilmente biologici. Accurata &#xE8; la proposta di dolci e dessert. Il tutto rigorosamente vegan.Per pranzo e cena &#xE8; disponibile anche l&apos;asporto in comode lunch boxes 100% biodegradabili.Nel pomeriggio propone merende a base di tisane, centrifugati di frutta e verdura e piccola pasticceria artigianale.Su ordinazione si confezionano pane, focacce, torte e altre specialit&#xE0; personalizzabili anche in base alle intolleranze alimentari.\n\n",
+        "menus": [
+            {
+                "description": "Garganelli ai piselli e veg-speck\n\nSeitan alla veneziana, accompagnato da cavolfiore marinato\n\nTorta di rapa rossa glassata al cioccolato fondente\n\n\n",
+                "price": 18
+            },
+            {
+                "description": "Quiche di radicchio, porro e zucca\n\nGarganelli ai piselli e veg-speck\n\nSeitan alla veneziana, accompagnato da cavolfiore marinato\n\nTorta di rapa rossa glassata al cioccolato fondente\n\n\n\n",
+                "price": 25
+            }
+        ],
+        "address": "Via Orsini , 9/A - 40026 Imola (BO)",
+        "phone": "0542 381357",
+        "mail": "cucinot.imola@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Da Noi Osteria e Vini",
+        "description": "\n Descrizione\n\nAntica cantina con archi in pietre a vista\n\n",
+        "menus": [
+            {
+                "description": "Tortino di patate, crema di cipolle dolci e prociutto crudo\n\nMinestrone di verdure dell&apos;orto\n\nStufato di Mora Romagnola con verza\n\nZuppa di pere tiepida al vino rosso con crema di latte alla cannella",
+                "price": 29
+            }
+        ],
+        "address": "Via Amendola, 63 - 40026 Imola (BO)",
+        "phone": "0542 24045",
+        "mail": "info@danoiosteriaevini.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Il Piatto di Pitagora",
+        "description": "\n Descrizione\n\n\n\nGastronomia, focacceria, prodotti tipici di alta qualit&#xE0;, ideale per pranzi o stuzzichini con degustazioni veloci, con prevalenza vegetariana. Antichi saperi e sapori con le ricette tradizionali, ingredienti freschi e di stagione, selezionati con cura per offrire un&apos;alternativa sul territorio Imolese. Accoglienza famigliare con attenzione ai prezzi.\nLocale recensito su Tripadvisor.\n\n",
+        "menus": [
+            {
+                "description": "Boccone del contadino: crostino di pane di Altamura con melanzana, pomodoro e mozzarella al sapore di acciuga \n(variante vegetariana: senza acciuga)\n\nZuppa di legumi e cereali con friggitelli accompagnati da crema di cipolla\n\nArrosto misto di pollo, coniglio e faraona farciti, con contorno di funghi trifolati\n(variante vegetariana: Parmigiana di carciofi)\n\nTorta di noci con crema delizia, servita con Nocino Rosolii di Puglia\n\n",
+                "price": 25
+            }
+        ],
+        "address": "Via Fanin, 9 - 40026 Imola (BO)",
+        "phone": "3473116049",
+        "mail": "ilpiattodipitagora@libero.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Le Magie di Bacco",
+        "description": "\n Descrizione\n\nRistorante, enoteca, cucina tradizionale con piatti di carne e pesce, forte connotazione sulla carne alla griglia.\n\n",
+        "menus": [
+            {
+                "description": "Ventaglio di baccal&#xE0; affumicato con mele e mandorle tostate\n\nGnocchetti di zucca e patate con calamari, porri e olive taggiasche\n\nFiletto di San Pietro al forno con pere e cacao\n\nSorbetto di crema e frutti di bosco",
+                "price": 28
+            },
+            {
+                "description": "L&apos;insalata &#xE8; nell&apos;orto... con petto d&apos;oca affumicato e gocce di balsamico tradizionale\n\nTagliatelle con rag&#xF9; d&apos;anatra muta\n\nTortelli di patate con durelli di pollo e funghi del filare davanti all&apos;aia\n\nCoscia di faraona con ginepro e cipolla dorata\n\nTorta di mele",
+                "price": 23
+            }
+        ],
+        "address": "Via Appia, 41/45 - 40026 Imola (BO)",
+        "phone": "0542 31280",
+        "mail": "perbacco41srl@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Marsala 18",
+        "description": "\n Descrizione\n\n\n\nMarsala 18 &#xE8; ristorante, enoteca, salumeria e gastronomia take-away. Marsala 18 &#xE8; tutto ci&#xF2; che ruota intorno al cibo e al vino con passione.\n\n",
+        "menus": [
+            {
+                "description": "Tortino di carciofi, spinaci e formaggio di fossa\n\nIn abbinamento: &apos;On The Rocks&apos; di Fernet Dispensa di Amerigo e chinotto\n\n\nRavioli di coniglio\n\nIn abbinamento: Rossese Dolceacqua Testalonga\n\n\nFaraona in porchetta\n\nIn abbinamento: Albana di Romagna Il Fiorile\n\n\nPoltiglia Bordolese nel pero\n\nIn abbinamento: Kriek alla ciliegia\n\n",
+                "price": 30
+            }
+        ],
+        "address": "Via Marsala, 18 - 40026 Imola (BO)",
+        "phone": "0542 23526",
+        "mail": "robizeta@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Nur Jahan Ristorante Indiano",
+        "menus": [
+            {
+                "description": "Tandoori chicken (pollo al forno tandoori marinato in spezie)\n\nChicken Curry (pollo al curry)\n\nChawal (riso basmati bollito)\n\nNaan (focaccia indiana)\n \n\n",
+                "price": 15
+            },
+            {
+                "description": "Tandoori Aloo (patate ripiene di formaggio e dorate nel forno di terra cotta)\n\nMix Vegetables ( verdure miste alle spezie)\n\nChana Masala&#xA0; (ceci al curry)\n\nChawal (riso basmati bollito)\n\nNaan (focaccia indiana)",
+                "price": 15
+            }
+        ],
+        "address": "Via G. Mameli, 5 - 40026 Imola (BO)",
+        "phone": "0542 29651",
+        "mail": "nurjahan@libero.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Officina Sapori",
+        "description": "\n Descrizione\n\n\n\nRistorante situato in un caratteristico contesto nel centro storico imolese. Cucina locale rivisitata, con ricerca e attenzione al nuovo e ai prodotti di stagione.\n\n",
+        "menus": [
+            {
+                "description": "Tortino di cavolfiore con crema di zucca e tartufo nero\n\nTagliatelle al rag&#xF9; (bianco) d&apos;anatra profumato con Santoreggia e chips di topinambur\n\nSuprema di faraona arrostita con pere volpine al vin brul&#xE9; e purea di sedano rapa\n\nTortino di castagne con coulis di cachi",
+                "price": 33
+            }
+        ],
+        "address": "Vicolo Stagni, 1 - 40026 Imola (BO)",
+        "phone": "0542 28058",
+        "mail": "officinasaporiimola@libero.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Opera Dulcis",
+        "description": "\n Descrizione\n\n\n\nL&#x2019;Opera Dulcis nasce nel gennaio 2013, nel cuore del centro storico di Imola, Piazza Matteotti, con l&apos;intento di dare un nuovo impulso al centro storico della citt&#xE0;. \nIl risultato &#xE8; un locale che offre grande qualit&#xE0; e professionalit&#xE0; attraverso i suoi molteplici servizi: pasticceria, gelateria, caffetteria, ristorante e after dinner.\n\n",
+        "menus": [
+            {
+                "description": "Coniglio farcito con fois gras, ratatouille di verdure, spuma di parmigiano e fiori eduli\n\nTagliatella al rag&#xF9; bianco di faraona e porcini, crema di scalogno, mousse di patate e bouquet di campo\n\nFiletto di maialino in crosta di nocciole, salsa all&apos;uva Sangiovese e primizie dell&apos;orto\n\nDolce dell&apos;Opera\n\n\n\nVini in abbinamento:\n\nLe Bornici, Colli d&apos;Imola D.O.C., Pignoletto Frizzante, Fondo C&#xE0; Vecja\nColvento, Colli d&apos;Imola D.O.C., Bianco Superiore, Fondo C&#xE0; Vecja\nVigna delle Poiane, Colli d&apos;Imola D.O.C., Sangiovese Riserva, Fondo C&#xE0; Vecja\nVigna del Pellicano, Albana di Romagna D.O.C.G., Passito, Fondo C&#xE0; Vecja",
+                "price": 35
+            }
+        ],
+        "address": "Piazza Matteotti, 18 - 40026 Imola (BO)",
+        "phone": "0542 24556",
+        "mail": "catering.operadulcis@siriobar.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria Callegherie",
+        "description": "\n Descrizione\n\nIl locale &#xE8; situato nel centro storico di Imola e sorge lungo l&apos;omonima via, che anticamente ospitava le botteghe dei conciapelle, dal latino &apos;callegarius&apos;. L&apos;arredo moderno, sobrio ed elegante, arricchito da statue in cotto fiorentino ed illuminato da luci soffuse, crea un ambiente caldo ed accogliente. Il ristorante propone piatti creativi, rielaborati, con una interessante carta dei vini e distillati oltre a pani, dolci e pasta fatti in casa. Locale segnalato nelle guide Michelin, Touring Club, Gambero Rosso, Espresso.\n\n",
+        "menus": [
+            {
+                "description": "Crema di patate con bruciatini\n\nSfilacci di coniglio rosolati al tegame profumati al timo e sformatino di zucca\n\nGnocchetti di patata rossa con gola pepata, broccoli e ricotta stagionata\n\nMedaglioni di filetto di maialino avvolti al lardo di Colonnata in vellutata di lenticchie\n\nTortino alla crema e granella di nocciola, salsa alle fave di tonka\n\n\nVini in abbinamento:\n\nRomagna Pagadebit - Poderi Dal Nespoli\nDogheria - Poderi Dal Nespoli\nRomagna Superiore Il Nespoli - Poderi Dal Nespoli\nBradamante, vino da uve stramature - Poderi Dal Nespoli",
+                "price": 37.5
+            }
+        ],
+        "address": "Via Callegherie, 13 - 40026 Imola (BO)",
+        "phone": "0542 33507",
+        "mail": "osteria@callegherie.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria Calma e Gesso",
+        "menus": [
+            {
+                "description": "Tortino patate e porri con finferli\n\nTagliatelle all&apos;ortica con rag&#xF9; di anatra\n\nConiglio alle olive e rosmarino\n\nSemifreddo ai cachi e menta",
+                "price": 22
+            }
+        ],
+        "address": "Via Venezia, 7 - 40026 Imola (BO)",
+        "phone": "0542 850709",
+        "mail": "calma.gesso@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria Forum Cornelii",
+        "menus": [
+            {
+                "description": "Crema di fave profumata al cumino e bacon croccante\n\nGnocchi di ricotta con prosciutto crudo, zucca e germogli di spinaci\n\nBocconcini di coniglio con pachino, piselli e olive\n\nZucchine farcite al cartoccio\n\nMousse alle castagne con salsina al cioccolato\n\n",
+                "price": 30
+            }
+        ],
+        "address": "Piazza Matteotti, 7 - 40026 Imola (BO)",
+        "phone": "0542 23903",
+        "mail": "info@forumcornelii.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria I Trì Scalèn",
+        "description": "\n Descrizione\n\nOsteria I Tr&#xEC; Scal&#xE8;n, dal 1902 amore per la tradizione, attenzione alla qualit&#xE0;.\n\n",
+        "menus": [
+            {
+                "description": "Sformatino di lenticchie e porcini con crema di formaggio di fossa al tartufo\n\nTortelli ripieni di coniglio con olive taggiasche e pinoli tostati\n\nCoscia di faraona confit con patate schiacciate\n\nTris di dolci della tradizione \n\n\nVini in abbinamento:\n\nCordusel, vitigno autoctono, Francesconi, Faenza\nSangiovese &quot;Podere la Berta&quot;, Azienda Agricola La Berta, Brisighella\nOro et Laboro, vino bianco da uve stramature, Leone Conti, Faenza\n&#xA0;",
+                "price": 25
+            }
+        ],
+        "address": "Via Marsala, 22 - 40026 Imola (BO)",
+        "phone": "0542 27799",
+        "mail": "i.3.scalini@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria Il Cafè di Zolino",
+        "description": "\n Descrizione\n\n\n\nL&apos;Osteria Il Caf&#xE8; di Zolino &#xE8; una trattoria tipica romagnola, un luogo in cui portare i propri cari per ottimi pasti in compagnia a base di prodotti genuini, ricette della tradizione e porzioni abbondanti condite dalla cortesia di uno staff appassionato e sempre disponibile.\nIn un ambiente rustico con tavolini e sedie di legno, &#xE8; possibile rilassarsi assaporando le specialit&#xE0; delle &#x201C;zdore&#x201D;, tra le quali la tipica pasta al mattarello e tante altre ricette della tradizione emiliano-romagnola.\nIl menu &#xE8; ricchissimo e offre dagli antipasti tipici alle molte proposte di primi a base di pasta fresca, ma soprattutto specialit&#xE0; di carne e la rinomata piadina romagnola farcita come si desidera.\nAd accompagnare i sapori dei piatti, una buona selezione di vini romagnoli e italiani.\n\n",
+        "menus": [
+            {
+                "description": "Calice di prosecco con piadina fritta\n\nCrostini con fegatini di pollo \nInsalata di zucchine\n\nTagliatelle ai maghetti di pollo\nGarganelli con verdure dell&apos;orto\n\nConiglio arrosto\n\nSformatino di patate\nMelanzane trifolate\n\nTorta di spinaci\n\nIn abbinamento: un calice di vino emiliano-romagnolo\n\n\n",
+                "price": 28
+            }
+        ],
+        "address": "Via Tinti, 1 - 40026 Imola (BO)",
+        "phone": "0542 43434",
+        "mail": "",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria del Teatro",
+        "description": "\n Descrizione\n\n\n\nIl Ristorante Osteria del Teatro &#xE8; un suggestivo locale situato nel centro storico di Imola, ricavato dalle cantine di Palazzo Toschi risalenti al 1300. All&apos;interno, l&apos;ambiente &#xE8; stato sapientemente ristrutturato, mantenendo inalterate le volte in pietra a vista, un pozzo ed una ghiacciaia. La cucina &#xE8; tradizionale rivisitata, con ricette tipiche romagnole proposte in chiave innovativa. Il menu varia bisettimanalmente ed i primi piatti sono di pasta fresca fatta in casa. Il Ristorante dispone inoltre di una buona cantina vini, con selezione curata delle etichette da ogni parte del mondo con oltre 1000 etichette.\n\n",
+        "menus": [
+            {
+                "description": "Sfogliatella ai funghi porcini\n\nGnocchi di patate rossa con coulis di porro e salsiccia\n\nStrozzapreti alla cipolla rossa e radicchio con pancetta stufata al Sangiovese\n\nMedaglione al melograno\n\nSpinaci alla parmigiana\n\nCheese-cake a freddo con salsa all&apos;arancio",
+                "price": 29
+            }
+        ],
+        "address": "Vicolo Fratelli Bartolini, 1 - 40026 Imola (BO)",
+        "phone": "0542 22954",
+        "mail": "danilomartelli@alice.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria del Vicolo Nuovo - Da Ambra e Rosa",
+        "description": "\n Descrizione\n\n\n\nRistorante Enoteca dal 1984 Dal 1984, anni fantastici di gusto e passione all&#x2019;Osteria del Vicolo Nuovo dove le sale piene di fascino, ricavate da un antico palazzo secentesco in origine scuola di Gesuiti, sono affidate alle travolgenti risate di Ambra Lenini, ostessa nel sangue, e alla pi&#xF9; discreta cortesia di Rosa Tozzoli. Sommelier professioniste aderenti all&#x2019;Ass.ne Naz.le &#x201C;Le Donne del Vino&#x201D;, curano una carta con oltre 400 etichette con i migliori vini nazionali. In cucina Simona, Stefania, Miriam e Federico. Cresciuti fra mattarelli e arrosti, sanno offrire cibi che profumano di tradizione, con un&#x2019;attenzione particolare per le paste fatte in casa e le verdure di stagione utilizzate in antipasti o in secondi vegetariani, oppure in abbinamento a preparazioni con carni e pesce. Irrinunciabile il dolce. Da sempre nella Guida Osterie d&#x2019;Italia &#xE8; l&#x2019;unico in Romagna ad avere ininterrottamente dal 1993 la Chiocciola Slow Food, CONFERMATA PER L&apos;EDIZIONE 2018. Il locale inoltre, &#xE8; segnalato nelle guide Michelin, Touring Club, Il Mangiarozzo, Fuoricasello, Gambero Rosso, Accademia della Cucina Italiana.Sempre in fermento, l&#x2019;osteria ha saputo trasformare anche il vicolo di fronte al locale in palcoscenico gastronomico e nella bella stagione ogni giorno si rinnova la magia: il traffico lascia improvvisamente spazio a tavoli e ombrelloni per pranzare o cenare a lume di candela. Possibilit&#xE0; a mezzogiorno di consumare un piatto unico (Verde/carne, Blu/pesce, Verde/vegetariano, Arancio/Vegano) a 13 euro per un pasto pi&#xF9; veloce e leggero. Non vi resta che raggiungerle!\n\n",
+        "menus": [
+            {
+                "description": "Sfumature di colori e sapori dell&apos;Orto in&#xA0;tavola:\nTerrina tricolore di verdure con zucca violina, spinaci di stagione e porri in fonduta con legumi in&#xA0;cialda&#xA0;croccante al Parmigiano&#xA0;\n\nUna sfoglia ripiena di gusto:\nRavioli con formaggio caprino fresco e pere IGP dell&apos;Emilia Romagna alle erbe aromatiche e pinoli tostati&#xA0;\n\nUn cortile da re:\nAnitra novella arrostita al succo di arancia e melagrana con la nostra confettura di peperoni e tortino di patate\n\n\n\nAbbinamenti armonici con Vini Colli d&#x2019;Imola",
+                "price": 29
+            }
+        ],
+        "address": "Via Codronchi, 6-Angolo via Calatafimi (centro storico) - 40026 Imola (BO)",
+        "phone": "0542 32552",
+        "mail": "ambra@vicolonuovo.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Antico Tre Monti",
+        "menus": [
+            {
+                "description": "Tris di antipasti:\nPolenta ai funghi porcini - Carpaccio di filetto con misticanza - Crostone al prosciutto e parmigiano\n\nTagliatelle al rag&#xF9; dell&apos;aia \n\nCocotte di ravioli giganti alle verdure \n\nTagliata agli aghi di rosmarino\n\nContorni dell&apos;orto quattro stagioni\n\nCarrello dei dolci della casa\n\nBiscotteria dello&#xA0; chef\n\nCaff&#xE8;",
+                "price": 25
+            }
+        ],
+        "address": "Via Bergullo, 52 - 40026 Imola (BO)",
+        "phone": "0542 657024",
+        "mail": "anticotremonti@libero.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Donna Laura",
+        "description": "\n Descrizione\n\n\n\nNell&#x2019;antica villa dei Conti Tozzoni, il piccolo ristorante a conduzione famigliare offre ai suoi ospiti il piacere di gustare, in un ambiente accogliente e curato nei dettagli, piatti della tradizione. I prodotti utilizzati in cucina sono selezionati tra le eccellenze locali e nazionali. Nel periodo invernale i pranzi vengono serviti nella saletta interna. Con la bella stagione &#xE8; possibile mangiare nella veranda all&#x2019;ombra di alberi secolari godendo del panorama che spazia dalla costa adriatica all&#x2019;alta valle del Santerno. Con preavviso, la cucina &#xE8; in grado di concordare men&#xF9; personalizzati di carne e pesce anche per piccoli gruppi. Aperto tutto l&apos;anno con prenotazione sempre richiesta.\n\n",
+        "menus": [
+            {
+                "description": "Pat&#xE8; d&apos;aia con selezione di mostarde, pan di zucca e fiori eduli\n\nStringozze Donna Laura di semola e patata nuova al sugo d&apos;anatra nostrana\n\nSgroppino solido al Cartizze e melograno\n\nFormaggio d&apos;alpeggio grigliato, polenta bio e mosaico di verdure alle erbe aromatiche dell&apos;orto\n\nCr&#xEA;pe con crema profumata al sambuco e fragoline con coulis di kaki e bacche gojn\n\n\nVini in abbinamento:\n\nSylvaner dell&apos;Abbazia di Novacella \nMoma Ros&#xE9; di Umberto Cesari\n\n",
+                "price": 29
+            }
+        ],
+        "address": "Via Suore, 38 - 40026 Imola - Fraz. Montecatone (BO)",
+        "phone": "0542 43424",
+        "mail": "ristorantedonnalaura@gmail.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante E Parlamintè",
+        "description": "\n Descrizione\n\nAntica osteria di fine ottocento ristrutturata con mobili d&apos;epoca provenienti da una vecchia drogheria. Locale segnalato nelle guide Michelin e Touring Club.\n\n",
+        "menus": [
+            {
+                "description": "Pappa al pomodoro con gamberi e pesto genovese\n\nZuppa di baccal&#xE0; e ortaggi di stagione\n\nFiletto di orata al sale con tortino di cavolfiore\n\nCassata ai frutti di bosco\n\n\nIn abbinamento: \n\nPignoletto Colli d&apos;Imola - Az. Ag. Monticino Rosso\nPaternus, Sangiovese Bio - Galassi Maria\nOro et laboro - Conti",
+                "price": 29
+            },
+            {
+                "description": "Crostini ai fegatini di pollo\n\nTagliatelle al rag&#xF9; di coniglio\n\nCoscia di anitra ripiena con indivia in agrodolce\n\nCr&#xE8;me caramel\n\n\nIn abbinamento: \n\nPignoletto Colli d&apos;Imola - Az. Ag. Monticino Rosso\nPaternus, Sangiovese Bio - Galassi Maria\nOro et laboro - Conti",
+                "price": 29
+            }
+        ],
+        "address": "Via G. Mameli, 33 - 40026 Imola (BO)",
+        "phone": "0542 30144",
+        "mail": "info@eparlaminte.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Hostaria 900",
+        "menus": [
+            {
+                "description": "\nInvoltino di belga gratinata e pancetta di mora romagnola \n\n\nCappellacci con patate, burrata, crema di cime di rapa e pecorino di fossa\n\n\nGalletto alla melagrana con radicchio candito e spinaci croccanti\n\n\nCrostata con crema pasticcera, confettura di pere con noci e cioccolato Amedei\n\n\n",
+                "price": 30
+            }
+        ],
+        "address": "Viale Dante , 20 - 40026 Imola (BO)",
+        "phone": "0542 24211",
+        "mail": "hostaria900@hostaria900.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante L'Artusi",
+        "menus": [
+            {
+                "description": "Carpaccio di petto d&apos;oca su insalatina e vinegrette ai frutti di bosco\n\nCrema di cavolfiori bianchi con patate e salvia\n\nGarganelli al rag&#xF9; di faraona, maiale e tacchino con creste di gallo\n\nConiglio al forno con pomodori secchi, cipolla bianca e carciofi\n\nFinocchi gratinati con pane e crema di latte\n\nStrudel di frutta con salsa di more\n\nAcqua, vino della casa e caff&#xE8;\n\n",
+                "price": 29
+            }
+        ],
+        "address": "Via Carlo Pisacane, 69 - 40026 Imola (BO)",
+        "phone": "0542 28460",
+        "mail": "info@hotelolimpia.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante La Tavernetta",
+        "description": "\n Descrizione\n\nRistorante storico sito nel centro di Imola\n\n",
+        "menus": [
+            {
+                "description": "Crema di borlotti con maltagliati\n\nTagliatelle al rag&#xF9; di coniglio e passatelli con radicchio e Parmigiano\n\nCosciette di pollo disossate alla diavola e costoline di maiale con verdure gratinate\n\nZuppa inglese \n\nCaff&#xE8;\n\n\nIn abbinamento: Sangiovese di Romagna Superiore Olmatello Fattoria La Berta Brisighella",
+                "price": 24
+            }
+        ],
+        "address": "Via Tito Speri, 2 - 40026 Imola (BO)",
+        "phone": "0542 22339",
+        "mail": "info@latavernetta-ristorante.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante La Volta",
+        "menus": [
+            {
+                "description": "Cocktail di asparagi\n\nGnocchetti di patate con broccoli, taleggio e concass&#xE9; di pomodoro e timo\n\nFaraona al cartoccio con mazzetto di verdure\n\nPanna cotta alla menta su letto di arance caramellate\n\n",
+                "price": 28
+            }
+        ],
+        "address": "Strada Statale Selice, 82 - 40026 Imola (BO)",
+        "phone": "0542 51021",
+        "mail": "info@ristorantelavolta.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Molino Rosso",
+        "menus": [
+            {
+                "description": "Insalatina autunnale con noci e prosciutto croccante\n\nCappelletti integrali al rag&#xF9; dell&apos;aia\n\nPetto di quaglia al melograno\n\nSformatino di zucca\n\nBroccoli piccanti\n\nPera kaiser al Sangiovese di Romagna e gelato alla vaniglia\n\n\nIn abbinamento: due calici di vino dell&apos;Emilia Romagna",
+                "price": 30
+            }
+        ],
+        "address": "Prov. Selice, 49 - 40026 Imola (BO)",
+        "phone": "0542 63111",
+        "mail": "info@hotelmolinorosso.com",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante San Domenico",
+        "menus": [
+            {
+                "description": "Tortino di salmone con emulsione di zucca gialla e croccante di amaretti\n\nFiletti di triglia arrostiti, vellutata di cavolfiore, coriandoli di verdure e cime di rapa strascicate all&apos;olio novello\n\nUovo mollet in crosta di pane bianco con purea di broccoli al rosmarino e crema acida all&apos;erba cipollina\n\nRaviolo di patate e pancetta con crema di funghi dell&apos;Appennino\n\nCappello del prete con la sua salsa al profumo di tartufo nero \n\nBavarese al kiwi, confettura di cachi e sorbetto ai frutti rossi\n\n\nIl nostro sommelier abbiner&#xE0; al men&#xF9; un&apos;adeguata degustazione di vini",
+                "price": 125
+            }
+        ],
+        "address": "Via Sacchi, 1 - 40026 IMOLA (BO)",
+        "phone": "0542 29000",
+        "mail": "sandomenico@sandomenico.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Tenuta Poggio Pollino",
+        "description": "\n Descrizione\n\nLa Tenuta Poggio Pollino si trova sulle prime colline di Imola, in un angolo di Paradiso circondato da un suggestivo vigneto che scende fino a valle; una cornice perfetta per le vostre cene, i vostri eventi, cene aziendali o riunioni di lavoro. L&apos;organizzazione della sala e della cucina, seguita dalla trentennale esperienza nella ristorazione di Marino Pasquali, &#xE8; sobria, familiare e accogliente; vi sentirete subito come a casa vostra, gustando aromi e sapori del tempo antico.\n\n\n\n\n",
+        "menus": [
+            {
+                "description": "Sformatino di polenta e salame fresco col cao (la panna naturalmente inacidita)\n\nZuppa dai colori d&apos;autunno con pane tostato\n\nRavioletti con ripieno alle erbe di fosso\n\nSalsicce in umido con lenticchie e polenta fritta&#xA0;\n\nCrostata di mele e mandorle con crema inglese&#xA0;\n\n\nIn abbinamento vini dell&apos;azienda: &apos;Ikona&apos; bianco, &apos;Ikona&apos; rosso e Malvasia dolce",
+                "price": 23
+            },
+            {
+                "description": "Variazioni di cardo\n\nGnocchetti di zucca &apos;ai tre gusti&apos;\n\nStufato di verze con costine di maiale\n\nCrostata di mele e mandorle con crema inglese\n\n\nIn abbinamento vini della tenuta: &apos;Ikona&apos; bianco, &apos;Ikona&apos; rosso, Malvasia dolce",
+                "price": 18
+            }
+        ],
+        "address": "Monte Meldola, 2/T - 40026 imola (bo)",
+        "phone": "3316125474",
+        "mail": "info@poggiopollino.it",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Trattoria da Mauro",
+        "menus": [
+            {
+                "description": "Tortino rustico di Taleggio e patate\n\nInsalatina di valeriana, mele, noci e riduzione di aceto balsamico\n\nCannelloni grat&#xE9; di pollo alla crema di radicchio\n\nStrettine con stufatino di coniglio e scalogno\n\nFaraona brasata con crema alle erbe\n\nMacedonia di ortaggi di stagione saltati\n\nCrostatina &quot;c&apos;era una volta&quot; con crema inglese alla cannella\n\n\nIn abbinamento: vini bianchi e rossi dalla carta",
+                "price": 30
+            }
+        ],
+        "address": "Via Zello, 50 - 40026 Imola (BO)",
+        "phone": "0542 609530",
+        "mail": "",
+        "place": "Imola",
+        "year": 2014
+    },
+    {
+        "name": "Osteria Due Marie",
+        "description": "\n Descrizione\n\n\n\nAntica osteria nel centro storico di Borgo Tossignano a due passi dalla suggestiva passeggiata sul fiume Santerno.\n\n",
+        "menus": [
+            {
+                "description": "Radicchio dell&apos;orto con bruciatini\n\nTaglioline allo scalogno romagnolo\n\nZuppa di legumi agli aromi della corte in crosta\n\nFaraona dell&apos;aia piccantina in salsa senape con finocchio alla crema parmigiana e friggione ortolano\n\nTorta di pere e cioccolato",
+                "price": 25
+            }
+        ],
+        "address": "Via Marconi, 43/45 - 40021 Borgo Tossignano (BO)",
+        "phone": "0542 94097",
+        "mail": "",
+        "place": "Borgo Tossignano",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Valsellustra",
+        "description": "\n Descrizione\n\n\n\nIl locale &#xE8; situato nell&apos;omonima valle, immerso nel verde delle colline romagnole. Da 24 anni caratterizzato dalla stessa gestione familiare, il ristorante propone sempre men&#xF9; a base di prodotti del territorio, cacciagione, funghi, tartufi, oltre a carni, salumi e formaggi selezionati. Una grande e costante ricerca della qualit&#xE0;. Locale segnalato nelle guide Michelin e Touring Club.\n\n",
+        "menus": [
+            {
+                "description": "Tortino di patate con riduzione di friggione di cipolla bianca\n\nCrostino di cannellini e erbe aromatiche dell&apos;orto\n\nMousse di fegatini di pollo con arance candite\n\nRibollita con cavolo nero, ceci e pane casereccio\n\nTortelli con strisce di pomodoro ripieni di zucca e scalogno con olio aromatico\n\nTagliatelle di ortiche con funghi di bosco\n\nCosce di faraona stufate con verdure e patate \n\nTorta di zucca con crema di mascarpone e composta di frutta\n\n\nIn abbinamento 3 vini regionali.",
+                "price": 35
+            }
+        ],
+        "address": "Valsellustra, 16 - 40020 Casalfiumanese (BO)",
+        "phone": "0542 684073",
+        "mail": "valsellustra@hotmail.it",
+        "place": "Casalfiumanese",
+        "year": 2014
+    },
+    {
+        "name": "Albergo Ristorante Gallo",
+        "menus": [
+            {
+                "description": "L&apos;entrata del Gallo nell&apos;orto\n\nTaglioline in pasta rossa con rag&#xF9; bianco di coniglio\nRavioli di carne dell&apos;aia con rag&#xF9; rosa di prosciutto\n\nTagliata di porcini sull&apos;uovo al tegamino\nBocconcini di coniglio fritto con verdure dell&apos;orto croccanti\n\nL&apos;uscita del Gallo dal cortile\n\nIn abbinamento vini selezionati da InEnoteca di Imola",
+                "price": 32
+            }
+        ],
+        "address": "Piazza della Repubblica, 28/30 - 40022 Castel del Rio (BO)",
+        "phone": "0542 95924",
+        "mail": "info@galloegalletto.it",
+        "place": "Castel del Rio",
+        "year": 2014
+    },
+    {
+        "name": "Locanda Solarola",
+        "description": "\n Descrizione\n\nLa Locanda Solarola &#xE8; il locale giusto per farsi trasportare in un&apos;altra epoca, tra cibo e buon vino, con il calore del camino.\nPossibilit&#xE0; di alloggiare.\nIl ristorante &#xE8; segnalato nella guida Michelin.\n\n",
+        "menus": [
+            {
+                "description": "Bollicine di benvenuto\n\nSouffl&#xE9; di zucca con mousse di formaggio\n\nRisotto con gorgonzola DOP e pere caramellate\n\nPetto d&apos;anatra con mele e cidre \n\nPere calde al fragolino\n\n\nVini consigliati in abbinamento:\n\nRossi\n\nSangiovese riserva &apos;Pruno&apos; Drei Don&#xE0;\nSangiovese &apos;I probi&apos; Villa Papiano\nLambrusco &apos;Otello&apos; Ceci\n\nBianchi\n\nPignoletto vivace &apos;San Vito&apos; BIO 2012\nAlbana di Romagna &apos;Progetto 1&apos; Conti 2012\n\n",
+                "price": 35
+            }
+        ],
+        "address": "Via Santa Croce - 40023 Castel Guelfo (BO)",
+        "phone": "0542 670089",
+        "mail": "info@locandasolarola.it",
+        "place": "Castel Guelfo",
+        "year": 2014
+    },
+    {
+        "name": "Locanda dell'Agnese",
+        "menus": [
+            {
+                "description": "Cous-cous di mais integrale e grano saraceno con rag&#xF9; d&apos;anatra\n\nRavioli di verza con pancetta pepata\n\nGiambonetti di pollo con macedonia di ortaggi al vapore\n\nBudino di patate e mandorle\n\n\nIn abbinamento:\n\nUn calice di Chardonnay 2011 Colli d&apos;Imola &apos;Maleto&apos; Palazzona di Maggio\nUn calice di Barbera 2012 Emilia IGT Az. Agr. Tomisa",
+                "price": 35
+            }
+        ],
+        "address": "Via Del Commercio, 1/A - 40023 Castel Guelfo (BO)",
+        "phone": "0542 53321",
+        "mail": "info@lalocandadellagnese.it",
+        "place": "Castel Guelfo",
+        "year": 2014
+    },
+    {
+        "name": "Agriturismo Colombara",
+        "description": "\n Descrizione\n\n\n\nCucina tipica regionale ricerca di materiali a km0\n\n",
+        "menus": [
+            {
+                "description": "Sformatino di cardo su crema di pecorino e melograno con piadina\n&#xA0;\nStrozzapreti al rag&#xF9; di coniglio con dadolata di verdure\nOpzione vegetariana\nStrozzapreti con cavolo nero e grattugiata di ricotta salata\n&#xA0;\nTagliata di tacchino&#xA0; &#xA0;\nOpzione vegetariana\nTerrina di finocchi gratinati\n\nFantasia di contorni di stagione\n&#xA0;\nBavarese di cachi con salsa di cioccolato",
+                "price": 25
+            }
+        ],
+        "address": "Via Emilia Levante, 2866 - 40024 Castel San Pietro terme (BO)",
+        "phone": "051 942095",
+        "mail": "lorenzo@agriturismocolombara.it",
+        "place": "Castel S. Pietro Terme",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante La Torretta",
+        "menus": [
+            {
+                "description": "Flan di squacquerone con bresaola e ciuffi di ricotta di bufala\n\nRisotto alla zucca mantecato al parmigiano e lacrima d&apos;aceto balsamico\n\nZuppa di castagne con tortellini \n\nMedaglione di manzo avvolto nella pancetta stufata e salsa di Lambrusco, piccoli cipollotti caramellati\n\nCoppa di frutta con mousse di yogurt\n\n",
+                "price": 35
+            }
+        ],
+        "address": "Viale delle Terme, 1559 - 40024 Castel San Pietro Terme (BO)",
+        "phone": "051 6951287",
+        "mail": "info@latorrettahotel.it",
+        "place": "Castel S. Pietro Terme",
+        "year": 2014
+    },
+    {
+        "name": "Agriturismo La Rondinella",
+        "menus": [
+            {
+                "description": "Flan di melanzane con coulis di pomodorini, riso venere soffiato e spuma di timo\n\nGnocchi di patate viola con zucca speziata e chips di melanzane\n\nPappardelle al cacao con guanciale su purea di rapa rossa e formaggio di fossa\n\nFilettino di manzo cotto a bassa temperatura rosolato con semi di mostarda su purea di borlotti e datterini caramellati\n\nCr&#xE8;me caramel alla zucca con cialda di croccante alle noci\n\n\nVini in abbinamento: \n\nPignoletto colli di Imola DOC frizzante 2013 &apos;Tamburello&apos;, Fattoria Monticino Rosso\nSangiovese di Romagna Superiore DOC 2013 &apos;S&apos;, Fattoria Monticino Rosso&#xA0; \nBianco frizzante &apos;Piratella&apos;, Fattoria Monticino Rosso\n\n\n",
+                "price": 28
+            },
+            {
+                "description": "Flan di melanzane con coulis di pomodorini, riso venere soffiato e spuma di timo\n\nGnocchi di patate viola con zucca speziata e chips di melanzane\n\nPappardelle al cacao su purea di rapa rossa e formaggio di fossa \n\nTomino grigliato con composizione di verdure \n\nCr&#xE8;me caramel alla zucca con cialda croccante alle noci\n\n\nVini in abbinamento: \n\nPignoletto colli di Imola DOC frizzante 2013 &apos;Tamburello&apos;, Fattoria Monticino Rosso\nSangiovese di Romagna Superiore DOC 2013 &apos;S&apos;, Fattoria Monticino Rosso&#xA0; \nBianco frizzante &apos;Piratella&apos;, Fattoria Monticino Rosso",
+                "price": 28
+            }
+        ],
+        "address": "Via Monticino , 8 - 40060 Dozza (BO)",
+        "phone": "0542 40108",
+        "mail": "info@agriturismolarondinella.it",
+        "place": "Dozza",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante La Scuderia",
+        "description": "\n Descrizione\n\nNel pieno centro storico del paese medioevale di Dozza, proprio di fronte all&apos;antica Rocca Sforzesca, sorgevano un tempo le scuderie dei cavalieri dell&apos;epoca... ora quel luogo &#xE8; stato trasformato nel ristorante &quot;La Scuderia&quot;. Il locale gestito dalla famiglia Preti dal 1977 dispone di una sala interna (climatizzata) che conserva ancora le antiche poste per i cavalli con relative mangiatoie, oltre a vari finimenti e di una veranda (utilizzabile tutto l&apos;anno) che si affaccia sulla piazza della Rocca.\n\n",
+        "menus": [
+            {
+                "description": "Pasta e fagioli con maltagliati\nGnocchetti di Patata Bologna al rag&#xF9; di ragaglie di pollo\nPiatto dell&apos;orto\nBudino di castagne di Castel del Rio\n\nPane, piadina e streghette di Imola\n\nIn abbinamento: vini esclusivamente del territorio",
+                "price": 24
+            }
+        ],
+        "address": "Via XX SETTEMBRE - 40060 DOZZA (BO)",
+        "phone": "0542 678103",
+        "mail": "info@lascuderiadozza.it",
+        "place": "Dozza",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Le Bistrot",
+        "menus": [
+            {
+                "description": "Vasettino di giardiniera\nTorta di farina di mais con cipolla e formaggio\nSformatino di topinambur e cardi\n\nVellutata di zucca\nRavioli di broccoli e pancetta su crema di piselli e gocce di pomodorini\n\nPancetta di maialino farcita servita su parmentier di asparagi \n\nCrema di ricotta con farina di castagne e pinoli\nCrostata di cachi e amaretti",
+                "price": 33
+            }
+        ],
+        "address": "Via Valsellustra, 18 - 40060 Dozza (BO)",
+        "phone": "0542 672122",
+        "mail": "info@ristorantelebistrot.it",
+        "place": "Dozza",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Monte del Re",
+        "description": "\n Descrizione\n\n\n\nSituato in un ex-convento francescano, l&apos;Hotel Ristorante Monte del Re dispone di 38 camere, ball room, centro congressi, piscina, ristorante &apos;gourmet&apos; e osteria enoteca. Il ristorante, rinnovato e giovanile, ospita al suo interno una mostra di 25 artisti romagnoli. L&apos;accogliente osteria enoteca pu&#xF2; essere anche riservata in esclusiva per un massimo di 20 persone. Il locale &#xE8; segnalato nelle guide Michelin, Touring Club, Gambero Rosso, Espresso.\n\n",
+        "menus": [
+            {
+                "description": "Battilarda di salumi del contadino con crescentine\n\nRisotto all&apos;ortolana\n\nLonzino cotto a bassa temperatura con salsa ai porcini e patate duchessa\n\nTortino di mele caldo",
+                "price": 25
+            },
+            {
+                "description": "Stuzzichino del giorno\n\nUovo croccante al tartufo nero, spinaci e Parmigiano Reggiano\n\nTortelli di coniglio con crema di cavolfiore, guanciale e timo\n\nSuprema di galletto a lenta cottura, con fagotto di verza, formaggio tenero, noci e albana passito\n\nTortino al mandarino con caramello di vino rosso e fondente speziato\n\nPiccola pasticceria\n\n\nIn abbinamento: vini selezionati dalla nostra enoteca",
+                "price": 38
+            }
+        ],
+        "address": "Via Monte Del Re, 43 - 40060 Dozza (BO)",
+        "phone": "0542 678400",
+        "mail": "info@montedelre.it",
+        "place": "Dozza",
+        "year": 2014
+    },
+    {
+        "name": "Azienda Agrituristica Cà Monti",
+        "description": "\n Descrizione\n\n\n\nAntico casale del 1700 completamente ristrutturato, C&#xE0; Monti si trova nella alta valle del Santerno, in posizione panoramica. Si raggiunge dalla Valsellustra, arrivati in cima al bivio si prosegue a destra verso Sassoleone. Dopo circa 2 Km. si giunge ad un bivio dove un cartello vi indicher&#xE0; la direzione per Via Montemorosino. Avanti 1,5 Km. e sarete arrivati.\n\n",
+        "menus": [
+            {
+                "description": "Vellutata di zucchine con granelli di mandorle\n\nTortino di polenta e squacquerone su letto di cardi e finocchi\n\nGnocchetti rosa al tartufo bianco\n\nTortellacci ripieni di funghi profumati all&#x2019;erba cipollina\n\nAnatra ai frutti d&#x2019;autunno con patate del nostro orto\n\nTorta di mele del nostro cortile\n\nBudino alle corniole\n&#xA0;\nVini consigliati in abbinamento:\nCoppiere &#x2013; Colli d&#x2019;Imola Chardonnay Dop\nVolpino Rosso &#x2013; Colli d&#x2019;Imola Novello Dop\nSangiovese di Romagna superiore Doc\nAlbana di Romagna passito Docg&#xA0;",
+                "price": 32
+            }
+        ],
+        "address": "Via Montemorosino, 4 - 40025 Sassoleone (BO)",
+        "phone": "0542 97666",
+        "mail": "info@camonti.it",
+        "place": "Fontanelice",
+        "year": 2014
+    },
+    {
+        "name": "Ristorante Cà Borghetto",
+        "menus": [
+            {
+                "description": "Sformatino di Parmigiano con crema di zucca e polvere di amaretto \n\nPaccheri con carciofi alla carbonara\n\nPetto d&apos;anatra con cavolo nero in agrodolce e pur&#xE8; di patata tenera\n\nStrudel ai frutti stagionali\n\n\nIn abbinamento: \n\nDoppio Bianco, Pignoletto Frizzante DOC Tre Monti\nSono Rosso, Romagna Sangiovese DOC Tre Monti",
+                "price": 30
+            }
+        ],
+        "address": "Via Lughese Nord 269/319 - 40027 Mordano (BO)",
+        "phone": "0542 56060",
+        "mail": "info@caborghetto.it",
+        "place": "Mordano",
+        "year": 2014
+    },
+    {
+        "name": "Agriturismo Il Murello",
+        "description": "\n Descrizione\n\nSarete ospitati in un ambiente caldo e accogliente dove si respira la vera atmosfera tradizionale ma interpretata in uno stile accurato e moderno. L&apos;attivit&#xE0; culinaria &#xE8; il punto di forza del nostro agriturismo; i piatti della tradizione come lasagne, tortelloni, tagliatelle e tortellini sono rigorosamente fatti a mano e la sfoglia &#xE8; tirata col matterello dalle nostre sfogline.\n\n",
+        "menus": [
+            {
+                "description": "Timballo di carote con crema di zafferano e porri\n\nZuppa di zucche e lenticchie rosse con coriandoli di lardo stagionato\n\nPassatelli al pesto di zucchine e pomodorini confit\n\nPappardelle al rag&#xF9; di coniglio e bacche di ginepro\n\nBocconcini d&apos;anatra nostrana con scalogno e miele\n\nBarchette di patate con cheddar e pancetta\n\nSacher al cioccolato bianco\n\nCheesecake nel barattolo\n\n\nPane bianco, ai 7 cereali, alla lavanda\n\n\nCaff&#xE8;, assaggio dei nostri liquori\n\n",
+                "price": 29
+            }
+        ],
+        "address": "Via Fiorentina , 3780 - 40059 Medicina Loc. Fiorentina (BO)",
+        "phone": "051 6962054",
+        "mail": "info@agriturismoilmurello.it",
+        "place": "Medicina",
+        "year": 2014
+    }
+]

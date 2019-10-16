@@ -33,7 +33,8 @@ export class MainPageComponent implements OnInit, OnDestroy {
     2015: "Basta un uovo",
     2016: "Chicchi, grani e farine",
     2017: "Sotto Terra",
-    2018: "L'Italia del latte"
+    2018: "L'Italia del latte",
+    2019: "Il Gusto dei Ricordi"
   };
 
   private _filter: string;

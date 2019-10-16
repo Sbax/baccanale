@@ -1,8 +1,24 @@
 import { Injectable } from "@angular/core";
-import restaurantsData from "./restaurants.json";
 import { Restaurant } from "../interfaces/restaurant.js";
 import { Menu } from "../interfaces/menu.js";
 import { Subject } from "rxjs";
+
+// I should use dynamic imports, but this is much more convenient
+import data2005 from "./data/data-2005.json";
+import data2006 from "./data/data-2006.json";
+import data2007 from "./data/data-2007.json";
+import data2008 from "./data/data-2008.json";
+import data2009 from "./data/data-2009.json";
+import data2010 from "./data/data-2010.json";
+import data2011 from "./data/data-2011.json";
+import data2012 from "./data/data-2012.json";
+import data2013 from "./data/data-2013.json";
+import data2014 from "./data/data-2014.json";
+import data2015 from "./data/data-2015.json";
+import data2016 from "./data/data-2016.json";
+import data2017 from "./data/data-2017.json";
+import data2018 from "./data/data-2018.json";
+import data2019 from "./data/data-2019.json";
 
 interface Filter {
   string: string;
@@ -89,6 +105,30 @@ export class RestaurantService {
   };
 
   constructor() {
+    this.initData();
+  }
+
+  initData() {
+    const dataYears = [
+      data2005,
+      data2006,
+      data2007,
+      data2008,
+      data2009,
+      data2010,
+      data2011,
+      data2012,
+      data2013,
+      data2014,
+      data2015,
+      data2016,
+      data2017,
+      data2018,
+      data2019
+    ];
+
+    const restaurantsData = [].concat(...dataYears);
+
     const years = new Set();
     const places = new Set();
 
@@ -128,8 +168,8 @@ export class RestaurantService {
       return restaurant;
     });
 
-    this.years = Array.from(years);
-    this.places = Array.from(places);
+    this.years = Array.from(years, (year: number) => year);
+    this.places = Array.from(places, (place: string) => place);
 
     const lastYear = this.years[this.years.length - 1];
     this.lastYear = lastYear;
