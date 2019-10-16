@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from "@angular/router";
   styleUrls: ["./main-page.component.scss"]
 })
 export class MainPageComponent implements OnInit, OnDestroy {
-  expanded = true;
+  expanded = false;
 
   years: number[];
   places: string[];

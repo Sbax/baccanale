@@ -1,0 +1,14 @@
+a {
+  padding: 0.1rem 0.25rem;
+  background: black;
+  color: white;
+
+  &:hover {
+    background: white;
+    color: black;
+  }
+}
+
+section {
+  line-height: 1.4;
+}

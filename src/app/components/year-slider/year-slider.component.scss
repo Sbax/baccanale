@@ -30,10 +30,7 @@
         color: black !important;
 
         &.ng5-slider-limit {
-          visibility: none;
-          @media screen and (min-width: 1024px) {
-            visibility: visible;
-          }
+          visibility: visible;
         }
       }
 

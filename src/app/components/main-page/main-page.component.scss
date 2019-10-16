@@ -1,6 +1,28 @@
 nav {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  a {
+    padding: 0.1rem 0.25rem;
+    background: black;
+    color: white;
+
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+
+  + * {
+    margin-top: 1rem;
+  }
 }
 
 ul {
@@ -116,8 +138,24 @@ header {
 .collapsed {
   position: relative;
   display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
 }
 
 .toggle {
   transform: scale(-1);
+}
+
+footer {
+  padding: 1rem;
+}
+
+.year {
+  display: none;
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
 }

@@ -1,6 +1,8 @@
 <main>
   <nav>
     <h1>Baccanale {{ year }}, {{ themes[year] }}</h1>
+
+    <a href="/about">dettagli e istruzioni</a>
   </nav>
   <header>
     <section class="line">
@@ -11,9 +13,8 @@
       <section class="filters">
         <span class="custom-input button" (click)="sort()">A - Z</span>
         <span class="custom-input button" (click)="reverse()">Z - A</span>
-        <span class="custom-input button" (click)="cheaperFirst()"
-          >€ - €€€</span
-        >
+        <span class="custom-input button" (click)="cheaperFirst()">€ -
+          €€€</span>
         <span class="custom-input button" (click)="cheaperLast()">€€€ - €</span>
       </section>
       <section class="expand" (click)="expanded = !expanded">
@@ -23,16 +24,12 @@
     </section>
     <section [class.collapsed]="!expanded">
       <section class="places">
-        <span
-          *ngFor="let place of places"
-          class="custom-input button"
-          [class.active]="classIsActive(place)"
-          (click)="includePlace(place)"
-        >
+        <span *ngFor="let place of places" class="custom-input button"
+          [class.active]="classIsActive(place)" (click)="includePlace(place)">
           {{ place }}
         </span>
       </section>
-      <section clas="year">
+      <section class="year">
         <app-year-slider></app-year-slider>
       </section>
     </section>
@@ -40,4 +37,7 @@
   <section>
     <router-outlet name="inner"></router-outlet>
   </section>
+  <footer>
+    Questo sito raccoglie dati di navigazione in forma anonima
+  </footer>
 </main>

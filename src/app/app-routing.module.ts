@@ -1,10 +1,10 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { HomeComponent } from "./components/home/home.component";
+import { AboutPageComponent } from "./components/about-page/about-page.component";
 import { HomeRedirectComponent } from "./components/home-redirect/home-redirect.component";
-import { RestaurantPageComponent } from "./components/restaurant-page/restaurant-page.component";
+import { HomeComponent } from "./components/home/home.component";
 import { MainPageComponent } from "./components/main-page/main-page.component";
-import { RestaurantComponent } from "./components/restaurant/restaurant.component";
+import { RestaurantPageComponent } from "./components/restaurant-page/restaurant-page.component";
 
 const routes: Routes = [
   {
@@ -13,6 +13,7 @@ const routes: Routes = [
     children: [{ path: "", component: HomeComponent, outlet: "inner" }]
   },
   { path: "restaurant/:restaurant", component: RestaurantPageComponent },
+  { path: "about", component: AboutPageComponent },
   { path: "**", component: HomeRedirectComponent }
 ];
 
