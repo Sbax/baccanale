@@ -2,16 +2,29 @@ article {
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0.5rem;
     border-top: 2px solid black;
+  }
+
+  .title {
+    font-weight: bold;
+
+    max-width: 80%;
   }
 
   .price {
     font-weight: 600;
+    white-space: nowrap;
   }
 
   .content {
     white-space: pre-wrap;
-    padding: 1rem 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .notes {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    opacity: 0.6;
   }
 }

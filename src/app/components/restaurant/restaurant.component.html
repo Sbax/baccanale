@@ -11,11 +11,9 @@
   <footer>
     <div>
       <a
-        href="https://www.google.com/maps/search/?api=1&query={{ addressUrl }}"
-        >{{ restaurant.address }}</a
-      >
+        href="https://www.google.com/maps/search/?api=1&query={{ addressUrl }}">{{ restaurant.address }}</a>
     </div>
-    <div>
+    <div *ngIf="restaurant.phone">
       <a href="tel:{{ restaurant.phone }}">{{ restaurant.phone }}</a>
     </div>
   </footer>

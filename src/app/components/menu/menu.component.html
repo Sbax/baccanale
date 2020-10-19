@@ -3,8 +3,11 @@
     <div *ngIf="showYear">
       {{ menu.year }}
     </div>
+    <div *ngIf="!showYear" class="title">{{ menu.title }}</div>
     <div class="price">{{ menu.price }} €</div>
   </div>
 
   <p class="content" [innerHTML]="menu.description"></p>
+
+  <p class="notes" [innerHTML]="menu.notes"></p>
 </article>

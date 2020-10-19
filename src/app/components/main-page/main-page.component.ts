@@ -34,7 +34,8 @@ export class MainPageComponent implements OnInit, OnDestroy {
     2016: "Chicchi, grani e farine",
     2017: "Sotto Terra",
     2018: "L'Italia del latte",
-    2019: "Il Gusto dei Ricordi"
+    2019: "Il Gusto dei Ricordi",
+    2020: "A Casa e Fuori",
   };
 
   private _filter: string;

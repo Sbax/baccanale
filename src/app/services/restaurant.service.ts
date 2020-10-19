@@ -19,6 +19,7 @@ import data2016 from "./data/data-2016.json";
 import data2017 from "./data/data-2017.json";
 import data2018 from "./data/data-2018.json";
 import data2019 from "./data/data-2019.json";
+import data2020 from "./data/data-2020.json";
 
 interface Filter {
   string: string;
@@ -124,7 +125,8 @@ export class RestaurantService {
       data2016,
       data2017,
       data2018,
-      data2019
+      data2019,
+      data2020
     ];
 
     const restaurantsData = [].concat(...dataYears);
@@ -135,9 +137,11 @@ export class RestaurantService {
     this.restaurants = restaurantsData.map((restaurantData, i) => {
       const menus: Menu[] = restaurantData.menus.map(menuData => {
         const menu: Menu = {
+          title: menuData.title,
           year: restaurantData.year,
           price: parseFloat(menuData.price),
-          description: menuData.description
+          description: menuData.description,
+          notes: menuData.notes
         };
 
         return menu;
@@ -154,7 +158,7 @@ export class RestaurantService {
         name,
         description,
         slug,
-        menus: menus,
+        menus,
         maxPrice: Math.max(...menus.map(e => e.price)),
         address,
         phone,
