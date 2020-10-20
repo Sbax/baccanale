@@ -7,7 +7,7 @@
     <div class="price">{{ menu.price }} €</div>
   </div>
 
-  <p class="content" [innerHTML]="menu.description"></p>
+  <p class="content" [innerHTML]="menu.description | dompurify"></p>
 
-  <p class="notes" [innerHTML]="menu.notes"></p>
+  <p class="notes" [innerHTML]="menu.notes | dompurify"></p>
 </article>
