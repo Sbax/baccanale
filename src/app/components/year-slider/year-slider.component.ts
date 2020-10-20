@@ -7,13 +7,13 @@ import { Subscription } from "rxjs";
 @Component({
   selector: "app-year-slider",
   templateUrl: "./year-slider.component.html",
-  styleUrls: ["./year-slider.component.scss"]
+  styleUrls: ["./year-slider.component.scss"],
 })
 export class YearSliderComponent implements OnInit, OnDestroy {
   value: number;
   options: Options = {
     showTicks: true,
-    showTicksValues: false
+    showTicksValues: false,
   };
   yearSubscription: Subscription;
 
@@ -31,14 +31,16 @@ export class YearSliderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.yearSubscription = this.restaurantService.currentYearChanged.subscribe(
-      year => {
+      (year) => {
         this.value = year;
       }
     );
   }
 
   ngOnDestroy() {
-    if (this.yearSubscription) this.yearSubscription.unsubscribe();
+    if (this.yearSubscription) {
+      this.yearSubscription.unsubscribe();
+    }
   }
 
   valueChange(year: number) {

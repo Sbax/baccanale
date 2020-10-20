@@ -7,7 +7,7 @@ import { ActivatedRoute } from "@angular/router";
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"]
+  styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit, OnDestroy {
   @Input()
@@ -19,10 +19,10 @@ export class HomeComponent implements OnInit, OnDestroy {
     private restaurantService: RestaurantService,
     route: ActivatedRoute
   ) {
-    route.params.subscribe(params => {
+    route.params.subscribe((params) => {
       const { year } = params;
 
-      this.restaurantService.applyFilterForYear(parseInt(year));
+      this.restaurantService.applyFilterForYear(parseInt(year, 10));
     });
   }
 
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.restaurants = [...this.restaurantService.filteredRestaurants];
 
     this.restaurantsChanged = this.restaurantService.filteredRestaurantsChanged.subscribe(
-      restaurants => {
+      (restaurants) => {
         this.restaurants = [...restaurants];
       }
     );

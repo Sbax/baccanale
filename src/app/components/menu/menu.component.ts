@@ -4,7 +4,7 @@ import { Menu } from "src/app/interfaces/menu";
 @Component({
   selector: "app-menu",
   templateUrl: "./menu.component.html",
-  styleUrls: ["./menu.component.scss"]
+  styleUrls: ["./menu.component.scss"],
 })
 export class MenuComponent {
   @Input()

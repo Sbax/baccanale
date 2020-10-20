@@ -4,7 +4,7 @@ import { Restaurant } from "src/app/interfaces/restaurant";
 @Component({
   selector: "app-restaurant",
   templateUrl: "./restaurant.component.html",
-  styleUrls: ["./restaurant.component.scss"]
+  styleUrls: ["./restaurant.component.scss"],
 })
 export class RestaurantComponent implements OnInit {
   addressUrl: string;

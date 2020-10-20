@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { HomeRedirectComponent } from './home-redirect.component';
+import { HomeRedirectComponent } from "./home-redirect.component";
 
-describe('HomeRedirectComponent', () => {
+describe("HomeRedirectComponent", () => {
   let component: HomeRedirectComponent;
   let fixture: ComponentFixture<HomeRedirectComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeRedirectComponent ]
-    })
-    .compileComponents();
+      declarations: [HomeRedirectComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('HomeRedirectComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

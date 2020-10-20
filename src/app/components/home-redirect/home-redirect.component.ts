@@ -5,7 +5,7 @@ import { Router } from "@angular/router";
 @Component({
   selector: "app-home-redirect",
   templateUrl: "./home-redirect.component.html",
-  styleUrls: ["./home-redirect.component.scss"]
+  styleUrls: ["./home-redirect.component.scss"],
 })
 export class HomeRedirectComponent implements OnInit {
   constructor(

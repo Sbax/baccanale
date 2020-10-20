@@ -10,17 +10,17 @@ const routes: Routes = [
   {
     path: "year/:year",
     component: MainPageComponent,
-    children: [{ path: "", component: HomeComponent, outlet: "inner" }]
+    children: [{ path: "", component: HomeComponent, outlet: "inner" }],
   },
   { path: "restaurant/:restaurant", component: RestaurantPageComponent },
   { path: "about", component: AboutPageComponent },
-  { path: "**", component: HomeRedirectComponent }
+  { path: "**", component: HomeRedirectComponent },
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { paramsInheritanceStrategy: "always" })
+    RouterModule.forRoot(routes, { paramsInheritanceStrategy: "always" }),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

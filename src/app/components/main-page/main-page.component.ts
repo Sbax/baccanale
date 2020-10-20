@@ -6,7 +6,7 @@ import { ActivatedRoute, Router } from "@angular/router";
 @Component({
   selector: "app-main-page",
   templateUrl: "./main-page.component.html",
-  styleUrls: ["./main-page.component.scss"]
+  styleUrls: ["./main-page.component.scss"],
 })
 export class MainPageComponent implements OnInit, OnDestroy {
   expanded = false;
@@ -53,16 +53,19 @@ export class MainPageComponent implements OnInit, OnDestroy {
     route: ActivatedRoute,
     router: Router
   ) {
-    route.params.subscribe(params => {
+    route.params.subscribe((params) => {
       const { year } = params;
 
       if (year) {
-        if (this.restaurantService.years.includes(parseInt(year)))
-          restaurantService.applyFilterForYear(parseInt(year));
-        else
-          router.navigate(["/year", this.restaurantService.lastYear], {
-            replaceUrl: true
-          });
+        if (this.restaurantService.years.includes(parseInt(year, 10))) {
+          restaurantService.applyFilterForYear(parseInt(year, 10));
+
+          return;
+        }
+
+        router.navigate(["/year", this.restaurantService.lastYear], {
+          replaceUrl: true,
+        });
       }
     });
 
@@ -78,14 +81,16 @@ export class MainPageComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.yearSubscription = this.restaurantService.currentYearChanged.subscribe(
-      year => {
+      (year) => {
         this.year = year;
       }
     );
   }
 
   ngOnDestroy() {
-    if (this.yearSubscription) this.yearSubscription.unsubscribe();
+    if (this.yearSubscription) {
+      this.yearSubscription.unsubscribe();
+    }
   }
 
   classIsActive(place: string) {
@@ -94,7 +99,7 @@ export class MainPageComponent implements OnInit, OnDestroy {
 
   includePlace(place: string) {
     if (this.classIsActive(place)) {
-      this.activePlaces = this.activePlaces.filter(e => e !== place);
+      this.activePlaces = this.activePlaces.filter((e) => e !== place);
     } else {
       this.activePlaces = [place, ...this.activePlaces];
     }

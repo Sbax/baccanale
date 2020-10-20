@@ -7,7 +7,7 @@ import { Restaurant } from "src/app/interfaces/restaurant";
 @Component({
   selector: "app-restaurant-page",
   templateUrl: "./restaurant-page.component.html",
-  styleUrls: ["./restaurant-page.component.scss"]
+  styleUrls: ["./restaurant-page.component.scss"],
 })
 export class RestaurantPageComponent {
   menus: Menu[] = [];
@@ -20,8 +20,8 @@ export class RestaurantPageComponent {
   constructor(restaurantService: RestaurantService, route: ActivatedRoute) {
     route.params.subscribe(({ restaurant }) => {
       const restaurants: Restaurant[] = [
-        ...restaurantService.restaurants
-      ].filter(e => e.slug === restaurant);
+        ...restaurantService.restaurants,
+      ].filter((e) => e.slug === restaurant);
 
       this.menus = restaurants
         .reduce((a, e) => {
@@ -29,17 +29,23 @@ export class RestaurantPageComponent {
           return a;
         }, [])
         .sort((a, b) => {
-          if (a.year < b.year) return 1;
-          if (a.year > b.year) return -1;
+          if (a.year < b.year) {
+            return 1;
+          }
+          if (a.year > b.year) {
+            return -1;
+          }
           return 0;
         });
 
       const lastYear = restaurants.reduce((max, e) => {
-        if (e.year > max) return e.year;
+        if (e.year > max) {
+          return e.year;
+        }
         return max;
       }, 0);
 
-      const infoForRestaurant = restaurants.find(e => e.year === lastYear);
+      const infoForRestaurant = restaurants.find((e) => e.year === lastYear);
 
       this.description = infoForRestaurant.description;
       this.name = infoForRestaurant.name;

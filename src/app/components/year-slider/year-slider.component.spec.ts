@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { YearSliderComponent } from './year-slider.component';
+import { YearSliderComponent } from "./year-slider.component";
 
-describe('YearSliderComponent', () => {
+describe("YearSliderComponent", () => {
   let component: YearSliderComponent;
   let fixture: ComponentFixture<YearSliderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ YearSliderComponent ]
-    })
-    .compileComponents();
+      declarations: [YearSliderComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('YearSliderComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

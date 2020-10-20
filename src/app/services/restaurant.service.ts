@@ -30,7 +30,7 @@ interface Filter {
 type SortOption = "name" | "name-reversed" | "price" | "price-reversed";
 
 @Injectable({
-  providedIn: "root"
+  providedIn: "root",
 })
 export class RestaurantService {
   restaurants: Restaurant[];
@@ -51,18 +51,18 @@ export class RestaurantService {
     this.filteredRestaurantsChanged.next(this._filteredRestaurants);
   }
 
-  lastYear: number = 0;
+  lastYear = 0;
   years: number[];
   places: string[];
 
   filterBy: Filter = {
     string: "",
     places: [],
-    year: 0
+    year: 0,
   };
 
   currentYearChanged: Subject<number> = new Subject<number>();
-  private _currentYear: number = 0;
+  private _currentYear = 0;
   get currentYear() {
     return this._currentYear;
   }
@@ -77,32 +77,48 @@ export class RestaurantService {
   sortyBy = {
     ["name"](restaurants: Restaurant[]) {
       return restaurants.sort((a, b) => {
-        if (a.name < b.name) return -1;
-        if (a.name > b.name) return 1;
+        if (a.name < b.name) {
+          return -1;
+        }
+        if (a.name > b.name) {
+          return 1;
+        }
         return 0;
       });
     },
     ["name-reversed"](restaurants: Restaurant[]) {
       return restaurants.sort((a, b) => {
-        if (a.name < b.name) return 1;
-        if (a.name > b.name) return -1;
+        if (a.name < b.name) {
+          return 1;
+        }
+        if (a.name > b.name) {
+          return -1;
+        }
         return 0;
       });
     },
     ["price"](restaurants: Restaurant[]) {
       return restaurants.sort((a, b) => {
-        if (a.maxPrice < b.maxPrice) return 1;
-        if (a.maxPrice > b.maxPrice) return -1;
+        if (a.maxPrice < b.maxPrice) {
+          return 1;
+        }
+        if (a.maxPrice > b.maxPrice) {
+          return -1;
+        }
         return 0;
       });
     },
     ["price-reversed"](restaurants: Restaurant[]) {
       return restaurants.sort((a, b) => {
-        if (a.maxPrice < b.maxPrice) return -1;
-        if (a.maxPrice > b.maxPrice) return 1;
+        if (a.maxPrice < b.maxPrice) {
+          return -1;
+        }
+        if (a.maxPrice > b.maxPrice) {
+          return 1;
+        }
         return 0;
       });
-    }
+    },
   };
 
   constructor() {
@@ -126,7 +142,7 @@ export class RestaurantService {
       data2017,
       data2018,
       data2019,
-      data2020
+      data2020,
     ];
 
     const restaurantsData = [].concat(...dataYears);
@@ -135,13 +151,13 @@ export class RestaurantService {
     const places = new Set();
 
     this.restaurants = restaurantsData.map((restaurantData, i) => {
-      const menus: Menu[] = restaurantData.menus.map(menuData => {
+      const menus: Menu[] = restaurantData.menus.map((menuData) => {
         const menu: Menu = {
           title: menuData.title,
           year: restaurantData.year,
           price: parseFloat(menuData.price),
           description: menuData.description,
-          notes: menuData.notes
+          notes: menuData.notes,
         };
 
         return menu;
@@ -159,11 +175,11 @@ export class RestaurantService {
         description,
         slug,
         menus,
-        maxPrice: Math.max(...menus.map(e => e.price)),
+        maxPrice: Math.max(...menus.map((e) => e.price)),
         address,
         phone,
         year,
-        place
+        place,
       };
 
       years.add(restaurantData.year);
@@ -204,23 +220,29 @@ export class RestaurantService {
     const newFilter = this.restaurants.filter((restaurant: Restaurant) => {
       const yearIncluded =
         this.filterBy.year && restaurant.year === this.filterBy.year;
-      if (!yearIncluded) return;
+      if (!yearIncluded) {
+        return;
+      }
 
       const placeIncluded = this.filterBy.places.length
         ? this.filterBy.places.includes(restaurant.place)
         : true;
-      if (!placeIncluded) return;
+      if (!placeIncluded) {
+        return;
+      }
 
       if (this.filterBy.string) {
         const textInRestaurant = [
           restaurant.name.toLowerCase(),
-          ...restaurant.menus.map(e => e.description.toLowerCase())
+          ...restaurant.menus.map((e) => e.description.toLowerCase()),
         ];
         const stringIncluded = textInRestaurant.reduce((a, e) => {
           return a || e.includes(this.filterBy.string);
         }, false);
 
-        if (!stringIncluded) return;
+        if (!stringIncluded) {
+          return;
+        }
       }
 
       return true;
