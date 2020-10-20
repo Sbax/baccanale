@@ -6,6 +6,7 @@ import {
   FontAwesomeModule,
 } from "@fortawesome/angular-fontawesome";
 import { faCaretDown, fas, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { NgDompurifyModule } from "@tinkoff/ng-dompurify";
 import { Ng5SliderModule } from "ng5-slider";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -36,6 +37,7 @@ import { YearSliderComponent } from "./components/year-slider/year-slider.compon
     FontAwesomeModule,
     AppRoutingModule,
     Ng5SliderModule,
+    NgDompurifyModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
