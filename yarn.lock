@@ -5336,10 +5336,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-ng5-slider@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/ng5-slider/-/ng5-slider-1.2.4.tgz#2bbc110b73fbc00991e4ec73ac064a7b2efe4094"
-  integrity sha512-4EwMNaOwy0p0mjUjRHem6vq4ZIqFMkej66Vmky1PSMb3e9r10tF2m29kS94EDB9y4inYoEf3tVrZ3YXfd7R5ag==
+ng5-slider@^1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/ng5-slider/-/ng5-slider-1.2.6.tgz#1d3d6ee6b456334754e21d65dc9c2baa7062db96"
+  integrity sha512-xu3qfnCqVNndRY8DsdlsU4jKayJ6KTVlUQwSTWqRqplxY0d6QhK1V1mseWwcovZG7mOTqKBYymJL3zmX8+SbHQ==
   dependencies:
     detect-passive-events "^1.0.4"
     rxjs "^5.5.6"
