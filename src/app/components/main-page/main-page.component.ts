@@ -36,6 +36,7 @@ export class MainPageComponent implements OnInit, OnDestroy {
     2018: "L'Italia del latte",
     2019: "Il Gusto dei Ricordi",
     2020: "A Casa e Fuori",
+    2021: "Amaro",
   };
 
   private _filter: string;
