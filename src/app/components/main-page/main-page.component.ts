@@ -37,7 +37,8 @@ export class MainPageComponent implements OnInit, OnDestroy {
     2019: "Il Gusto dei Ricordi",
     2020: "A Casa e Fuori",
     2021: "Amaro",
-    2022: "Ripieni"
+    2022: "Ripieni",
+    2023: "Mediterraneo",
   };
 
   private _filter: string;
