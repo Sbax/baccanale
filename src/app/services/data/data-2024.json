@@ -1,0 +1,572 @@
+[
+  {
+    "id": "74091fc743804b61b19c8a79ae333664",
+    "name": "Bonelli Burgers",
+    "phone": null,
+    "address": "via Turati, 3, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Tartare Burger",
+        "description": "<div><p>Pan brioche artigianale farcito con una tartare di manzo condita con lime, olio extravergine d'oliva del Frantoio Valsanterno e granella di pistacchi, con aggiunta di stracciatella di burrata fresca e salsa verde alle alici del Cantabrico fatta in casa</p></div>",
+        "price": 16.9,
+        "notes": "<div><p><strong>Solo hamburger €16.90</strong></p><p>Versione menù con bibita analcolica e patate €21.4</p><p>Abbinalo alla birra artigianale in edizione limitata ESEL, del Birrificio Sociale Vecchia Orsa:</p><p>una Keller beverina e rustica dal gusto bilanciato. €5.5</p><p>E per finire, concludi con il dolce in edizione limitata CREMINO AL PISTACCHIO: uno sfizioso semifreddo al pistacchio con soffice Pan di Spagna, variegato al cioccolato. €5.9</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "2f38e893ba794e9b825ee55e61d25530",
+    "name": "Ristorante Gastarea",
+    "description": "<div><p>Immerso nel verde del giardino degli ulivi dell'Anusca Palace Hotel sorge il ristorante Gastarea.<br><br></p><p>Innovazione e qualità nelle materie prime sono la nostra missione, non dimenticando la ricca tradizione locale.<br><br></p></div>",
+    "phone": "346 3053424",
+    "address": "viale Terme 1058/A (adiacente Anusca Palace Hotel), Castel San Pietro Terme",
+    "mail": "info@gastareasrl.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Gastarea per Baccanale 2024",
+        "description": "<div><p>La giardiniera dell'autunno con crostino al parfait di fegatini di pollo e mosto cotto</p><p>(con Olio Extra Vergine di Oliva “Selezione Alina”, Tenuta Pennita)</p></div><div><p>I ravioli dei Presìdi ripieni di olio extravergine di oliva di olivi secolari e Parmigiano Reggiano di Bianca Modenese</p><p>(Olio Extra Vergine di Oliva “Selezione Rodolfo” di Primo Fraternali Grilli)</p></div><div><p>La terrina di quinto quarto di manzo alla senape con insalata di rape e cipolla dell’acqua</p><p>(Olio Extra Vergine di Oliva “Selezione Rodolfo” di Primo Fraternali Grilli)</p></div><div><p>Il gelato alla crema, anacardi tostati, saba e olio extra vergine di oliva</p><p>(Olio Extra Vergine di Oliva “Selezione Alina”, Tenuta Pennita)</p></div>",
+        "price": 48,
+        "notes": "<div><p>Bevande escluse</p><p>In abbinamento gli oli Extra Vergine di olivi secolari Presidio Slow Food</p><p>dell'Emilia Romagna</p><p>- “Selezione Alina” (Nostrana di Brisighella) - Tenuta Pennita</p><p>- Uliveto del Fattore “Selezione Rodolfo” (Correggiolo) di Primo Fraternali Grilli</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "40560705187446e29e2ed3599632b89a",
+    "name": "Ristorante Popeye",
+    "phone": null,
+    "address": "via Quaini, 43, Imola",
+    "mail": "info@ristorantepopeye.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "/ù·n/ /fì·lo/ di /ò·lio/",
+        "description": "<div><p>I nostri benvenuti</p><p>Seppia, katsuobushi, topinambur ed olio di sesamo nero</p></div><p>Risotto “Gli Aironi” capesante, olio di nocciole e carciofi</p><p>Baccalà in oliocottura, bietola, ceci croccanti e paprika</p><div><p>Bavarese all’olio extravergine di oliva, la sua polvere e cedro</p><p>Piccola Pasticceria</p></div>",
+        "price": 55,
+        "notes": "<div><p>Servizio e coperto inclusi</p><p>Bevande escluse</p><p><strong>È possibile abbinare al menu la degustazione di tre calici di vini dell’azienda Audarya (CA) al costo di 15€ a persona:</strong></p><p><strong>Nuragus di Cagliari</strong></p><p><strong>Vermentino di Sardegna “Camminera”</strong></p><p><strong>Cannonau di Sardegna Rosato</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "b5a1eb71643f4819be6c1fc3c4d44245",
+    "name": "Osteria Due Marie",
+    "phone": "339 5738270",
+    "address": "via Marconi, 43/45, Borgo Tossignano",
+    "mail": null,
+    "place": "Borgo Tossignano",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria due marie per Baccanale 2024",
+        "description": "<p>Bruschettine dell'osteria</p><div><p>Zuppa in crosta con olio extravergine di oliva Valsanterno</p><p>Tortelli di patata con olio e pecorino</p></div><p>Tenerina di manzo all'olio toscano con patate fritte e pomodori gratin</p><p>Dolce della casa</p>",
+        "price": 35,
+        "notes": "<p>Acqua, vini della casa e caffè inclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "ab3efe17989b4db281664ab463482e56",
+    "name": "Oliveto sul Lago - Country House",
+    "phone": null,
+    "address": "Ca' Venturoli, 720, Castel San Pietro Terme",
+    "mail": "info@olivetosullago.com",
+    "place": "Castel San Pietro Terme",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Oliveto sul Lago per Baccanale 2024",
+        "description": "<div><p><strong>Entree:</strong></p><p>Crostini ai 4 oli extravergine di oliva Palazzo di Varignana</p><p>Carpaccio di carciofi, formaggio di fossa e olio extravergine di oliva Vargnano Brisighella DOP</p><p>Tortino di zucchine con crumble di brisée all’olio extravergine di oliva Stiffonte</p></div><p>Tortello di melanzane con pomodorini e spuma d’olio extravergine di oliva Blend Blu</p><p>Filetto di manzo di fassona in oliocottura con olio extravergine di oliva Vargnano Brisighella DOP e misticanza</p><p>Gelato all’olio extravergine di oliva Blend Verde Biologico</p>",
+        "price": 60,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "de34f7c3a6044f069c8241b036a207f3",
+    "name": "Osteria del casale",
+    "phone": "348 3069187",
+    "address": "piazza Cavalli 7/A, Casalfiumanese",
+    "mail": null,
+    "place": "Casalfiumanese",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria del Casale per Baccanale 2024",
+        "description": "<p>Tartara di tonno pinna gialla al filo d'olio di nocciola piemontese Langhé, con stracciatella, capperi e pomodorini</p><p>Scialatiello allo scoglio bianco al filo d'olio \"Mille Drupe\" DOP Terra di Brisighella</p><div><p>Filetto di branzino al sale di Cervia con filo d'olio di oliva, limone e origano* su letto di verdure</p><p>(* prodotto dell’Azienda Agricola Visagri)</p></div><p>Olivette di Sant'Agata</p>",
+        "price": 45,
+        "notes": "<div><p>Bevande escluse</p><p>Vino consigliato in abbinamento al menu: bianco Vermentino di Gallura superiore Doc.g Maia Siddùra</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "371c9c8581b54e44adc840c7f5b27268",
+    "name": "Ristorante Molino Rosso",
+    "phone": "366 2655085",
+    "address": "via Prov. Selice, 49, Imola",
+    "mail": "info@hotelmolinorosso.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Molino Rosso per Baccanale 2024",
+        "description": "<div><p>Battuta di scottona all’olio extravergine di oliva \"Terra di Brisighella\" con rosso di quaglia e cipolla caramellata</p><p>Insalatina di puntarelle</p><p>Antipasto accompagnato da calice di benvenuto</p></div><p>Zuppa di farro, con legumi, verdurine, crostini dorati e olio toscano a filo</p><div><p>Tagliata di filetto di manzo alla brace con olio delle colline imolesi e sale grosso di Cervia</p><p>Radicchio grigliato, patatine novelle saltate</p></div><p>Tenerina e mousse di mascarpone con salsa ai lamponi</p>",
+        "price": 42,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "185f8c42696b4a48a5814c90eb7de77e",
+    "name": "Ristorante E Parlamintè",
+    "phone": "370 3100253",
+    "address": "via G. Mameli, 33, Imola",
+    "mail": "info@eparlaminte.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Ristorante E Parlamintè per Baccanale 2024",
+        "description": "<p>Spaghetti bottarga, sedano e pane abbrustolito</p><p>Baccalà alla portoghese</p><p>Torta al limone e olio di oliva</p>",
+        "price": 35,
+        "notes": "<div><p>Pane e coperto compresi</p><p>Bevande escluse</p><p>Realizzato in collaborazione con Frantoio Imolese</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "30eca3016b8b4b1680933e2861d722b1",
+    "name": "Ristorante Bandini",
+    "description": "<p>Cucina Simbiotica “La simbiosi è un incontro tra più elementi da cui ognuno trae beneficio”</p>",
+    "phone": "3391424501",
+    "address": "Cavour, 37, Castel San Pietro Terme",
+    "mail": "info@robertobandini.com",
+    "place": "Castel San Pietro Terme",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Menu Baccanale",
+        "description": "<div><p>UN FILO D'OLIO MA CALDO E DI BRISIGHELLA</p><p>Crudo di Ricciola, Melograno e olio extravergine a 40°C</p></div><div><p>QUEL FILO D'OLIO DEI COLLI DI RIMINI CHE EMULSIONA, UNISCE E ARRICCHISCE</p><p>Picio tirato a mano, aglio, olio, peperoncino e Canocchie</p></div><div><p>INCLUSIONE STREPITOSAMENTE OLEOSA</p><p>Pesce Sciabola alla brace, patate all'olio extravergine di Varignana ai carboni, erbette ripassate</p></div><div><p>SENZA FILO D'OLIO, NON SI FA</p><p>Biscotto al castagnaccio e olio extravergine di Castrocaro Terme, cremoso alle castagne di Castagno d'Andrea, latte, rosmarino</p></div>",
+        "price": 60,
+        "notes": "<div><p>Coperto e pane inclusi, bevande escluse</p><p>ENTREE</p><p>OLEO \"Tutta seppia\" - Biscotto al nero e emulsione del suo corpo con olio extravergine di Bertinoro</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "7ca2ae4e89024b6993dcb147efe610cc",
+    "name": "Tenuta Torre Diana",
+    "phone": "350 1575911",
+    "address": "Via Nuova, 5, Mordano",
+    "mail": "info@tenutatorrediana.it",
+    "place": "Mordano",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Tenuta Torre Diana per Baccanale 2024",
+        "description": "<p>Prosciutto di cervo con insalatina ferrarese (radicchio, noci, mele e aceto balsamico) e un filo d’olio</p><p>Cinghialotti (ravioli ripieni di cinghiale) con olio tartufato e scaglie di tartufo</p><div><p>Lombo di cervo alla griglia con sale di carbone e un filo d’olio</p><p>Patate al forno</p></div><p>Castagnaccio alle noci e un filo d’olio</p>",
+        "price": 45,
+        "notes": "<div><p><strong>Menu disponibile sempre a cena e anche a pranzo nelle giornate di sabato e domenica</strong></p><p>Compresi acqua minerale e caffè</p><p>Esclusi vini ed altre bevande</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "d4550242f1ae489fa82a67f18a913bcf",
+    "name": "Trattoria Da Mauro",
+    "phone": null,
+    "address": "via Zello, 50, Imola",
+    "mail": "d.sergio@alice.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Menu Baccanale 2024",
+        "description": "<div><p>Insalatina di uovo di seppia alla vinaigrette alle erbe</p><p>Trancetti di tonno e merluzzo marinati nell'orto di autunno</p><p>Zuppettina di frutti di mare e lenticchie</p></div><p>Strichetti alla carbonara di salmone ed olio extravergine di oliva</p><p>Spiedone di pesce e gamberi con macedonia di pinzimonio</p><p>Tenerina al cioccolato con zabaione</p>",
+        "price": 45,
+        "notes": "<div><p>Bevande della casa comprese</p><p><strong>Menu disponibile solo su prenotazione (dal mercoledì al sabato per cena, domenica sia pranzo che a cena)</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "861f260ed3b649dc8e3ed5a939b58873",
+    "name": "Osteria del Vicolo Nuovo",
+    "phone": "338 9249555",
+    "address": "via Codronchi, 6 - angolo via Calatafimi, Imola",
+    "mail": "info@vicolonuovo.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria del Vicolo Nuovo per Baccanale 2024",
+        "description": "<p>Cuore di carciofo in olio alle erbe e Parmigiano Reggiano di vacca bianca modenese</p><p>Tortelli all’olio ripieni di zucca violina</p><p>Coscette di galletto alla cacciatora con olive</p>",
+        "price": 36,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "e3c2b75be9c44f27a8065bacb3f5076e",
+    "name": "Vivanderia - Note e Aromi",
+    "phone": "348 9061576",
+    "address": "piazzale Vittime lager nazisti, 5, Imola",
+    "mail": "vivanderia@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Vivanderia note e aromi per Baccanale 2024",
+        "description": "<div><p>Calice di benvenuto e focaccia al pomodoro, olio extravergine di oliva \"Monte di Nola\" e origano</p><p>Mantecato di fave bianche con cicoria ripassata, cozze, gamberi e polvere di capperi</p></div><p>Cappellacci ripieni di burrata e olive bruciate su guazzetto di polpo e ristretto di prezzemolo all’olio pugliese</p><p>Merluzzo in crosta di bacon in olio cottura, su vellutata di patate, limone salato, sedano e scamorza affumicata</p><p>Mousse al cioccolato fondente con cuore di lamponi e gelato all’olio extra vergine di oliva</p>",
+        "price": 40,
+        "notes": "<div><p>Vini e bevande esclusi</p><p><strong>È</strong> <strong>possibile abbinare al menu una degustazione di vini \"Tre Monti\" al costo di 10€ a persona</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "6b1a0828b9064b639146a3f2adfb5617",
+    "name": "Osteria Callegherie",
+    "description": "<p>La cucina, si propone ambiziosa a partire dalla scelta delle materie prime selezionate con cura. Piatti sia di mare che di terra, sono volutamente pochi e legati alla stagionalità. Pane fresco sfornato in casa, così come pasta e dolci.</p>",
+    "phone": null,
+    "address": "via Callegherie, 13, Imola",
+    "mail": "osteria@callegherie.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Baccanale 2024.. \"un filo d'olio\"",
+        "description": "<div><p>Crema di zucca con crumble croccante</p><p>(Olio utilizzato: Classico \"Frantoio Valsanterno\" - Romagna)</p><p>Carciofo dorato con crema di pecorino di Pienza</p><p>(Olio utilizzato: Nordico \"Madonna delle Vittorie\" - Trentino)</p></div><div><p>Tortello farcito al Parmigiano Reggiano e olio extravergine di oliva con riduzione al Lagrein e tartufo di Norcia</p><p>(Olio utilizzato: Tesserae \"Di Palma\" - Puglia)</p></div><div><p>Guancia di manzo con polenta mantecata e olive taggiasche</p><p>(Olio utilizzato: Monte di Nola “Frantoio Valsanterno” - Romagna)</p></div><div><p>Cremoso al cioccolato bianco con spuma all'olio di oliva</p><p>(Olio utilizzato: Denocciolato “Madonna delle Vittorie”- Trentino)</p><p>Piccola pasticceria</p></div>",
+        "price": 55,
+        "notes": "<div><p>Bevande escluse, servizio e coperto inclusi.</p><p><strong>È possibile abbinare al menù la degustazione vini \"Madonna delle Vittorie\":</strong></p><p><strong>Trento doc Brut Millesimato</strong></p><p><strong>Lagrein Dunkel</strong></p><p><strong>Teroldego</strong></p><p><strong>D'Eva Moscato</strong></p><p><strong>Il costo della degustazione è di 22€ a persona e comprende un calice per ogni vino</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "52f5da9becac462aa5865be85235cab0",
+    "name": "Cucinot",
+    "description": "<p>Ristorantino e take-away vegano con cucina stagionale a km zero. Piatti etnici e tradizionali reinterpretati senza utilizzo di derivati animali.<br></p>",
+    "phone": null,
+    "address": "via Orsini, 9/A, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Cucinot per Baccanale 2024",
+        "description": "<p>Pane a lievito madre tostato con verdure fermentate e olio forte</p><p>Canederlo ai funghi in brodo di topinambur, infusione di chiodi di garofano, olio al levistico e timo</p><div><p>Hummus di cannellini e patate dolci con olio alla zucca, fiori di broccoli e noci pecan in agrodolce</p><p>Contorno di cavolo nero con olio agli agrumi di stagione</p></div><p>Sorbetto al cioccolato, olio extravergine di oliva e capperi</p>",
+        "price": 29,
+        "notes": "<div><p>Menu disponibile solo su <strong>prenotazione nelle serate di sabato</strong>, anche da asporto</p><p>Bevande escluse</p><p>Possibilità di abbinamento bevande con aggiunta di 16€</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "258df75c041d40f08623e81286e1fb9a",
+    "name": "Ristorante La Tavernetta",
+    "description": "<p>Il Ristorante a conduzione familiare è specializzato in cucina tradizionale Emiliano Romagnola, tra le tante offerte oltre alle Specialità di Pesce, trovate la pasta al mattarello fatta da noi, e piatto forte la tagliata argentina.</p>",
+    "phone": "366 3645156",
+    "address": "via Tito Speri, 2, Imola",
+    "mail": "mauro.paolini52@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "La Tavernetta per Baccanale 2024",
+        "description": "<p>Vellutata di legumi con crostini all'olio aromatizzato al rosmarino</p><p>Passatelli al pecorino di fossa</p><p>Tagliata all'olio del Garda con friggione</p><div><p>Torta al fondente</p><p>Caffè</p></div>",
+        "price": 34,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "c041b1bbd51f4f5c8043d7fb23ae9664",
+    "name": "Bar Roma Bistrot",
+    "phone": "338 1812156",
+    "address": "Via Emilia 137, Imola",
+    "mail": "barromaimola@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Bar Roma bistrot per Baccanale 2024",
+        "description": "<p>Roast beef di tonno con peperoni sott'olio, olive taggiasche caramellate, pane guttiau ed olio all'erba cipollina</p><div><p>Spaghetti di grano arso con crema all'aglio dolce, peperoncino, liquirizia e gamberi rossi</p><p>Pasta e fagioli di mare con salsa prezzemolo e lime</p></div><p>Baccalà in oliocottura con erbette, chips di cavolo nero, maionese di baccalà e bergamotto</p><p>Mousse al cioccolato fondente con quenelle di mascarpone, lamponi e crumble di frolla all'olio extravergine di oliva</p>",
+        "price": 38,
+        "notes": "<div><p>Coperto incluso</p><p>Bevande escluse</p><p><strong>Menu disponibile durante il periodo della manifestazione il venerdì sera ed il sabato a pranzo e cena</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "369b2db2af4f490588a37186537d111c",
+    "name": "Agriturismo Colombara",
+    "phone": "339 3448493",
+    "address": "via Emilia Levante, 2866, Castel San Pietro Terme",
+    "mail": "lorenzo@agriturismocolombara.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Agriturismo Colombara per Baccanale 2024",
+        "description": "<p>Fantasia di crostini ai tre oli</p><p>Garganello al ragù di olive e salsiccia</p><p>Tagliata di manzo all'olio aromatico con patata al cartoccio e maionese Colombara</p><p>Torta di carote e mascarpone con scaglie di cioccolato</p>",
+        "price": 35,
+        "notes": "<div><p>Acqua e coperto inclusi</p><p>Le olive e l'olio utilizzati nel menu sono di produzione propria</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "1b845f5967c24c4eab10e57af04a0702",
+    "name": "Ristorante Pizzeria Donatello",
+    "phone": null,
+    "address": "via T. Baruzzi, 15, Imola",
+    "mail": "ristorantepizzeriadonatello@imolahotel.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Ristorante pizzeria Donatello per Baccanale 2024",
+        "description": "<p>Tartare di salmone con mela verde e melograno, con citronette all’olio extravergine di oliva del Frantoio Valsanterno e lime</p><p>Risotto con zucchine, salmone e zafferano mantecato all’olio extravergine di oliva del Frantoio Valsanterno</p><p>Calamaro ripieno su crema di zucca e scalogno caramellato con ristretto all’olio extravergine di oliva del Frantoio Valsanterno</p><p>Tortino allo yogurt con mousse di cioccolato all’olio extravergine di oliva Valsanterno con coulis di ribes</p>",
+        "price": 45,
+        "notes": "<p>Acqua minerale e caffè compresi</p>"
+      }
+    ]
+  },
+  {
+    "id": "07e50096669c487997fa4bf55a5aff48",
+    "name": "Taverna San Pietro",
+    "phone": "388 4043367",
+    "address": "8 dicembre 1944, n. 38, Fontanelice",
+    "mail": "tavernasanpietro@outlook.it",
+    "place": "Fontanelice",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Taverna san Pietro per Baccanale 2024",
+        "description": "<div><p>Entrèe di benvenuto</p><p>Hot dog di pesce spada, cavolo cappuccio marinato e maionese all’olio di sesamo</p></div><p>Gnocchetti al nero con ragù di seppia all’olio affumicato di olive taggiasche</p><p>Baccalà confit su pavè di patate e porri, insalatina di germogli di lenticchie all’olio di canapa</p><p>Plum cake all’olio di zucca con sorbetto mantecato e aceto balsamico invecchiato</p>",
+        "price": 45,
+        "notes": "<div><p>Acqua e coperto compresi</p><p><strong>È possibile abbinare tre calici di vino alla degustazione al costo di € 15 a persona</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "f6cff23fb38b4ea2bb1fed5959be06ee",
+    "name": "Osteria dei miracoli",
+    "phone": "366 4846474",
+    "address": "Viale Zappi 6, Imola",
+    "mail": "osteriadeimiracoli24@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria dei Miracoli per Baccanale 2024",
+        "description": "<p>Insalata di carciofo violetto crudo con grana e olio extravergine di oliva Brisighello DOP</p><p>Tortello di ricotta all'olio della Vallata profumato al limone e pecorino Spazzarello</p><div><p>Tagliata in olio extravergine di oliva Brisighello DOP tiepido e rosmarino</p><p>Patate al vapore con olio extravergine di oliva Brisighello DOP e prezzemolo</p></div>",
+        "price": 45,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "df7bb454b3654a0c9f2978e8fb460e9b",
+    "name": "Osteria del Piolo",
+    "description": "<p>Nel ristorante potrete gustare piatti tipici della cucina Romagnola (tortellini in brodo, lasagne e bolliti in primis) e tutti vini del territorio delle tante aziende di Imola e dintorni.</p>",
+    "phone": "320 9762042",
+    "address": "via Appia, 80/82, Imola",
+    "mail": "infoosteriadelpiolo@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria del Piolo per Baccanale 2024",
+        "description": "<p>Flan di zucca violina con \"piccolini\" all'olio di zenzero</p><p>Raviolini ripieni di cacio e pepe con bacon, gomasio e olio extravergine affumicato</p><p>Baccalà in oliocottura con giardiniera nostrana</p><p>Cremoso alle castagne</p>",
+        "price": 37,
+        "notes": "<div><p>Bevande escluse</p><p>I piatti sono preparati con olio extravergine di oliva del Frantoio Valsanterno Soc. Agricola</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "d396c1c7b3534fb5abd4503b3f75b235",
+    "name": "Osteria di Dozza",
+    "phone": "334 1153323",
+    "address": "via XX Settembre, 19, Dozza",
+    "mail": "info@osteriadozza.it",
+    "place": "Dozza",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Osteria di Dozza per Baccanale 2024",
+        "description": "<p>Patè di fegatini con giardiniera e scalogno di Romagna sott'olio</p><p>Ribollita di cavolo nero all'olio novello</p><p>Arrosto di pollo ripieno di salsiccia e castagne con cime di ripassate in padella con aglio, olio extra vergine di oliva e peperoncino</p><p>Cremoso di ricotta e squacquerone, biscotto croccante all'olio extra vergine di oliva e mandorle tostate</p>",
+        "price": 49,
+        "notes": "<div><p>Bevande e coperto esclusi</p><p><strong>Per le ricette</strong> <strong>saranno utilizzati e abbinati</strong> <strong>gli</strong> <strong>Oli</strong> <strong>Extra</strong> <strong>Vergine</strong> <strong>di</strong> <strong>Oliva dei Presidi Slow Food degli Olivi Secolari</strong> <strong>di</strong> <strong>Filippo</strong> <strong>Manetti</strong> <strong>dell’azienda</strong> <strong>agricola</strong> <strong>“Vigne</strong> <strong>di</strong> <strong>San</strong> <strong>Lorenzo”</strong> <strong>di Brisighella e della Tenuta Pennita di Gianluca Tumidei</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "adf5b37734bf4b17bb9649519d5d721f",
+    "name": "Fiskebar - Linea 22",
+    "description": "<p>Nella location immersa nel verde vicino campo da rugby di Imola, abbiamo creato un locale accogliente, con una stupenda vetrata e un'atmosfera calda per sentirsi a casa. Colazioni, Pranzi, Aperitivi e Cene, aperto a tutti, non solo ai tesserati del rugby.<br><br><br><br><br><br><br><br></p>",
+    "phone": "331 4261425",
+    "address": "via Papa Onorio II, 34, Imola",
+    "mail": "info@fiskebarlinea22.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Fiskebar - linea 22 per Baccanale 2024",
+        "description": "<p>Mazzancolle alla plancha, carciofi e maionese all'aglio nero</p><p>Ravioli di triglia, broccoli, olive nere e bagna cauda</p><p>Ricciola in oliocottura, spinaci, vongole nostrane e spuma di patate all'olio affumicato</p><div><p>Pane, olio e cioccolato:</p><p>Gelato al pane e olio, cremoso al cioccolato equatoriale Valrhona e spugna alla fava di tonka</p></div>",
+        "price": 55,
+        "notes": "<div><p>Vini e bevande escluse</p><p><strong>Sarà possibile scegliere anche solo le singole portate del menu degustazione</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "1a89c60b70c746fb926fdcfdee0e3c25",
+    "name": "Da Noi Osteria e Vini",
+    "phone": null,
+    "address": "Via G. Amendola 63, Imola",
+    "mail": "info@danoiosteriaevini.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Da noi osteria e vini per Baccanale 2024",
+        "description": "<p>Spritz oil al Tabasco verde</p><p>Spaghetti alla chitarra con olio al tartufo</p><p>Spiedini di maiale e verdure marinati</p><p>Bavarese di mele e limone all'olio con cialde croccanti speziate</p>",
+        "price": 40,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "a85e88eae4c9487a884b338253bbcbe5",
+    "name": "Pizzeria Spanizzo",
+    "phone": null,
+    "address": "via Quaini 15/17, Imola",
+    "mail": "spanizzo.imola@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Pizzeria Spanizzo per Baccanale 2024",
+        "description": "<p>Ciclista con olio extra vergine di oliva e rosmarino</p><p>Spaghetti con brandacujun</p><p>Gelato fiordilatte con sciroppo d’acero, olio extra vergine di oliva e sale maldon</p>",
+        "price": 20,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "088c16d7927449f9b88a809e9c38d8a1",
+    "name": "L'orto di Mari Agriturismo",
+    "phone": "334 7109950",
+    "address": "Via S. Prospero, 30 - località San Prospero, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Un filo del nostro olio extra vergine di oliva d'Abruzzo",
+        "description": "<div><p>Focaccia con farro spelta bio all'olio e rosmarino</p><p>Culaccia artigianale e giardiniera di verdure dell'orto</p></div><div><p>Spaghettoni quadrati al torchio aglio, olio, peperoncino, cime di rapa e acciughe</p><p>OPPURE</p><p>Cappelletti dell’Artusi in crema di parmigiano, pepe nero e un filo d'olio</p></div><div><p>Cappello del prete al Sangiovese</p><p>OPPURE</p><p>Parmigiana di melanzane</p></div><div><p>Crostata di more e crema pasticcera con frolla all'olio</p><p>OPPURE</p><p>Quadrotti soffici glassati al cioccolato fondente e olio di cocco</p></div>",
+        "price": 38,
+        "notes": "<div><p>Coperto incluso, bevande escluse.</p><p>Aperti il venerdì a cena, il sabato a cena e la domenica a pranzo.</p><p>Prenotazione obbligatoria.</p><p>Su richiesta al momento della prenotazione, è possibile avere il menu in versione vegetariana.</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "e4ddf745b9804e2faf8acbcedb423c2a",
+    "name": "Tenuta Poggio Pollino",
+    "phone": "331 6125474",
+    "address": "via Monte Meldola, 2/t, Imola",
+    "mail": "info@poggiopollino.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Tenuta Poggio Pollino per Baccanale 2024",
+        "description": "<p>Mousse di capra su \"fettunta\"</p><div><p>Ribollita all'olio novello</p><p>Garganelli d'ortica con crema di scalogno e crudo croccante</p></div><p>Cappello del prete in oliocottura con purè di patate</p><p>Pandolce all'olio e crema pasticcera</p>",
+        "price": 29,
+        "notes": "<div><p>Acqua compresa</p><p>Bevande e vini esclusi</p><p><strong>È possibile abbinare al menu la degustazione di tre calici di vini a scelta al costo di 10€ a persona.</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "d64f69421b3f481588786163f21dd03c",
+    "name": "Ristorante Hostaria 900",
+    "description": "<div></div>",
+    "phone": "347 3091215",
+    "address": "viale Dante Alighieri, 20, Imola",
+    "mail": "hostaria900@hostaria900.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Hostaria 900 per Baccanale 2024",
+        "description": "<p>Radicchio tardivo grigliato e marinato su vellutata di patate</p><p>Lasagne al forno con ragù di mora romagnola ed olio di oliva al rosmarino</p><p>Tagliata di pezzata rossa in salsa verde</p><p>Gelato fritto, cocco, mandorle e zabaione</p>",
+        "price": 45,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "0820a9c2be544847b89a7e7b6fd488e2",
+    "name": "Ristorante San Domenico",
+    "description": "<p>Il San Domenico è uno spazio per la felicità proposta con eleganza riservata.</p><p>È un luogo che diviene casa dove i clienti si sentono sempre ospiti graditi e dove possono incontrare con gusto e raffinatezza l’armonia dei sapori della grande tradizione culinaria italiana.</p>",
+    "phone": null,
+    "address": "via G. Sacchi, 1, Imola",
+    "mail": "sandomenico@sandomenico.it",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "San Domenico per Baccanale 2024",
+        "description": "<div><p><strong>Divertimenti</strong></p><p>La focaccia all'olio extra vergine di oliva \"Terre di Rocche\" del Frantoio Valsanterno</p><p>Filetto di baccalà in oliocottura con emulsione di patate all’olio extra vergine di oliva</p><p>Razza arrostita, il suo brodetto con purea di broccoli e perle all’olio extra vergine di oliva</p></div><p>Risotto mantecato all’olio extra vergine di oliva con anatra, zucca e lime</p><p>Manzo all'olio con bernese all’olio extra vergine di oliva</p><p>Dessert</p>",
+        "price": 150,
+        "notes": "<div><p><strong>Menu disponibile</strong> <strong>a pranzo e a cena, nelle giornate di martedì mercoledì e giovedì</strong></p><p>Il costo del menu comprende una degustazione di 4 vini, l’acqua ed il caffè</p><p>Liquori esclusi</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "601665d82e5e4a929569b41451fd1230",
+    "name": "CALANCO 25",
+    "phone": "339 7482733",
+    "address": "Calanco 25a, Dozza",
+    "mail": null,
+    "place": "Dozza",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Oliare gli ingranaggi",
+        "description": "<p>Crostini di pane fatto in casa con crema di melanzane, cipolle rosse in agrodolce, mandorle e olio di Brisighella</p><p>Gnocchi di patate con ragù vegetale con olio di Brisighella e olive taggiasche essiccate</p><div><p>Sformatini profumati di catalogna con olio di Brisighella profumato all’arancia</p></div><p>Torta di cioccolato e olio di Brisighella profumato allo zenzero</p>",
+        "price": 40,
+        "notes": "<div><p>Vini esclusi</p><p><strong>È possibile abbinare al menu la degustazione di 4 calici di vini selezionati al costo di 20€ a persona</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "4eaf30a0749147f8836d4203d48a20c1",
+    "name": "Ristorante Le Bistrot",
+    "phone": null,
+    "address": "via Valsellustra, 18, Dozza",
+    "mail": "info@ristorantelebistrot.it",
+    "place": "Dozza",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "Ristorante le Bistrot per Baccanale 2024",
+        "description": "<div><p>Entrata: Vellutata di lattuga e fiori di borragine</p><p>Tonno di coniglio accompagnato da giardiniera e olio al melograno</p></div><p>Tortellini asciutti con un filo d'olio e scagliette di Parmigiano Reggiano 36 mesi</p><p>Baccala' in oliocottura servito con patate schiacciate al curry verde</p><p>Crostatina con confettura ai frutti rossi</p>",
+        "price": 45,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "16f8c4fc4ffa4d07bb9d4e1180c0667c",
+    "name": "Osteria del Teatro",
+    "phone": "338 9239291",
+    "address": "vicolo Fratelli Bartolini, 1, Imola",
+    "mail": "osteriadelteatroimola@gmail.com",
+    "place": "Imola",
+    "year": 2024,
+    "menus": [
+      {
+        "title": "I nostri piatti incontrano gli oli del Frantoio Valsanterno",
+        "description": "<div><p>Passata di fagioli canellini e timo con gamberi con pancetta e olio extra vergine di oliva non filtrato</p></div><div><p>Cappellacci di mare con pesto di rucola e olio Tre rocche</p></div><div><p>Tagliata di tonno ai pistacchi con olio Classico Valsanterno</p><p>Passata di patate e cavolfiore</p></div><div><p>Cheesecake a freddo con biscotto all'olio Delicato e basilico con gelatina ai frutti di bosco</p></div>",
+        "price": 42,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  }
+]

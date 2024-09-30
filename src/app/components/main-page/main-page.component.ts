@@ -39,6 +39,7 @@ export class MainPageComponent implements OnInit, OnDestroy {
     2021: "Amaro",
     2022: "Ripieni",
     2023: "Mediterraneo",
+    2024: "Un filo d'olio",
   };
 
   private _filter: string;

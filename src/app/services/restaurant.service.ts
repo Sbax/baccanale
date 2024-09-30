@@ -23,6 +23,7 @@ import data2020 from "./data/data-2020.json";
 import data2021 from "./data/data-2021.json";
 import data2022 from "./data/data-2022.json";
 import data2023 from "./data/data-2023.json";
+import data2024 from "./data/data-2024.json";
 
 interface Filter {
   string: string;
@@ -149,6 +150,7 @@ export class RestaurantService {
       data2021,
       data2022,
       data2023,
+      data2024,
     ];
 
     const restaurantsData = [].concat(...dataYears);
