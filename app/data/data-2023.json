@@ -1,0 +1,630 @@
+[
+  {
+    "id": "de34f7c3a6044f069c8241b036a207f3",
+    "name": "Osteria del casale",
+    "phone": "348 3069187",
+    "address": "piazza Cavalli 7/A, Casalfiumanese",
+    "mail": null,
+    "place": "Casalfiumanese",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Osteria del Casale per Baccanale 2023",
+        "description": "<p>Gamberi di Sicilia alle erbe del mediterraneo su crema di burrata pugliese e scorza d'arancia</p><p>Fettuccine al cedro di Calabria agli scampi</p><p>Filetto di orata alla mediterranea con verdure all'olio di limone di Sorrento IGP</p><p>Tortino cuore caldo al pistacchio di Bronte con gelato alla nocciola</p>",
+        "price": 40,
+        "notes": "<div><p><br></p><p>Bevande escluse</p><p>Vino in abbinamento consigliato: \"Occhi di ciumi” Al-Cantàra (Doc Etna bianco)</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "bd94e08c779b4384a447079120d0acf8",
+    "name": "Aroma 23 - Cafè e cucina",
+    "description": "<div><p>Qualità, passione, semplicità</p><p>Atmosfere<br><strong>particolari</strong></p></div>",
+    "phone": "338 8410423",
+    "address": "via Provinciale Selice 23/e, Imola",
+    "mail": "aroma23snc@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Aroma 23 per Baccanale 2023",
+        "description": "<div><p>Trancio di ombrina bocca d'oro alla mediterranea, caponata di verdure, cous cous al curry con peperoni e menta</p><p></p></div>",
+        "price": 17,
+        "notes": "<p><strong>Menu disponibile su prenotazione dal lunedì al venerdì a pranzo</strong></p>"
+      },
+      {
+        "title": "Mediterranea",
+        "description": "<p>Frittelline di alghe del Mediterraneo con salse chermoula e tzatziki</p><div><p><strong>Degustazione di pizze O'FIORE MIO:</strong></p><p><br></p><p><strong>FOCACCIA ROMANA \" CONCIATA\":</strong></p><p>Farcita con pomodoro cuore di bue, pecorino, alici dell'Adriatico, basilico fresco ed origano di Pantelleria</p><p><strong>PIZZA AL PADELLINO:</strong></p><p>Farcita con ragù di polpo al limone di Sorrento, pomini gialli, provola affumicata campana</p><p><strong>PIZZA IN TEGLIA ALLA ROMANA \" BUFALINA\":</strong></p><p>Farcita con pomodoro San Marzano, mozzarella di bufala \" Caseificio il Casolare\" e basilico fresco</p></div><div><p>Cialda al pistacchio di Bronte con crema di ricotta campana e arance di Sicilia</p><p>Babbá minutù con dressing al limoncello</p></div>",
+        "price": 43,
+        "notes": "<div><p>Dallo sguardo alle nazioni che si affacciano sul mediterraneo e lavorandone le materie prime nasce...\"MEDITERRANEA\" : due serate evento pensatissime!</p><p>Una collaborazione a 4 mani tra PIZZERIA 'O FIORE MIO di Faenza e AROMA23 cafè e cucina.</p><p><br></p><p><strong>Gli eventi si svolgeranno presso AROMA23 cafè nelle giornate di mercoledì 25 ottobre e</strong></p><p><strong>mercoledì 8 novembre alle ore 20.00</strong></p><p><br></p><p>Acqua minerale (naturale e frizzante), birra artigianale Amarcord (tre tipologie accompagneranno in degustazione il menù), caffè e coperto inclusi</p><p><br></p><p>Vi preghiamo di segnalare allergie in fase di prenotazione: sarà eventualmente possibile cucinare proposte in alternativa.</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "371c9c8581b54e44adc840c7f5b27268",
+    "name": "Ristorante Molino Rosso",
+    "phone": "366 2655085",
+    "address": "via Prov. Selice, 49, Imola",
+    "mail": "info@hotelmolinorosso.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "MOLINO ROSSO PER BACCANALE 2023",
+        "description": "<div><p>Crostino con ricotta mantecata alla menta, pomini confit e pesto</p><p>Burrata con alici e granella di pistacchio</p></div><p>Tagliatella all'uovo di grano saraceno al ragù bianco di faraona al coltello, rosmarino e verdurine</p><div><p>Filetto di mora romagnola avvolto in lardo e cotto alla brace con riduzione al Sangiovese</p><p>Guazzetto di pomodorini capperi e olive</p><p>Broccoli gratinati piccanti</p></div><p>Semifreddo ai fichi caramellati e saba</p>",
+        "price": 38,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "000b953b965446d48466981097cf098c",
+    "name": "Agriturismo Le Siepi di San Giovanni",
+    "description": "<div><p>Una tenuta di circa 40 ettari con vigneti e frutteti al centro della quale è presente un agriturismo d'eccellenza che nasce da un attento restauro di un antico edificio.<br></p><p>Un luogo di relax o di vacanza attiva con ristorante e camere.</p></div>",
+    "phone": "393 864 2488",
+    "address": "via Siepi San Giovanni, 27, Borgo Tossignano",
+    "mail": "info@lesiepidisangiovanni.com",
+    "place": "Borgo Tossignano",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "BACCANALE 2023",
+        "description": "<p>Flan di zucchine, con salsa al pomodoro e squacquerone</p><p>Tortelli di patate, con pomodorini confit, melanzane e pecorino</p><p>Straccetti di pollo alla mediterranea (pomodorini, olive taggiasche e mandorle) con parmigiana di melanzane</p><p>Tortino di uva fragola e noci, con gelato alla vaniglia</p>",
+        "price": 47
+      }
+    ]
+  },
+  {
+    "id": "b5a1eb71643f4819be6c1fc3c4d44245",
+    "name": "Osteria Due Marie",
+    "phone": "339 5738270",
+    "address": "via Marconi, 43/45, Borgo Tossignano",
+    "mail": null,
+    "place": "Borgo Tossignano",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Osteria Due Marie per Baccanale 2023",
+        "description": "<p>Crescentine con friggione</p><div><p>Strigoli alla partenopea (con olive taggiasche e pomodorini secchi del Gargano)</p><p>Cuscinetti di ricotta alla crema di carciofi con guanciale croccante</p></div><div><p>Delicata di lonza alla palermitana</p><p>Parmigiana di melanzane</p><p>Patate alla mediterranea</p></div><p>Sofficina agli agrumi</p>",
+        "price": 29,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "369b2db2af4f490588a37186537d111c",
+    "name": "Agriturismo Colombara",
+    "phone": "339 3448493",
+    "address": "via Emilia Levante, 2866, Castel San Pietro Terme",
+    "mail": "lorenzo@agriturismocolombara.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Agriturismo Colombara per Baccanale 2023",
+        "description": "<p>Hummus di ceci e sesamo con bruschetta all'olio ed assaggio dell'orto d'inverno</p><p>Garganello artigianale con broccoli, olive e capperi spolverati con muddica atturrata</p><div><p>Agnello con mandorle e prugne</p><p>Patate al forno</p></div><p>Mattonella ricotta e cioccolato</p>",
+        "price": 30,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "dc3d80a37bec405599934c21362522bb",
+    "name": "Albergo Ristorante Gallo",
+    "phone": "338 5911452",
+    "address": "piazza della Repubblica, 28/30, Castel del Rio",
+    "mail": "gallo@galloegalletto.it",
+    "place": "Castel del Rio",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Nelle terre mediterranee, la Romagna…  le tradizioni, i ricordi",
+        "description": "<p>Finocchi gratinati alla romagnola</p><p>Strozzapreti con pancetta e pesto di strigoli</p><p>Stracotto di manzo al Sangiovese con funghi porcini</p><p>Ciambella e zabaione</p>",
+        "price": 38,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "d64f69421b3f481588786163f21dd03c",
+    "name": "Ristorante Hostaria 900",
+    "description": "<div><p><br><br><br></p><p><br><br><br></p><p><br><br><br></p><p><br><br><br></p></div>",
+    "phone": "347 3091215",
+    "address": "viale Dante Alighieri, 20, Imola",
+    "mail": "hostaria900@hostaria900.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Menu degustazione",
+        "description": "<p>Arancino di riso con ragù di triglia e finocchietto selvatico</p><div><p>Paccheri su crema di ceci al rosmarino con mazzancolle e</p><p>pomodorini confit</p></div><p>Cefalo Lotregano in crosta di pane con porri, olive e capperi</p><p>Caprese con sorbetto al mandarino e crumble di mandorle</p>",
+        "price": 40,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "74091fc743804b61b19c8a79ae333664",
+    "name": "Bonelli Burgers",
+    "phone": null,
+    "address": "via Turati, 3, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "BACCANALE #2",
+        "description": "<div><p><strong>Dal 30 ottobre al 5 novembre</strong></p><p>Succosa scottona appena grigliata tra due soffici fette di pan brioche, 'nduja calabrese,</p><p>filante provola affumicata, cipolle crispy e rucola.</p></div>",
+        "price": 16.9,
+        "notes": "<div><p><strong>Solo hamburger €16,90</strong></p><p>Menu con bibita analcolica e patate €21,40</p><p>Birra consigliata in abbinamento: Sbarbina Session IPA, amara e fruttata €5,50</p><p><br></p><p>Concludi con il dolce NONNA BONELLI in edizione limitata:</p><p>Cremoso semifreddo artigianale alla vaniglia, variegato con salsa ai frutti di bosco e</p><p>ricoperto da croccanti biscotti Imolotti fatti in casa €6,50</p></div>"
+      },
+      {
+        "title": "BACCANALE #3",
+        "description": "<p><strong>Dal 6 al 12 novembre</strong><br>Succosa scottona appena grigliata tra due soffici fette di pan brioche, melanzane dorate,<br>sugo di pomodoro cotto a fuoco lento, ricotta salata e croccanti mandorle tritate.</p>",
+        "price": 16.9,
+        "notes": "<div><p><strong>Solo hamburger €16,90</strong></p><p>Menu con bibita analcolica e patate €21,40</p><p>Birra consigliata in abbinamento: Bonelli #2 India Pale Ale, balsamica e avvolgente €5,50</p><p><br></p><p>Concludi con il dolce NONNA BONELLI in edizione limitata:</p><p>Cremoso semifreddo artigianale alla vaniglia, variegato con salsa ai frutti di bosco e</p><p>ricoperto da croccanti biscotti Imolotti fatti in casa € 6,50</p></div>"
+      },
+      {
+        "title": "BACCANALE #1",
+        "description": "<div><p><strong>Dal 23 al 29 ottobre</strong></p><p>Succosa scottona appena grigliata tra due soffici fette di pan brioche, doppio bacon</p><p>croccante, pesto di pistacchi fatto in casa, burrata fresca, pomodori secchi e rucola.</p></div>",
+        "price": 16.9,
+        "notes": "<div><p><strong>Solo hamburger €16,90</strong></p><p>Menu con bibita analcolica e patate €21,40</p><p>Birra consigliata in abbinamento: Bonelli #1 American Blonde Ale, delicata e beverina €5,50</p><p><br></p><p>Concludi con il dolce NONNA BONELLI in edizione limitata:</p><p>Cremoso semifreddo artigianale alla vaniglia, variegato con salsa ai frutti di bosco e</p><p>ricoperto da croccanti biscotti Imolotti fatti in casa €6,50</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "ce6ed51d84fb47d8b46978cd11968cd1",
+    "name": "Azienda agrituristica Cà Monti",
+    "phone": "335 8048641",
+    "address": "via Montemorosino, 4, Fontanelice",
+    "mail": "info@camonti.it",
+    "place": "Fontanelice",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Ca' Monti per Baccanale 2023",
+        "description": "<div><p>Zuppa di porri e patate al profumo di origano</p><p><br></p><p>Crostini misti mediterranei:</p><p>caprino alle erbe, crema di peperoni rossi, fegatini, zucchine e guanciale</p></div><div><p>Cous cous di verdure con polpettine di carne</p><p>Tortellacci di Marroni di Castel del Rio con Sambuchella</p></div><p>Coniglio ai profumi mediterranei con purè di ceci</p><div><p>Sorbetto alla menta</p><p>Torta Mediterranea</p></div>",
+        "price": 35,
+        "notes": "<div><p>Vini esclusi</p><p>Possibilità di degustare i vini anche al calice</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "d396c1c7b3534fb5abd4503b3f75b235",
+    "name": "Osteria di Dozza",
+    "phone": "334 1153323",
+    "address": "via XX Settembre, 19, Dozza",
+    "mail": "info@osteriadozza.it",
+    "place": "Dozza",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Osteria di Dozza per Baccanale 2023",
+        "description": "<p>Insalata tiepida di baccalà alla brace, patate e fagioli borlotti all'Olio di Brisighella DOP</p><p>Tagliolini ai 24 tuorli al ragù di funghi autunnali</p><p>Arrosto di pollo ripieno farcito di salsiccia e castagne concime di rapa ripassate in padella con aglio e peperoncino</p><p>Mousse al torrone con gocce di cioccolato e granella di mandorle tostate</p>",
+        "price": 45,
+        "notes": "<p>Coperto incluso, bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "07e50096669c487997fa4bf55a5aff48",
+    "name": "Taverna San Pietro",
+    "phone": "388 4043367",
+    "address": "8 dicembre 1944, n. 38, Fontanelice",
+    "mail": "tavernasanpietro@outlook.it",
+    "place": "Fontanelice",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Taverna San Pietro per Baccanale 2023",
+        "description": "<p>Code di mazzancolle croccanti al sesamo con crema di banana al curry</p><p>Gnocchetti di farina di ceci con ragù bianco di pesce spada e carciofi fritti</p><p>Tonno scottato su cous cous al nero di seppia e maionese di caponata siciliana</p><p>Brownies con datteri, frutta secca, spuma di ricotta e miele salato</p>",
+        "price": 42,
+        "notes": "<div><p>Acqua e caffè inclusi</p><p>Vini esclusi</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "c041b1bbd51f4f5c8043d7fb23ae9664",
+    "name": "Bar Roma Bistrot",
+    "phone": "338 1812156",
+    "address": "Via Emilia 137, Imola",
+    "mail": "barromaimola@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Bar Roma Bistrot per Baccanale 2023",
+        "description": "<p>Pescatrice al vapore di zafferano, cipolla agrodolce, pomodori maturati, olio di foglie di fico e senape</p><div><p>Risotto con carciofi, bottarga di muggine, burrata e lime bruciato</p><p>Tortelli di zucca con cozze, zest d'arancia e sesamo bianco tostato</p></div><p>Polpo fritto con farina di mais, maionese al nero di seppia e puntarelle all'agretto di lamponi</p><p>Cheesecake al limone</p>",
+        "price": 35,
+        "notes": "<div><p>Coperto incluso, bevande escluse</p><p>Menu disponibile il venerdì a cena, il sabato a pranzo e cena, la domenica a pranzo</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "52f5da9becac462aa5865be85235cab0",
+    "name": "Cucinot",
+    "description": "<p>Ristorantino e take-away vegano con cucina stagionale a km zero. Piatti etnici e tradizionali reinterpretati senza utilizzo di derivati animali.<br></p>",
+    "phone": null,
+    "address": "via Orsini, 9/A, Imola",
+    "mail": "cucinot.imola@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Cucinot per Baccanale 2023",
+        "description": "<p>Fatteh (piatto tipico del Libano): insalata di ceci con tahina e yogurt</p><p>Mercimek corbasi (piatto tipico della Turchia): zuppa di lenticchie rosse e bulgur</p><div><p>Veg-seppia coi piselli (Italia) con spanakopita,</p><p>torta salata con spinaci e formaggio vegetale (Grecia)</p></div><p>Basboussa (piatto tipico del Marocco): torta di semolino e fiori</p>",
+        "price": 28,
+        "notes": "<div><p>Bevande escluse</p><p><br></p><p><strong>Menu del Baccanale disponibile solo il sabato sera e su prenotazione</strong></p><p><strong>Disponibile per asporto</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "40560705187446e29e2ed3599632b89a",
+    "name": "Ristorante Popeye",
+    "phone": null,
+    "address": "via Quaini, 43, Imola",
+    "mail": "info@ristorantepopeye.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "/me·di·ter·rà·ne·o/",
+        "description": "<div><p>I nostri benvenuti</p><p>Fregola, scorfano, cozze e zafferano</p></div><p>Strozzapreti con canocchie, carciofi e limone bruciato</p><p>San Pietro all'acqua pazza</p><div><p>Piccola pasticceria</p><p>Cheesecake di bufala, crumble all'amaretto e prugne</p></div>",
+        "price": 60,
+        "notes": "<div><p>Coperto incluso</p><p>Bevande escluse</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "1b845f5967c24c4eab10e57af04a0702",
+    "name": "Ristorante Pizzeria Donatello",
+    "phone": null,
+    "address": "via T. Baruzzi, 15, Imola",
+    "mail": "ristorantepizzeriadonatello@imolahotel.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Ristorante pizzeria Donatello per Baccanale 2023",
+        "description": "<p>Zuppetta del Mediterraneo: cozze, vongole e crostacei in umido con pomodorini e peperoni</p><p>Cavatelli fatti in casa con frutti di mare ai tre pomodorini</p><p>Involtini di pesce spada ripieni di salsa al mango e pistacchi di Bronte con pomodorini confit</p><p>Scomposto di caprese con crema alla vaniglia</p>",
+        "price": 45,
+        "notes": "<p>Acqua, un calice di vino e caffè inclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "88b408982e16484e937545731080fbdc",
+    "name": "Il Maglio",
+    "phone": null,
+    "address": "Via Provinciale Selice, 26/A, Imola",
+    "mail": "info@hotelilmaglio.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Il Maglio per Baccanale 2023",
+        "description": "<p>Tortino di patate e alici</p><p>Spaghetti alla chitarra al nero di seppia e bottarga</p><p>Zuppetta di baccalà con polenta bianca</p><p>Budino alle mandorle</p>",
+        "price": 45,
+        "notes": "<p>Vino escluso</p>"
+      }
+    ]
+  },
+  {
+    "id": "185f8c42696b4a48a5814c90eb7de77e",
+    "name": "Ristorante E Parlamintè",
+    "phone": "370 3100253",
+    "address": "via G. Mameli, 33, Imola",
+    "mail": "info@eparlaminte.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Ristorante E Parlamintè per Baccanale 2023",
+        "description": "<p>Paccheri al pesce spada, olive, pomodorini gialli e origano</p><p>Tajine di pollo e limoni sotto sale, zenzero, patate e olive</p><p>Torta caprese</p>",
+        "price": 30,
+        "notes": "<p>Coperto incluso. Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "e3c2b75be9c44f27a8065bacb3f5076e",
+    "name": "Vivanderia - Note e Aromi",
+    "phone": "349 0825722 - 348 9061576",
+    "address": "piazzale Vittime lager nazisti, 5, Imola",
+    "mail": "vivanderia@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Vivanderia Note e Aromi per Baccanale 2023",
+        "description": "<div><p>Calice di benvenuto</p><p><br></p><p>Tonno di coniglio con polvere di capperi, olive taggiasche e spuma di burrata</p></div><p>Tortelli di caciocavallo podolico su crema di pomodori arrosto, petali di tropea e origano</p><p>Guancino con scalogno, cicorietta e melanzana affumicata</p><p>La pastiera di Anto</p>",
+        "price": 45,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "2f38e893ba794e9b825ee55e61d25530",
+    "name": "Ristorante Gastarea",
+    "description": "<div><p><br><br></p><p>Immerso nel verde del giardino degli ulivi dell'Anusca Palace Hotel sorge il ristorante Gastarea.<br><br></p><p>Innovazione e qualità nelle materie prime sono la nostra missione, non dimenticando la ricca tradizione locale.<br><br></p></div>",
+    "phone": "346 3053424",
+    "address": "viale Terme 1058/A (adiacente Anusca Palace Hotel), Castel San Pietro Terme",
+    "mail": "info@gastareasrl.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Gastarea per Baccanale 2023",
+        "description": "<p>Topinambur alla brace, fondo bruno vegetale, zucca e nocciole</p><p>Tortelli di Parmigiano Reggiano, miele di rovo e mandorle tostate</p><p>Pancia di vitello laccata e cavolfiore</p><p>Cremoso di squacquerone, croccante di miele di castagno e mandorle, limone al sale</p>",
+        "price": 55,
+        "notes": "<div><p>Oppure con un abbinamento di vini al bicchiere (<strong>con supplemento di € 25 per persona</strong>)</p><p><br></p><p>Il nostro paese ha contribuito in maniera decisiva a creare nel bacino Mediterraneo una cucina che oggi chiamiamo cucina italiana, ma che affonda le radici in moltissime contaminazioni in costante evoluzione.</p><p>Abbiamo costruito davvero un grande modello alimentare, una strada da continuare a percorrere in una continua ricerca che porti anche a cambiamenti.</p><p>La via maestra è l'intransigenza, soprattutto sugli ingredienti più che sulle preparazioni e sulle tecniche.</p><p>Sono le materie prime di qualità il valore aggiunto della nostra cucina, spesso prodotte da piccoli artigiani di valore.</p><p>C'è la volontà di riappropiarsi di un legame con la terra e la passione del mondo contadino, di conoscere direttamente chi produce il cibo che mangiamo e di rapportarsi con le stagioni.</p><p>Con questo menu cercheremo di coinvolgervi in un questo racconto, che è poi la missione di Gastarea Bistrot.</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "18a108a8c6634501b3e68302f0e80b04",
+    "name": "Rossi Trattoria",
+    "phone": "351 7519442",
+    "address": "via San Vitale, 216, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Rossi trattoria per Baccanale 2023",
+        "description": "<p>Lingua di manzo cotta a bassa temperatura con petali di cipolla di Tropea agrodolci e salsa verde</p><p>Spaghetti alla chitarra con pomodorini confit, olive taggiasche e frutti del cappero</p><p>Petto d'anatra cotta a bassa temperatura con spuma di patate alle erbe di Provenza</p><p>Crostatina con namelaka al cioccolato bianco, gel di cedro e polvere di capperi di Pantelleria</p>",
+        "price": 40,
+        "notes": "<p>Coperto, acqua e caffè inclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "d4550242f1ae489fa82a67f18a913bcf",
+    "name": "Trattoria Da Mauro",
+    "phone": null,
+    "address": "via Zello, 50, Imola",
+    "mail": "d.sergio@alice.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Trattoria da Mauro per Baccanale 2023",
+        "description": "<div><p>Carpaccio di pesce spada affumicato agli agrumi e pepe rosa</p><p>Caponatina di polipetti ai legumi</p><p>Crostino di polenta con insalatina di mare olive capperi ed erba cipollina</p></div><p>Tagliatelline gamberi e vongole con porcini in compagnia</p><p>Infornata di pesce adriatico con verdure ed erbe aromatiche</p><p>Sbrisolona ricotta fichi e noci</p>",
+        "price": 45,
+        "notes": "<div><p>Bevande della casa comprese</p><p><strong>Menu disponibile solo su prenotazione, dal mercoledì al sabato per cena e domenica sia pranzo che cena</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "1a89c60b70c746fb926fdcfdee0e3c25",
+    "name": "Da Noi Osteria e Vini",
+    "phone": null,
+    "address": "Via G. Amendola 63, Imola",
+    "mail": "info@danoiosteriaevini.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Da noi Osteria e vini per Baccanale 2023",
+        "description": "<p>Prosciutto in salsa tiepida all'aceto balsamico con pane allo yogurt, pop-corn al Parmigiano e vino aromatico Az. De' Stefenelli</p><p>Garganelli al ragout di lenticchie</p><p>Petto di pollo speziato con crema di scalogno e patate rosticciate di Imola</p><p>Dolce della nonna uvetta e noci con cioccolato fondente</p>",
+        "price": 39,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "16f8c4fc4ffa4d07bb9d4e1180c0667c",
+    "name": "Osteria del Teatro",
+    "phone": "338 9239291",
+    "address": "vicolo Fratelli Bartolini, 1, Imola",
+    "mail": "osteriadelteatroimola@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Delizie del Mediterraneo",
+        "description": "<div><p>Rolline</p><p>Bauletto di carne marinata con burrata, crumble di noci, centrifugato di pomodoro fresco e olio della valle del Santerno</p></div><p>Cappellacci al brasato con riduzione al Sangiovese e zabaione salato alle erbe</p><p>Medaglione al Marsala con crema di zucca e nocciole tostate</p><p>Semifreddo al cedro con crema alla vaniglia</p>",
+        "price": 47,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "6b1a0828b9064b639146a3f2adfb5617",
+    "name": "Osteria Callegherie",
+    "description": "<p>La cucina, si propone ambiziosa a partire dalla scelta delle materie prime selezionate con cura. Piatti sia di mare che di terra, sono volutamente pochi e legati alla stagionalità. Pane fresco sfornato in casa, così come pasta e dolci.</p>",
+    "phone": null,
+    "address": "via Callegherie, 13, Imola",
+    "mail": "osteria@callegherie.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Osteria Callegherie per Baccanale 2023",
+        "description": "<div><p>Crema di porri e nuvola di Parmigiano Reggiano</p><p><br></p><p>Involtini di pane pugliese ripieni di scamorza, salsiccia passita e olive nere</p></div><p>Cavatelli di grano arso con cime di rapa, fiocchi di burrata e pomodori secchi</p><p>Lombo di vitello con rapa rossa, crumble al caffè e finocchi brasati</p><div><p>Mousse al cioccolato bianco con cuore di melograno</p><p>Piccola pasticceria</p></div>",
+        "price": 48,
+        "notes": "<div><p>Bevande escluse, servizio e coperto inclusi.</p><p>È possibile abbinare al menù la degustazione vini \"Poderi delle Rocche\" al costo di euro 18 per persona e comprende un calice per ogni portata:</p><p>Spumoso Pignoletto DOP extra dry</p><p>Drusiana Romagna Albana secco DOCG</p><p>Castellano Romagna Sangiovese Superiore DOP</p><p>Sibilla Romagna DOCG Albana Passito</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "eb40f3c4b3b54a53bf2795d0a0b81eda",
+    "name": "RiStorico",
+    "phone": "338 4171368",
+    "address": "Via Emilia, 69, Imola",
+    "mail": "ristorico69@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Menu degustazione Baccanale",
+        "description": "<p>Ricottina al forno con pomodorini e timo</p><div><p>Scialatielli al tonno fresco e cime di rapa</p><p>Passatelli ai porcini e guanciale</p></div><div><p>Costola di agnello alla menta e miele</p><p>Salmone in crosta di patate e salsa alle mele</p></div><p>Tortino al cioccolato con mascarpone</p>",
+        "price": 38,
+        "notes": "<div><p>Acqua e coperto inclusi</p><p><strong>Menu disponibile su prenotazione venerdì e sabato</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "861f260ed3b649dc8e3ed5a939b58873",
+    "name": "Osteria del Vicolo Nuovo - Da Ambra e Rosa",
+    "phone": "338 9249555",
+    "address": "via Codronchi, 6 - angolo via Calatafimi, Imola",
+    "mail": "ambra@vicolonuovo.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Una fusione di colori, profumi, sapori e saperi!",
+        "description": "<p>Terrina tricolore di verdure (spinaci, porri, zucca) con legumi in cialda croccante in olio extravergine d'oliva</p><p>Fagottino gratinato con acciughe del Mediterraneo e burrata</p><p>Rollatina di coscette disossate di galletto farcite con pistacchi di Bronte e tortino di patate profumato con erbe aromatiche</p><div><p><strong>A scelta dolci morsi: 7€</strong></p><p>Torta Sabbiosa con mascarpone</p><p>Crespella di farina di marroni di Castel del Rio</p><p>con ricotta e confettura di pera cocomerina</p><p>Cannoli alla crema con cioccolato fuso</p></div>",
+        "price": 36,
+        "notes": "<p>Bevande e dolci esclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "ced798fcb5404641bf2a74b58d49ab3c",
+    "name": "Agriturismo Frascineti",
+    "phone": "339 4128710",
+    "address": "via Chiesa di Pediano, 2/F, Imola",
+    "mail": "frascineti@virgilio.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "ANTICHI SAPORI MEDITERRANEI",
+        "description": "<p>Bruschettone mediterraneo</p><div><p>Lasagne al forno con zucca e funghi</p><p>Strozzapreti salsiccia e friarielli</p></div><div><p>Pollo alla cacciatora con olive</p><p>Caponata di melanzane e peperoni</p></div><p>Crema all'amaretto e mandorle</p>",
+        "price": 35,
+        "notes": "<div><p>Bevande e caffè inclusi</p><p>Vini in accompagnamento: Pignoletto frizzante e Sangiovese del Rubicone</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "258df75c041d40f08623e81286e1fb9a",
+    "name": "Ristorante La Tavernetta",
+    "description": "<p>Il Ristorante a conduzione familiare è specializzato in cucina tradizionale Emiliano Romagnola, tra le tante offerte oltre alle Specialità di Pesce, trovate la pasta al mattarello fatta da noi, e piatto forte la tagliata argentina.</p>",
+    "phone": "366 3645156",
+    "address": "via Tito Speri, 2, Imola",
+    "mail": "mauro.paolini52@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Ristorante La Tavernetta per Baccanale 2023",
+        "description": "<p>Crema di borlotti con crostini</p><p>Taglioline alla vechia maniera con prosciutto e scalogno</p><p>Tagliata con friggione romagnolo</p><div><p>Zuppa inglese</p><p>Caffè</p></div>",
+        "price": 32,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "e4ddf745b9804e2faf8acbcedb423c2a",
+    "name": "Tenuta Poggio Pollino",
+    "phone": "331 6125474",
+    "address": "via Monte Meldola, 2/t, Imola",
+    "mail": "info@poggiopollino.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Tenuta Poggio Pollino per Baccanale 2023",
+        "description": "<p>Soufflé ai porcini, fonduta di Parmigiano Reggiano e tartufo nero pregiato</p><div><p>Gnocchi di patate, pomodorini confit e burrata</p><p>Cannelloni tricolore</p></div><div><p>Coniglio in porchetta, salsa di vino bianco e timo</p><p>Padellata di carciofi</p></div><p>Parfait al melograno</p>",
+        "price": 30,
+        "notes": "<div><p>Coperto ed acqua inclusi</p><p>3 calici in abbinamento a 10€</p></div>"
+      }
+    ]
+  },
+  {
+    "id": "0820a9c2be544847b89a7e7b6fd488e2",
+    "name": "Ristorante San Domenico",
+    "description": "<p>Il San Domenico è uno spazio per la felicità proposta con eleganza riservata.</p><p>È un luogo che diviene casa dove i clienti si sentono sempre ospiti graditi e dove possono incontrare con gusto e raffinatezza l'armonia dei sapori della grande tradizione culinaria italiana.</p>",
+    "phone": null,
+    "address": "via G. Sacchi, 1, Imola",
+    "mail": "sandomenico@sandomenico.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "San Domenico per Baccanale 2023",
+        "description": "<div><p>Seppia gratinata al profumo di agrumi con crema di legumi all'olio extra vergine di oliva</p><p>Gamberi in crosta di corn flakes con spinaci al sesamo e mousseline all'aceto balsamico</p></div><p>Ravioli di crostacei e burrata con crema alla paprika dolce</p><p>Dentice del mar Mediterraneo e guazzetto di carciofi alle erbe</p><div><p>La nostra pasticceria</p><p>Dessert</p></div>",
+        "price": 150,
+        "notes": "<div><p>I vini delle Cantine del San Domenico selezionati dal sommelier Francesco Cioria</p><p>Compresi acqua minerale, degustazione di vini e caffè</p><p>Liquori esclusi</p><p><strong>Menu disponibile solo nelle serate di martedì, mercoledì e giovedì</strong></p></div>"
+      }
+    ]
+  },
+  {
+    "id": "4eaf30a0749147f8836d4203d48a20c1",
+    "name": "Ristorante Le Bistrot",
+    "phone": null,
+    "address": "via Valsellustra, 18, Dozza",
+    "mail": "info@ristorantelebistrot.it",
+    "place": "Dozza",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Ristorante Le Bistrot per Baccanale 2023",
+        "description": "<div><p>Entrata:  Macco di fave </p><p><br></p><p> Polpettine di ceci e melanzane su crema di zucca </p></div><p>Lasagnetta gratinata di pane carasau con ragù bianco di faraona e crema di cavolfiore alla curcuma </p><p> Bocconcini di manzo stufati con prugne albicocche e mandorle della Palestina </p><p> Cannolo scomposto con crema di ricotta e crumble alla vaniglia, accompagnato da bavarese ai fichi d'India </p>",
+        "price": 42,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "38fcef4d4d6e4386b8369e0bc8cbbff4",
+    "name": "Anonima Fornelli",
+    "description": "<p>un piccolo bar sulla strada: vino, cocktails e ostriche</p><p>un ristorante interno</p><p>inverno cantina/estate cortile</p><p>cucina italiana e non solo</p>",
+    "phone": "328 0212120",
+    "address": "via Emilia, 38, Imola",
+    "mail": "ristorante@anonimafornelli.it",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Viaggio nel Mediterraneo",
+        "description": "<div><p><strong>Italia: \"Fave e cicoria\"</strong></p><p>Pralina di fave, crema di cicoria, olio al prosciutto e tarallo napoletano</p></div><div><p><strong>Marocco: \"Zuppa Harira\"</strong></p><p>Zuppa speziata a base di legumi, verdure, manzo ed agnello</p></div><div><p><strong>Spagna: \"Conchinillo asado\"</strong></p><p>Maialino da latte arrosto con tortilla di patate</p></div><div><p><strong>Grecia: \"Bougatsa\"</strong></p><p>Dolce di pasta fillo ripieno di crema al semolino con gelato allo yogurt greco, miele e pistacchi</p></div>",
+        "price": 50,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "df7bb454b3654a0c9f2978e8fb460e9b",
+    "name": "Osteria ed enoteca del Piolo",
+    "description": "<p>Nel ristorante potrete gustare piatti tipici della cucina Romagnola (tortellini in brodo, lasagne e bolliti in primis) e tutti vini del territorio delle tante aziende di Imola e dintorni.</p>",
+    "phone": "0542 850706",
+    "address": "via Appia, 80/82, Imola",
+    "mail": "infoosteriadelpiolo@gmail.com",
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "Mediterraneo e i suoi profumi",
+        "description": "<p>Burratina con misticanza ed acciughe Don Tonino</p><div><p>Passatelli asciutti con pomodorini del Piennolo, olive taggiasche e gamberi</p><p>Cappellacci di sfoglia all'ortica ripieni di bufala con “spuma di bazza”, bottarga di piccione e polline di api</p></div><p>Medaglione di filetto di manzo razza podolica con cime di rape saltate</p><p>Tiramisù al limoncello e mandorle pralinate</p>",
+        "price": 40,
+        "notes": "<p>Bevande escluse</p>"
+      },
+      {
+        "title": "Tradizione mediterranea",
+        "description": "<p>Piccola parmigiana rivisitata di cardo gobbo</p><div><p>Chitarrina di grano arso con guanciale e carciofi</p><p>Zuppetta di fagioli all'occhio con salsiccia di mora romagnola</p></div><p>Coscia di anatra in casseruola alla paprika dolce affumicata con tortino di patate e broccoli</p><p>Torta di mele Annurca con gelato di crema e cannella</p>",
+        "price": 40,
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "088c16d7927449f9b88a809e9c38d8a1",
+    "name": "L'orto di Mari Agriturismo",
+    "phone": "334 7109950",
+    "address": "Via S. Prospero, 30 - località San Prospero, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2023,
+    "menus": [
+      {
+        "title": "DELIZIE DALL'ORTO MEDITERRANEO",
+        "description": "<p>Le Bruschette Mediterranee</p><div><p>Chitarra con cozze, crema di fave e basilico, olive taggiasche e pomodorini confit</p><p>oppure</p><p>Tortelli di zucca e patate alle erbe aromatiche</p></div><p>Faraona alla cacciatora e verdure dall'orto</p><div><p>Coppa mimosa alla crema diplomatica e le nostre more sciroppate</p><p>oppure</p><p>Torta morbida alle nocciole profumata al limone</p></div>",
+        "price": 38,
+        "notes": "<div><p>Coperto incluso</p><p>Bevande escluse</p><p>Aperto venerdì sera, sabato sera, domenica a pranzo, 1° novembre a pranzo</p><p>Prenotazione obbligatoria</p></div>"
+      }
+    ]
+  }
+]

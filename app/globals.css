@@ -2,25 +2,101 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --surface: #ffffff;
+  --foreground: #111111;
+  --muted: #525252;
+  --border: #111111;
+  --accent: #111111;
+  --accent-strong: #000000;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: light;
+  background: var(--background);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@utility page-shell {
+  @apply mx-auto w-full max-w-5xl;
+}
+
+@utility page-gutter {
+  @apply px-4 sm:px-6;
+}
+
+@utility surface-panel {
+  @apply border-border bg-surface border-2;
+}
+
+@utility mono-label {
+  @apply text-muted font-mono text-xs uppercase;
+}
+
+@utility interactive-link {
+  @apply underline decoration-2 hover:bg-accent-strong hover:text-background;
+}
+
+@utility chip-button {
+  @apply cursor-pointer border-2 px-3 py-3 font-mono text-xs font-bold uppercase;
+}
+
+@utility chip-button-active {
+  @apply border-accent bg-accent text-background;
+}
+
+@utility chip-button-idle {
+  @apply border-border bg-surface text-muted hover:bg-border hover:text-background;
+}
+
+@utility check-chip {
+  @apply inline-flex cursor-pointer items-center gap-3 border-2 px-4 py-2 text-sm font-semibold;
+}
+
+@utility check-chip-active {
+  @apply border-border bg-border text-background;
+}
+
+@utility check-chip-idle {
+  @apply border-border bg-transparent text-muted hover:bg-surface;
+}
+
+@utility stack-xs {
+  @apply space-y-1;
+}
+
+@utility stack-sm {
+  @apply space-y-2;
+}
+
+@utility stack-md {
+  @apply space-y-4;
+}
+
+@utility stack-lg {
+  @apply space-y-6;
+}
+
+.display-font {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.text-balance {
+  text-wrap: balance;
 }

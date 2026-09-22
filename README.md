@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Baccanale
 
-## Getting Started
+Archivio digitale non ufficiale dei menu del Baccanale di Imola. L'app raccoglie i ristoranti e i menu delle varie edizioni, permette di esplorare un anno alla volta e offre una scheda dedicata per ogni ristorante con lo storico dei menu pubblicati.
 
-First, run the development server:
+## Cosa fa
+
+- reindirizza la home all'edizione piu recente disponibile
+- mostra un archivio per anno con tema dell'edizione
+- filtra i ristoranti per testo, localita e ordinamento
+- genera una pagina per ogni ristorante aggregando i menu di tutti gli anni in cui compare
+- usa dati locali in JSON, senza dipendenze da API esterne a runtime
+
+## Stack
+
+- Next.js 16 con App Router
+- React 19
+- TypeScript
+- Tailwind CSS 4
+
+## Struttura dell'app
+
+### Route principali
+
+- `/` -> reindirizza all'ultima edizione disponibile
+- `/year` -> reindirizza all'ultima edizione disponibile
+- `/year/[year]` -> catalogo dei ristoranti per una singola edizione
+- `/restaurant/[slug]` -> pagina del ristorante con menu raggruppati per anno
+
+### Dati
+
+I dati sorgente vivono in `app/data/` come file JSON annuali, ad esempio `data-2025.json`. Ogni file contiene i ristoranti dell'edizione, con informazioni anagrafiche e lista dei menu.
+
+La logica di normalizzazione e accesso ai dati e centralizzata in `app/lib/baccanale.ts`, che:
+
+- importa tutti i dataset annuali
+- costruisce l'elenco degli anni disponibili
+- normalizza i record in tipi TypeScript condivisi
+- genera slug e indici per anno e per ristorante
+- espone filtri, ordinamenti e formatter usati dalle pagine
+
+## Sviluppo locale
+
+Questo repository usa `yarn`, ma gli script funzionano anche via `npm`.
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri `http://localhost:3000` nel browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Script disponibili:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+yarn dev
+yarn build
+yarn start
+yarn lint
+```
 
-## Learn More
+## Aggiornare o aggiungere un'edizione
 
-To learn more about Next.js, take a look at the following resources:
+1. Aggiungi il nuovo file in `app/data/` seguendo il formato degli anni esistenti.
+2. Importa il dataset in `app/lib/baccanale.ts`.
+3. Registralo nella mappa `yearDataByYear`.
+4. Aggiungi il tema dell'anno in `yearThemes`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Una volta fatto, l'anno entra automaticamente nell'archivio, nelle pagine statiche e nella navigazione.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Note sul progetto
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Il sito e dichiaratamente non ufficiale.
+- I dati provengono da `baccanaleimola.it`.
+- Le pagine anno e ristorante sono generate da dati locali presenti nel repository.
