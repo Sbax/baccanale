@@ -14,16 +14,29 @@ type YearExplorerProps = {
   year: number;
   restaurants: Restaurant[];
   places: string[];
+  cousineTypes: string[];
 };
 
-export const YearExplorer = ({ restaurants, places }: YearExplorerProps) => {
+export const YearExplorer = ({
+  restaurants,
+  places,
+  cousineTypes,
+}: YearExplorerProps) => {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortMode>("name");
   const [activePlaces, setActivePlaces] = useState<string[]>(places);
+  const [activeCousineTypes, setActiveCousineTypes] =
+    useState<string[]>(cousineTypes);
 
   const filtered = useMemo(
-    () => filterRestaurants(restaurants, { query, places: activePlaces, sort }),
-    [activePlaces, query, restaurants, sort],
+    () =>
+      filterRestaurants(restaurants, {
+        query,
+        places: activePlaces,
+        cousineTypes: activeCousineTypes,
+        sort,
+      }),
+    [activeCousineTypes, activePlaces, query, restaurants, sort],
   );
 
   const togglePlace = (place: string) => {
@@ -36,6 +49,16 @@ export const YearExplorer = ({ restaurants, places }: YearExplorerProps) => {
     );
   };
 
+  const toggleCousineType = (cousineType: string) => {
+    setActiveCousineTypes((current) =>
+      current.includes(cousineType)
+        ? current.length === 1
+          ? cousineTypes
+          : current.filter((value) => value !== cousineType)
+        : [...current, cousineType],
+    );
+  };
+
   return (
     <section className="stack-lg">
       <YearFilters
@@ -43,18 +66,21 @@ export const YearExplorer = ({ restaurants, places }: YearExplorerProps) => {
         sort={sort}
         places={places}
         activePlaces={activePlaces}
+        cousineTypes={cousineTypes}
+        activeCousineTypes={activeCousineTypes}
         sortChoices={sortChoices}
         onQueryChange={setQuery}
         onSortChange={setSort}
         onTogglePlace={togglePlace}
+        onToggleCousineType={toggleCousineType}
       />
 
       {filtered.length === 0 ? (
-        <div className="surface-panel text-muted border-dashed p-10 text-center font-mono text-sm">
+        <div className="p-10 border-dashed font-mono text-muted text-sm text-center surface-panel">
           Nessun ristorante corrisponde ai filtri attivi.
         </div>
       ) : (
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="gap-4 grid md:grid-cols-2">
           {filtered.map((restaurant) => (
             <RestaurantCard key={restaurant.slug} restaurant={restaurant} />
           ))}

@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { SiteHeader } from "../../components/SiteHeader";
 import { YearExplorer } from "../../components/YearExplorer";
 import {
+  getCousineTypesForYear,
   getPlacesForYear,
   getRestaurantsForYear,
   getYearTheme,
@@ -39,6 +40,7 @@ const YearPage = async ({ params }: { params: Promise<{ year: string }> }) => {
 
   const restaurants = getRestaurantsForYear(yearNumber);
   const places = getPlacesForYear(yearNumber);
+  const cousineTypes = getCousineTypesForYear(yearNumber);
 
   if (restaurants.length === 0) {
     notFound();
@@ -48,13 +50,13 @@ const YearPage = async ({ params }: { params: Promise<{ year: string }> }) => {
     <>
       <SiteHeader currentYear={yearNumber} showYearSelector />
 
-      <main id="catalogo" className="page-shell stack-lg flex-1">
+      <main id="catalogo" className="flex-1 page-shell stack-lg">
         <section>
           <div className="max-w-3xl stack-sm">
-            <h1 className="text-foreground text-balance text-4xl font-bold uppercase tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="font-bold text-foreground text-4xl sm:text-5xl lg:text-6xl uppercase text-balance tracking-tight">
               {`Baccanale ${yearNumber}`}
             </h1>
-            <h2 className="max-w-2xl text-balance text-4xl font-semibold">
+            <h2 className="font-semibold text-4xl text-balance">
               {getYearTheme(yearNumber)}
             </h2>
           </div>
@@ -64,6 +66,7 @@ const YearPage = async ({ params }: { params: Promise<{ year: string }> }) => {
           year={yearNumber}
           restaurants={restaurants}
           places={places}
+          cousineTypes={cousineTypes}
         />
       </main>
     </>

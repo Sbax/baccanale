@@ -1,0 +1,666 @@
+[
+  {
+    "id": "369b2db2af4f490588a37186537d111c",
+    "name": "Agriturismo Colombara",
+    "phone": "339 3448493",
+    "address": "via Emilia Levante, 2866, Castel San Pietro Terme",
+    "mail": "lorenzo@agriturismocolombara.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Incontri. La cucina italiana senza confini... regionali",
+        "description": "<p>Trentino</p><p>Entrée di benvenuto la nostra focaccia incontra lo speck</p><p>Lombardia</p><p>Flan di zucca mantovana con fonduta al Formaggio di Fossa di Sogliano DOP</p><p>Piemonte</p><p>Tortelloni fatti in casa ripieni di stracotto di carne su specchio di cavolo nero (plin alla romagnola)</p><p>Toscana</p><p>Peposo con crostini di polenta</p><p>Sicilia</p><p>Biancomangiare ai frutti di bosco</p>",
+        "price": 40,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua e coperto inclusi</p><p>Variante vegetariana sul menu solo su prenotazione.</p><p>Info e prenotazioni SMS o whatsapp 3393448493 Lorenzo</p>"
+      }
+    ]
+  },
+  {
+    "id": "6792b3c888654c8bb8f9f2f897710b99",
+    "name": "Bar Ristorante Pizzeria Del Viale",
+    "phone": "0542 1905213",
+    "address": "Via Punta, 24 c/o Centro Sociale La Tozzona, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Ristorante Bar del Viale per Baccanale 2026",
+        "description": "<p>Soufflé ai funghi shitake con porri e salsa teriyaki.</p><p>Crepes con cime di rapa, salsiccia matta e ricotta affumicata</p><p>Goulash di manzo alla Siciliana con tuberi di terra</p><p>Latte alla portoghese con caramello salato</p>",
+        "price": 45,
+        "cousineType": ["carne"],
+        "notes": "<p>Calice di vino, acqua e caffè inclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "601665d82e5e4a929569b41451fd1230",
+    "name": "CALANCO 25 BISTROT",
+    "phone": "339 7482733",
+    "address": "via Calanco 25a, Dozza",
+    "mail": null,
+    "place": "Dozza",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Incontro con la Dolcezza dell'Autunno",
+        "description": "<p>Vellutata di castagne e funghi porcini</p><p>Tagliatelle di castagne con salsa di noci e pecorino</p><p>Scaloppine con crema di castagne e funghi</p><p>Tartufini.</p>",
+        "price": 40,
+        "cousineType": ["carne"],
+        "notes": "<p>Possibilità di prendere anche solo uno o comunque piatti separati dal menù completo.</p><p>Bevande escluse</p><p>Coperto (pane fatto in casa e olio di Brisighella incluso)</p><p>Giorni di chiusura lunedì e martedì</p><p>Consigliato la prenotazione</p>"
+      }
+    ]
+  },
+  {
+    "id": "5af1929d3fb54331a01afc78aa0e05d3",
+    "name": "Casa Serafini",
+    "phone": "351 3668245",
+    "address": "viale Marconi 43, Borgo Tossignano",
+    "mail": "info@casaserafini.com",
+    "place": "Borgo Tossignano",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Casa Serafini per Baccanale 2026",
+        "description": "<p>Carciofo, limone bruciato e Formaggio di Fossa di Sogliano DOP</p><p>Cappelletto di erbe amare, cardoncelli, burro acido e mandorla</p><p>Piccione e foglie</p><p>Pane, burro e marmellata</p>",
+        "price": 70,
+        "cousineType": ["carne"],
+        "notes": "<p>escluso coperto e bevande</p>"
+      }
+    ]
+  },
+  {
+    "id": "2c53fcca0133470da59d49d11ffd67b4",
+    "name": "Civico 25",
+    "phone": "0546 1910431",
+    "address": "via Giovanni XXIII, 444, Castel Bolognese",
+    "mail": "civico25cb@gmail.com",
+    "place": "Castel Bolognese",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "L'incontro",
+        "description": "<p><strong>Menu speciale Baccanale: pizza a tema + bibita</strong></p><p>Mozzarella fior di latte, capocollo del Sud, patate al forno della Romagna, cipolla croccante e pecorino di Brisighella.</p>",
+        "price": 18,
+        "cousineType": ["carne"],
+        "notes": "<p>Il Sud incontra l'Emilia-Romagna in un'unica pizza</p>"
+      },
+      {
+        "title": "Dalle Alpi al bosco",
+        "description": "<p><strong>Menu speciale Baccanale: pizza a tema + bibita</strong></p><p>Provola affumicata, speck tirolese croccante, funghi porcini e brie.</p>",
+        "price": 18,
+        "cousineType": ["carne"],
+        "notes": "<p><em>Sapori di montagna che attraversano territori e tradizioni.</em></p>"
+      },
+      {
+        "title": "La bruciatina",
+        "description": "<p><strong>Menu speciale Baccanale: pizza a tema + bibita</strong></p><p>Mozzarella fior di latte, pancetta rosolata e sfumata all’aceto balsamico al mirtillo, radicchio trevisano fresco e cipolla croccante.</p>",
+        "price": 18,
+        "cousineType": ["carne"],
+        "notes": "<p><em>Dolce, amaro, croccante e affumicato: sapori diversi che trovano il loro equilibrio.</em></p>"
+      },
+      {
+        "title": "La pizza dell'inclusione",
+        "description": "<p><strong>Menu speciale Baccanale: pizza a tema + bibita</strong></p><p>Una pizza speciale dedicata al Baccanale e realizzata insieme ai ragazzi di Civico 25.</p>",
+        "price": 18,
+        "cousineType": ["carne"],
+        "notes": "<p><em>Ingredienti diversi, un unico impasto, un unico tavolo. Perché essere differenti non significa essere distanti.</em></p>"
+      }
+    ]
+  },
+  {
+    "id": "9fa9114bcfaf464db5b7a4f589bb9a24",
+    "name": "Controcorrente",
+    "phone": "338 8954021",
+    "address": "piazza Matteotti, 18, Imola",
+    "mail": "ceroni@hotmail.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Rotte Italiane",
+        "description": "<p>“Mediterraneo Levante”</p><p>Crostone di pane artigianale ai cereali con hummus di ceci al rosmarino, burrata italiana, pomodorini confit e za’atar.</p><p>“Il Raviolo che Viaggiò”</p><p>Mini raviolo fatto in casa ripieno di ricotta e parmigiano, burro nocciola al miso bianco, lime e pistacchio.</p><p>“Brasile in Romagna”</p><p>Guancia glassata al Sangiovese e spezie dolci brasiliane, purea soffice all’olio EVO e chips di</p><p>manioca.</p><p>“La Via delle Spezie”</p><p>Millefoglie contemporanea monoporzione con chantilly mascarpone e vaniglia, mango-passion fruit, crumble alle mandorle e pepe di Sichuan.</p>",
+        "price": 21,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua inclusa • Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "52f5da9becac462aa5865be85235cab0",
+    "name": "Cucinot",
+    "description": "<p>Ristorantino e take-away vegano con cucina stagionale a km zero. Piatti etnici e tradizionali reinterpretati senza utilizzo di derivati animali.</p>",
+    "phone": "0542 381357",
+    "address": "via Orsini, 9/A, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "- Giochi Senza Frontiere -",
+        "description": "<p><strong>\"Crescente bolognese\"</strong></p><p>(crescente all'olio di oliva, con scarti vegetali e spuma di barbabietola)</p><p><strong>Pizza con l'ananas</strong></p><p>(trancio di pizza al padellino con riduzione di pomodoro e soia, ananas fumé alla plancia e stagionato di mandorla)</p><p><strong>Lilli e il vagabondo</strong></p><p>(spaghetti alla chitarra con polpettine fritte e sugo di pomodoro)</p><p><strong>Filetto al pepe verde</strong></p><p>(filetto di cavolfiore al pepe verde)</p><p><strong>Zuppa inglese vegana</strong></p>",
+        "price": 39,
+        "cousineType": ["vegetariana/vegana"],
+        "notes": "<p>bevande escluse</p><p>(solo i venerdì e sabato sera nel periodo Baccanale)</p>"
+      }
+    ]
+  },
+  {
+    "id": "1a89c60b70c746fb926fdcfdee0e3c25",
+    "name": "Da Noi Osteria e Vini",
+    "phone": "0542 24045",
+    "address": "Via G. Amendola 63, Imola",
+    "mail": "info@danoiosteriaevini.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Osteria Da Noi Menù Baccanale 2026",
+        "description": "<p>Tacos con tartare e carbocrema</p><p>Tagliolini al Ramen</p><p>Tiramisu al the Macha</p>",
+        "price": 45,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "8ddb95b7c0dc4a7494ba4cbc6345a01f",
+    "name": "I tri scalen",
+    "phone": "349 1657270",
+    "address": "Marsala, 22, Imola",
+    "mail": "i.3.scalini@gmail.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "L ’It a l i a  s e n z a  C o n fi n i",
+        "description": "<p>Spalla cotta di Mangaliza a coltello, crema di melanzana e panna acida</p><p>Classe 33 bianco (Chardonnay)</p><p>Insalata russa</p><p>Classe 33 bianco (Chardonnay)</p><p>Goulasch zuppe</p><p>Thea bianco (Petit Manseng)</p><p>Polenta concia</p><p>Vitalba (Albana in anfora)</p><p>Spaghetti con Meatballs</p><p>Classe 33 rosso (Sangiovese)</p><p>Sovracoscia di pollo marinato al forno con Pak-choi</p><p>Classe 33 rosso (Sangiovese)</p><p>Crêpe Suzette</p><p>Thea Passito (Albana, Petit Manseng)</p>",
+        "price": 42,
+        "cousineType": ["carne"],
+        "notes": "<p>bevande escluse</p><p>Abbinamento vini con l’azienda Tre monti</p><p>5 calici in abbinamento 20 € a persona</p><p>Singoli calici 6 €</p>"
+      }
+    ]
+  },
+  {
+    "id": "088c16d7927449f9b88a809e9c38d8a1",
+    "name": "L'orto di Mari Agriturismo",
+    "phone": "334 7109950",
+    "address": "Via S. Prospero, 30 - località San Prospero, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Da noi le ricette han sempre rEgione",
+        "description": "<p>La caponata di melanzane e lo sfincione palermitano (Sicilia)</p><p>La lasagna napoletana (Campania)</p><p>oppure</p><p>I maltagliati coi fagioli (Toscana)</p><p>Le bombette di capocollo (Puglia)</p><p>oppure</p><p>La torta pasqualina (Liguria)</p><p>Lo strudel di mele (Trentino alto Adige)</p><p>oppure</p><p>La pizza dolce (Abruzzo)</p>",
+        "price": 40,
+        "cousineType": ["carne", "vegetariana/vegana"],
+        "notes": "<p>Coperto e acqua inclusi, altre bevande escluse.</p><p>Aperti il sabato a cena e la domenica a pranzo.</p><p>Prenotazione obbligatoria.</p><p>Su richiesta al momento della prenotazione, è possibile avere il menu in versione vegetariana.</p>"
+      }
+    ]
+  },
+  {
+    "id": "2027ffe18faf4745ac97e68bedd7a48a",
+    "name": "Lehti Restaurant",
+    "phone": "3791252222",
+    "address": "via Molino Scarselli, 76, Castel San Pietro Terme",
+    "mail": "lehtirestaurant@gmail.com",
+    "place": "Castel San Pietro Terme",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "\"Incontri\"",
+        "description": "<p>Piemonte - Francia</p><p>Tartare di bue nero, foie gras, tartufo, amarene fermentate</p><p>Lazio – Calabria- Arabia</p><p>Tonnarelli cacio e pepe, anduja, gamberi, black lemon</p><p>Toscana – Thailandia</p><p>Ombrina, porcini e sedano rapa, salsa al galangal e latte di cocco</p><p>Romagna – Giappone</p><p>Gelato allo squacquerone, pere nashi e shiso</p>",
+        "price": 49,
+        "cousineType": ["pesce"],
+        "notes": "<p>Bevande escluse.</p><p>Pane e Coperto incluso.</p><p>Non disponibile il sabato sera.</p>"
+      }
+    ]
+  },
+  {
+    "id": "6b1a0828b9064b639146a3f2adfb5617",
+    "name": "Osteria Callegherie",
+    "description": "<p>La cucina, si propone ambiziosa a partire dalla scelta delle materie prime selezionate con cura. Piatti sia di mare che di terra, sono volutamente pochi e legati alla stagionalità. Pane fresco sfornato in casa, così come pasta e dolci.</p>",
+    "phone": "0542 33507",
+    "address": "via Callegherie, 13, Imola",
+    "mail": "osteria@callegherie.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Passeggiando per l'Italia",
+        "description": "<p>Crema di carote all’anice stellato, crumble di amaretti</p><p>Pralina di patata rossa, crudo di mora romagnola e radici invernali</p><p>Alghero Torbato Brut Miràll</p><p>Pizzoccheri al grano saraceno con funghi porcini e fonduta di Bitto</p><p>Vermentino di Sardegna Cala Reale</p><p>Cappello del prete CBT al Cannonau crema alla zucca e porri bruciati</p><p>Cannonau di Sardegna Medeus</p><p>Morbido al lampone, cuore liquido al cioccolato e salsa alla Saba</p><p>Piccola pasticceria</p><p>Torbato Rosè Brut Miràll</p>",
+        "price": 56,
+        "cousineType": ["carne"],
+        "notes": "<p>Sono escluse le bevande.</p><p>Servizio e coperto sono inclusi.</p><p>Il costo della degustazione “Sella &amp; Mosca”</p><p>è di euro 24 per persona e comprende un calice per ogni vino.</p>"
+      }
+    ]
+  },
+  {
+    "id": "de34f7c3a6044f069c8241b036a207f3",
+    "name": "Osteria del casale",
+    "phone": "348 3069187",
+    "address": "piazza Cavalli 7/A, Casalfiumanese",
+    "mail": null,
+    "place": "Casalfiumanese",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Menù del Baccanale 2026 Osteria del Casale",
+        "description": "<p>Spiedo di polpo su crema di patate affumicate, accompagnato da salsa chimichurri.</p><p>Tagliolini rossi con ragù di salmone norvegese.</p><p>Filetto di branzino in crosta di sale rosa dell’Himalaya servito con salsa romesco e timballo di riso Venere.</p><p>Sformatino di pan di Spagna al cioccolato e cocco.</p>",
+        "price": 45,
+        "cousineType": ["pesce"],
+        "notes": "<p>bevande e coperto escluso.</p><p>*Vino consigliato*<br>Cantina Lenz – Tenuta Rihernhof<br>Trentino-Alto Adige</p>"
+      }
+    ]
+  },
+  {
+    "id": "861f260ed3b649dc8e3ed5a939b58873",
+    "name": "Osteria del Vicolo Nuovo",
+    "phone": "0542 32552",
+    "address": "via Codronchi, 6 - angolo via Calatafimi, Imola",
+    "mail": "info@vicolonuovo.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "\"Fuori rotta\"",
+        "description": "<p>Tacos Romagnolo con hummus, squacquerone e zucca marinata</p><p>Cappelletti al formaggio senza confini</p><p>Pancia di “Mora” con salsa agrodolce</p><p>Tiramisù</p>",
+        "price": 36,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua e coperto escluso<br>Extrà menù a scelta libera tra i dolci</p>"
+      }
+    ]
+  },
+  {
+    "id": "391b4a1f47ba4c83a814ea24f9051773",
+    "name": "Palazzo Monsignani",
+    "phone": "320 9762042",
+    "address": "via Emilia, 69, Imola",
+    "mail": null,
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "\"Incontri senza confini\". Palazzo Monsignani",
+        "description": "<p>La tradizione degli animali dell’aia e del cortile abbracciano le specialità siciliane.</p><p>Petali di petto d’oca affumicato su letto di radicchio nostrano con frutta candita</p><p>siciliana e crema d’aceto balsamico.</p><p>La storia della cucina emiliana, il tortellino, incontra la cucina romana.</p><p>Tortellini della tradizione cacio e pepe (antica ricetta della casa).</p><p>La globalizzazione arriva anche in cucina, un’icona del fast food, l’hamburger,</p><p>rivisitato alla maniera romagnola.</p><p>Mc Burger romagnolo di Scottona con polenta fritta.</p><p>Per finire il dolce tipico del nostro appennino, a base di castagne si integra con le</p><p>tradizioni lucane.</p><p>Mousse di marroni di Castel del Rio IGP con pistilli di peperone crusco.</p>",
+        "price": 35,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "ae54ab11796e45cb9890cab88a4e7a9e",
+    "name": "Pizzeria Quattroquinti",
+    "phone": "328 7266182",
+    "address": "Via Marsala, 18, Imola",
+    "mail": "info@quattriquinti.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "\"Romagna Mia\"",
+        "description": "<p><strong>Pan brioche</strong><br>Gorgonzola, pere e noci.</p><p><strong>Pizza</strong><br>Zucca, pancetta arrotolata, mozzarella fiordilatte, aglio nero e olio al rosmarino.<br>Si consiglia l’aggiunta di Gorgonzola.</p><p><strong>Dolce</strong></p><p>Torta di robiola, gelato al fiordilatte e chutney di pere.</p>",
+        "price": 25,
+        "cousineType": ["carne"],
+        "notes": "<p>Coperto incluso, bevande escluse.</p><p><strong>possibilità di acquistare le singole portate separatamente</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "a85e88eae4c9487a884b338253bbcbe5",
+    "name": "Pizzeria Spanizzo",
+    "phone": "0542 22720",
+    "address": "via Quaini 15/17, Imola",
+    "mail": "spanizzo.imola@gmail.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Incontro",
+        "description": "<p><strong>Spaghetti incontro</strong></p><p>Babaganoush, alici, pomodorini confit, Squacquerone di Romagna DOP, pan grattato all’aglio, olio EVO</p><p><strong>Pizza incontro</strong></p><p>Fiordilatte, babaganoush, alici, pomodorini confit, Squacquerone di Romagna DOP, pan grattato all’aglio, olio EVO</p><p>Melanzana, agrumi e pomodoro hanno raggiunto l’Italia seguendo rotte diverse. Insieme alle alici del Mediterraneo danno vita a un piatto che racconta gli incontri da cui nasce la nostra tradizione gastronomica.</p><p><strong>Carovana</strong></p><p>Panna cotta al cardamomo, albicocche arrostite al miele, pistacchio, cialda al sesamo</p><p>Le grandi rotte commerciali hanno portato il cardamomo e il pistacchio fino alle nostre tavole. La panna cotta li unisce in un dessert che celebra gli incontri che hanno arricchito la cucina italiana.</p><p><strong>Approdo</strong></p><p>Cremoso al cioccolato fondente 70%, olio EVO, Sale dolce di Cervia, pistacchio, gel di agrumi, cialda al sesamo</p><p>Dalle Americhe arriva il cacao, dal Mediterraneo olio extravergine, agrumi e sale. Sapori lontani che, incontrandosi, sono diventati tradizione nella pasticceria italiana.</p>",
+        "price": 18,
+        "cousineType": ["pesce"],
+        "notes": "<p>Menù: pizza o spaghetto + dolce € 18</p>"
+      }
+    ]
+  },
+  {
+    "id": "30eca3016b8b4b1680933e2861d722b1",
+    "name": "Ristorante Bandini",
+    "description": "<p>Cucina Simbiotica “La simbiosi è un incontro tra più elementi da cui ognuno trae beneficio”</p>",
+    "phone": "3391424501",
+    "address": "via Cavour, 37, Castel San Pietro Terme",
+    "mail": "info@robertobandini.com",
+    "place": "Castel San Pietro Terme",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Fiume, bosco, arteria e polmone che portano al  mare",
+        "description": "<p>Trota del Casentino affumicata al nocciolo selvatico</p><p>sedano rapa, melograno ed erbe selvatiche</p><p>Carciofo alla brace Canocchia e topinambur</p><p>Cappelletti alle ghiande</p><p>ripieni di cinghiale, cavolo nero e pecorino di fossa di Sogliano</p><p>Sella di capriolo zucca, timo e crù di cacao</p><p>Millefoglie di piadina romagnola Raviggiolo e more di conserva</p>",
+        "price": 75,
+        "cousineType": ["carne", "pesce"],
+        "notes": "<p>Pane artigianale e coperto euro 5</p>"
+      }
+    ]
+  },
+  {
+    "id": "185f8c42696b4a48a5814c90eb7de77e",
+    "name": "Ristorante E Parlamintè",
+    "phone": "370 3100253",
+    "address": "via G. Mameli, 33, Imola",
+    "mail": "info@eparlaminte.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Incontri. La cucina italiana senza confini",
+        "description": "<p>Risotto al curry e canestrelli</p><p>Gamberi sale e pepe e caponata</p><p>Bavarese al mango</p>",
+        "price": 40,
+        "cousineType": ["pesce"],
+        "notes": "<p>Pane e coperto inclusi</p><p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "2f38e893ba794e9b825ee55e61d25530",
+    "name": "Ristorante Gastarea",
+    "description": "<p>Immerso nel verde del giardino degli ulivi dell'Anusca Palace Hotel sorge il ristorante Gastarea.</p><p>Innovazione e qualità nelle materie prime sono la nostra missione, non dimenticando la ricca tradizione locale.</p>",
+    "phone": "346 3053424",
+    "address": "viale Terme 1058/A (adiacente Anusca Palace Hotel), Castel San Pietro Terme",
+    "mail": "info@gastareasrl.it",
+    "place": "Castel San Pietro Terme",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "L'Emilia con uno sguardo campano",
+        "description": "<p>Tataki di Razza Romagnola affumicata, radicchio, mela e uva Sangiovese</p><p>Tubettino \"Cacciapuoti\", cavolo nero, caprino e bottarga</p><p>Mora Romagnola, friggione e albicocche</p><p>Fiordilatte cotto al forno al cioccolato fondente (Gardini) 72%</p>",
+        "price": 55,
+        "cousineType": ["carne"],
+        "notes": "<p>eventuale abbinamento di 4 vini al calice € 25</p>"
+      }
+    ]
+  },
+  {
+    "id": "d64f69421b3f481588786163f21dd03c",
+    "name": "Ristorante Hostaria 900",
+    "phone": "347 3091215",
+    "address": "viale Dante Alighieri, 20, Imola",
+    "mail": "hostaria900@hostaria900.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Menu di carne - Baccanale 2026",
+        "description": "<p>Sandwich fritto con pancetta croccante, chips e tartufo su vellutata di patate e porri</p><p>Tortelli ripieni di faraona con leggera demi glace, coriandolo e melograno</p><p>Picanha ripiena di prosciutto e tartufo con soffice di patate</p><p>Bavarese alla pitaya e melograno con salsa alla vaniglia</p>",
+        "price": 40,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua e coperto compresi</p>"
+      },
+      {
+        "title": "Menu di pesce - Baccanale 2026",
+        "description": "<p>Tartare di tonno con lime, salsa e germogli di soia</p><p>Tagliatelle con mazzancolle, zucchine, zafferano e basilico greco</p><p>Coda di rospo al cartoccio con patate, verdurine e mentuccia</p><p>Bavarese alla pitaya e melograno con salsa alla vaniglia</p>",
+        "price": 50,
+        "cousineType": ["pesce"],
+        "notes": "<p>Acqua e coperto compresi</p>"
+      }
+    ]
+  },
+  {
+    "id": "258df75c041d40f08623e81286e1fb9a",
+    "name": "Ristorante La Tavernetta",
+    "description": "<p>Il Ristorante a conduzione familiare è specializzato in cucina tradizionale Emiliano Romagnola, tra le tante offerte oltre alle Specialità di Pesce, trovate la pasta al mattarello fatta da noi, e piatto forte la tagliata argentina.</p>",
+    "phone": "366 3645156",
+    "address": "via Tito Speri, 2, Imola",
+    "mail": "mauro.paolini52@gmail.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "La Tavernetta Menù del Baccanale 2026",
+        "description": "<p>Vellutata di legumi con crostini</p><p>Spaghetti alla chitarra con scalogno e pancetta</p><p>Guanciale di manzo brasato con purè di patata</p><p>Zuppa inglese della tradizione</p>",
+        "price": 40,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse</p><p>caffè incluso</p>"
+      }
+    ]
+  },
+  {
+    "id": "4eaf30a0749147f8836d4203d48a20c1",
+    "name": "Ristorante Le Bistrot",
+    "phone": "0542 672122",
+    "address": "via Valsellustra, 18, Dozza",
+    "mail": "info@ristorantelebistrot.it",
+    "place": "Dozza",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Ristorante Le Bistrot Menù del baccanale 2026",
+        "description": "<p>Pappa al pomodoro</p><p>Cocotte di cardi con caprino della Normandia</p><p>Cappelletti di faraona su crema di zucca e maggiorana</p><p>Guancetta di maialino brasata</p><p>Crumble di mele con gelato allo zabaione</p>",
+        "price": 45,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "371c9c8581b54e44adc840c7f5b27268",
+    "name": "Ristorante Molino Rosso",
+    "phone": "366 2655085",
+    "address": "via Prov. Selice, 49, Imola",
+    "mail": "info@hotelmolinorosso.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "“Intrecci di sapori – La cucina italiana incontra il mondo”",
+        "description": "<p>Babaganoush alla paprika affumicata, pomodorini confit, fiocchi di stracciatella e pane</p><p>carasau</p><p>Tortelli Romagnoli ripieni di feta greca, spinaci e scorza di limone, saltati con burro alle</p><p>erbe e nocciole piemontesi tostate</p><p>Filetto di mora romagnola aromatizzato alle spezie della Via della Seta e riduzione al</p><p>porto.</p><p>Verdure gratinate di stagione</p><p>Tiramisù \"senza confini\";</p><p>Mascarpone, caffè etiope e cacao del Centro America</p>",
+        "price": 45,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse</p>"
+      }
+    ]
+  },
+  {
+    "id": "1b845f5967c24c4eab10e57af04a0702",
+    "name": "Ristorante Pizzeria Donatello",
+    "phone": "0542 690181",
+    "address": "via T. Baruzzi, 15, Imola",
+    "mail": "ristorantepizzeriadonatello@imolahotel.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "“Giro d’Italia”",
+        "description": "<p>Puglia</p><p><strong>Burratina d'Andria su vellutata di pomodorini e basilico</strong></p><p>Freschissimo latticino pugliese su crema fredda di pomodorini freschi, olio extravergine e basilico.</p><p>Marche</p><p><strong>Olive all'ascolana croccanti</strong></p><p>Olive verdi farcite con ripieno di carne, impanate e servite calde e croccanti.</p><p>Friuli-Venezia-Giulia</p><p><strong>Cubo di frico tradizionale con patate e cipolla</strong></p><p>Tortino di patate, cipolla stufate e Montasio DOP, servito tiepido in piccoli cubi</p><p>Tris di Primi</p><p>Il cuore del pasto, tra grandi classici al forno e mantecature espresse.</p><p>Lombardia</p><p><strong>Risotto allo zafferano e oro</strong></p><p>Mantecato espresso con burro e parmigiano, impreziosito da foglia d'oro alimentare.</p><p>Emilia Romagna</p><p><strong>Lasagna tradizionale alla bolognese</strong></p><p>Sfoglia verde agli spinaci, ragù classico e besciamella, gratinata al forno.</p><p>Sicilia</p><p><strong>Aneletti alla norma al forno</strong></p><p>Timballo con pomodoro, melanzane fritte e ricotta salata.</p><p>Una portata robusta, bilanciata tra carni espresse e preparazioni fredde.</p><p>Lazio</p><p><strong>Saltimbocca alla romana</strong></p><p>Vitello, prosciutto crudo e salvia, cotti rapidamente in padella con burro.</p><p>Piemonte</p><p><strong>Vitello tonnato classico</strong></p><p>Girello di vitello affettato sottile, servito freddo con salsa tonnata, capperi e acciughe.</p><p>Toscana</p><p><strong>Tagliata di manzo al rosmarino</strong></p><p>Carne scottata alla piastra, servita a listarelle con olio al rosmarino e sale grosso.</p><p><strong>Condigiun ligure</strong></p><p>Insalata fredda di pomodori, olive taggiasche, acciughe e origano.</p><p><strong>Patate e peperoni cruschi</strong></p><p>Patate al forno con petali croccanti di peperone lucano.</p><p><strong>Melanzane alla scapece</strong></p><p>Melanzane grigliate e marinate con aceto, aglio e menta.</p><p>Veneto</p><p><strong>Mini tiramisù in bicchiere</strong></p><p>Crema al mascarpone e savoiardi al caffè in monoporzione.</p><p>Campania</p><p><strong>Mini babà al rum</strong></p><p>Piccoli lievitati imbevuti in sciroppo leggero al rum.</p><p>Calabria</p><p><strong>Tartufini di Pizzo mignon al cioccolato</strong></p><p>Piccole sfere gelato alla nocciola e cioccolato con cuore fondente.</p><p>Sardegna</p><p><strong>Crostino di pane carasau con pecorino e miele</strong></p><p>Pane carasau croccante con pecorino dolce e miele.</p>",
+        "price": 50,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua e caffè inclusi</p><p>Possibilità di degustazione vini in abbinamento +20,00€</p><p><strong>Prenotazione obbligatoria</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "40560705187446e29e2ed3599632b89a",
+    "name": "Ristorante Popeye",
+    "phone": "0542 31183",
+    "address": "via Quaini, 43, Imola",
+    "mail": "info@ristorantepopeye.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "IN•CON•TRI",
+        "description": "<p>Triglia, fregola Araj al curry rosso e sedano croccante</p><p>Risotto “Gli Aironi”, ricci di mare, katsuobushi ed alga nori</p><p>Baccalà, cavolo cappuccio, zafferano, tahin e sesamo nero</p><p>Cremoso allo squacquerone, pere, pan di spagna al caramello e Brandy di Jerez</p><p>Piccola Pasticceria</p>",
+        "price": 55,
+        "cousineType": ["pesce"],
+        "notes": "<p>Degustazione vini</p><p>Principi di Spadafora (PA)</p><p><strong>Enrica Spadafora</strong> Brut nature</p><p><strong>Il Cugino</strong> Grillo</p><p><strong>Il Nostro Rosato</strong> Nero d’Avola</p><p>Servizio e coperto inclusi, bevande escluse.</p><p>È possibile abbinare al menù</p><p>la degustazione di tre calici della azienda</p><p>Principi di Spadafora (PA)</p><p>al costo di euro 15 per persona.</p>"
+      }
+    ]
+  },
+  {
+    "id": "0820a9c2be544847b89a7e7b6fd488e2",
+    "name": "Ristorante San Domenico",
+    "description": "<p>Il San Domenico è uno spazio per la felicità proposta con eleganza riservata.</p><p>È un luogo che diviene casa dove i clienti si sentono sempre ospiti graditi e dove possono incontrare con gusto e raffinatezza l’armonia dei sapori della grande tradizione culinaria italiana.</p>",
+    "phone": "0542 29000",
+    "address": "via G. Sacchi, 1, Imola",
+    "mail": "sandomenico@sandomenico.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "San Domenico per Baccanale 2026",
+        "description": "<p>Code di gamberi in crosta di corn flakes</p><p>spinaci al sesamo e mousseline alla soya</p><p>Sogliola alla Mugnaia</p><p>Garganello d’ Oro</p><p><em><u>Piatto dedicato dallo Chef Max Mascia alla città di Imola in occasione del riconoscimento da lui ricevuto durante il Baccanale 2025</u></em></p><p>Carpaccio di manzo</p><p>crema di nocciole e fegato d’ oca, burro al rosmarino.</p><p>Faraona farcita</p><p>con Marroni di Castel del Rio IGP ed il suo fondo</p><p>Mousse al cioccolato al latte</p><p>pralinato alle arachidi e caffè gelato al mascarpone e fave di cacao</p>",
+        "price": 150,
+        "cousineType": ["carne"],
+        "notes": "<p>Il menu del Baccanale è proposto dal martedì al giovedì sia a pranzo che a cena e la Domenica solo a pranzo</p><p>Acqua minerale, degustazione di vini e caffè compresi.</p>"
+      }
+    ]
+  },
+  {
+    "id": "7ecd19b22331448589ce1cdf39d548cd",
+    "name": "Sebastiano Caridi (Caffè Bacchilega)",
+    "phone": "0542 696234",
+    "address": "Piazza Matteotti, 27, Imola",
+    "mail": "info@sebastianocaridi.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Le radici del gusto . Un percorso degustazione tra tradizione, territorio e innovazione.",
+        "description": "<p>Polpo e patate</p><p>Insalata tiepida di polpo e patate in 3 consistenze e polveri affumicate</p><p>Vino in abbinamento: Trento DOC Metodo Classico Millesimato Brut - Altemasi</p><p>Passatelli in brodo</p><p>Passatelli con farina di castagne, in brodo di manzo e porcini secchi, aceto di lampone, olio di abete e castagne rotte</p><p>Vino in abbinamento: Romagna DOC Sangiovese Brisighella “Corallo Rosso” - Gallegati</p><p>Fave e cicoria</p><p>Crema di fave, fave croccanti, cicoria ripassata con sentori di caffè espresso</p><p>Vino in abbinamento: Falanghina Irpinia DOC – Terradora di Paolo</p><p>Brasato al barolo</p><p>Guancia di manzo, patata all’ olio, verdure in carpione, senape in grani e spezie</p><p>Vino in abbinamento: Barbera d’Alba Superiore DOC - Pira</p><p>3 strutture di zabaione</p><p>Vino in abbinamento: Zibibbo Terre Siciliane IGP - Maez</p>",
+        "price": 50,
+        "cousineType": ["carne"],
+        "notes": "<p>Menu degustazione: 50 euro</p><p>Menu abbinamento vini: 25 euro</p><p>Acqua e caffè esclusi</p><p>I piatti possono essere degustati anche singolarmente</p>"
+      }
+    ]
+  },
+  {
+    "id": "b6f29e77d55a4ae5863c5979791e9f43",
+    "name": "Semplice",
+    "phone": "0542 363026",
+    "address": "Piazza Matteotti, 7, Imola",
+    "mail": "info@sempliceimola.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Semplice. Menù Baccanale 2026",
+        "description": "<p>Mini hamburger di manzo</p><p>Mayo allo squacquerone e cavolo cappuccio</p><p>Tagliolini fatti a mano</p><p>Burro affumicato e polpettine di carne</p><p>Milanese di vitellone</p><p>Patate croccanti</p><p>Tiramisù</p>",
+        "price": 55,
+        "cousineType": ["carne"],
+        "notes": "<p>Sono esclusi il coperto e le bevande</p>"
+      }
+    ]
+  },
+  {
+    "id": "07e50096669c487997fa4bf55a5aff48",
+    "name": "Taverna San Pietro",
+    "phone": "388 4043367",
+    "address": "via 8 dicembre 1944, n. 38, Fontanelice",
+    "mail": "tavernasanpietro@outlook.it",
+    "place": "Fontanelice",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Taverna San Pietro Menù Baccanale 2026",
+        "description": "<p><strong>Tiella croccante</strong></p><p>Frittella di riso, cozze e patate</p><p><strong>Seppia e porcini</strong></p><p>Polentina biancoperla, umido di seppia e porcini</p><p><strong>Tortellino al mare</strong></p><p>farcito di tonno rosso in brodo ristretto di scoglio</p><p><strong>Baccalà nella bassa</strong></p><p>Merluzzo confit, zucca, mandorle, balsamico tradizionale</p><p><strong>Cannolo al tiramisù</strong></p><p>cialda classica siciliana, farcita al mascarpone, cacao e caffè</p>",
+        "price": 48,
+        "cousineType": ["pesce"],
+        "notes": "<p><strong>Acqua e coperto compresi</strong></p><p><strong>Abbinamento vini a 3 calici €18</strong></p>"
+      }
+    ]
+  },
+  {
+    "id": "e4ddf745b9804e2faf8acbcedb423c2a",
+    "name": "Tenuta Poggio Pollino",
+    "phone": "331 6125474",
+    "address": "via Monte Meldola, 2/t, Imola",
+    "mail": "info@poggiopollino.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "“INCONTRI… Gli italiani lo fanno meglio….”",
+        "description": "<p>ITA - GER</p><p>1 9 7 0</p><p>4 - 3</p><p>F lan di cipolla alla carbonara con panna</p><p>I T A - U S A</p><p>1 9 9 0</p><p>1 - 0</p><p>Nido di fettuccine Alfredo</p><p>IT A - T H A I</p><p>2 0 0 8</p><p>1 - 0</p><p>Ravioli del plin in brodo pho thai</p><p>I T A - M E X</p><p>1 9 7 0</p><p>4 - 1</p><p>Quesadilla con stracotto e fiordilatte</p><p>e tortilla di patate gratinata</p><p>I T A - S P A</p><p>1 9 9 4</p><p>2 - 1</p><p>Churros con cassata snudata</p>",
+        "price": 29,
+        "cousineType": ["carne"],
+        "notes": "<p>Acqua e coperto inclusi</p>"
+      }
+    ]
+  },
+  {
+    "id": "7ca2ae4e89024b6993dcb147efe610cc",
+    "name": "Tenuta Torre Diana",
+    "phone": "350 1575911",
+    "address": "Via Nuova, 5, Mordano",
+    "mail": "info@tenutatorrediana.it",
+    "place": "Mordano",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Cacciatore Errante",
+        "description": "<p>Carpaccio di Cinghiale porchettato con chutney di cipolla rossa caramellata e schiacciata calda cotta in forno a legna</p><p>Risotto ai Colombacci brasati lentamente nel vino rosso, mantecato con Parmigiano Reggiano DOP</p><p>Cinghiale in Dolceforte: Stufato della tradizione rinascimentale, arricchito da un abbraccio agrodolce di cioccolato fondente, uvetta e frutta secca, servito con purè al profumo di salvia</p><p>Raviole ai frutti dimenticati</p>",
+        "price": 45,
+        "cousineType": ["carne"],
+        "notes": "<p>Coperto, acqua e liquore della casa al prugnolo inclusi:</p>"
+      }
+    ]
+  },
+  {
+    "id": "d4550242f1ae489fa82a67f18a913bcf",
+    "name": "Trattoria Da Mauro",
+    "phone": "0542 609530",
+    "address": "via Zello, 50, Imola",
+    "mail": "d.sergio@alice.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Trattoria da Mauro per Baccanale",
+        "description": "<p>Insalatina di mare aromatizzata origano e maggiorana Gamberetti al pepe rosa</p><p>Filetto di baccalà con intingolo di olive taggiasche e graffio di paprica e timo</p><p>Risotto zafferano mare e monti</p><p>Spadellata di ombrina e merluzzo con gamberoni e verdure al curry</p><p>Strudel di mele alla cannella</p>",
+        "price": 45,
+        "cousineType": ["pesce"],
+        "notes": "<p>Bevande incluse.</p><p>Menù disponibile solo su prenotazione</p><p>Dal mercoledì al sabato per cena</p><p>Domenica sia pranzo che cena</p>"
+      }
+    ]
+  },
+  {
+    "id": "21cc56fb2d3d4d76ae8c48e03ea950fd",
+    "name": "Trattoria Grano",
+    "phone": "375 6305321",
+    "address": "XX settembre, 17, Imola",
+    "mail": "info@trattoriagrano.it",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Il nostro primo Baccanale. Trattoria Grano",
+        "description": "<p>Zucca e Oriente</p><p>Sformatino di zucca con besciamella al Pepe di Sichuan , riduzione al Sangiovese e salvia fritta</p><p>Garganelli che passano da Bali</p><p>Garganelli al pesto di Cavolo nero , crumble di focaccia Indonesiana e granolata di zenzero candito e buccia di lime</p><p>Il mio ristorante a Melbourne</p><p>Guancia di manzo brasata alle 5 spezie , purè di patate e soffritto di Frutta e verdura</p><p>Ricordo Di Sydney</p><p>Pannacotta eucalipto e arance</p>",
+        "price": 38,
+        "cousineType": ["carne"],
+        "notes": "<p>Bevande escluse coperto incluso</p>"
+      }
+    ]
+  },
+  {
+    "id": "e3c2b75be9c44f27a8065bacb3f5076e",
+    "name": "Vivanderia - Note e Aromi",
+    "phone": "348 9061576",
+    "address": "piazzale Vittime lager nazisti, 5, Imola",
+    "mail": "vivanderia@gmail.com",
+    "place": "Imola",
+    "year": 2026,
+    "menus": [
+      {
+        "title": "Vivanderia Menù baccanale 2026",
+        "description": "<p>Calice di benvenuto</p><p>Mini buns con cocktails di gamberi</p><p>Millefoglie di zucchine, spada e provola affumicata con salsa agrodolce</p><p>Riso al salto con carpaccio di tonno, soya e robiolino</p><p>Branzino scottato su cicoria ripassata e beurre blanc</p><p>Red velvet in chiave italiana</p>",
+        "price": 50,
+        "cousineType": ["pesce"],
+        "notes": "<p>vini e bevande escluse</p>"
+      }
+    ]
+  }
+]

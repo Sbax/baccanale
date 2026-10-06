@@ -19,12 +19,22 @@ import data2022 from "../data/data-2022.json";
 import data2023 from "../data/data-2023.json";
 import data2024 from "../data/data-2024.json";
 import data2025 from "../data/data-2025.json";
-import type { Menu, MenuWithYear, Restaurant, RestaurantPageData } from "../types";
+import data2026 from "../data/data-2026.json";
+import type {
+  Menu,
+  MenuWithYear,
+  Restaurant,
+  RestaurantPageData,
+} from "../types";
+import type { CousineType } from "./cousineTypes";
+
+export type { CousineType };
 
 type RawMenu = {
   title?: string;
   description: string;
   price: number | string;
+  cousineType?: string[];
   notes?: string | null;
 };
 
@@ -62,6 +72,7 @@ const yearDataByYear: Record<number, RawRestaurant[]> = {
   2023: data2023,
   2024: data2024,
   2025: data2025,
+  2026: data2026,
 };
 
 export const years = Object.keys(yearDataByYear)
@@ -92,6 +103,7 @@ export const yearThemes: Record<number, string> = {
   2023: "Mediterraneo",
   2024: "Un filo d'olio",
   2025: "Un mondo di spezie",
+  2026: "Incontri. La cucina italiana senza confini",
 };
 
 const slugify = (name: string) => {
@@ -125,13 +137,14 @@ const toRestaurant = (restaurantData: RawRestaurant): Restaurant => {
   } = restaurantData;
 
   const menus: Menu[] = rawMenus.map((menuData) => {
-    const { description, notes, price, title } = menuData;
+    const { cousineType, description, notes, price, title } = menuData;
 
     return {
       title,
       year,
       price: Number(price),
       description,
+      cousineType: cousineType as Menu["cousineType"],
       notes: notes ?? null,
     };
   });
@@ -171,7 +184,24 @@ const placesByYear = new Map(
   years.map((year): [number, string[]] => [
     year,
     Array.from(
-      new Set((restaurantsByYear.get(year) ?? []).map((restaurant) => restaurant.place)),
+      new Set(
+        (restaurantsByYear.get(year) ?? []).map(
+          (restaurant) => restaurant.place,
+        ),
+      ),
+    ).toSorted(compareNames),
+  ]),
+);
+
+const cousineTypesByYear = new Map(
+  years.map((year): [number, CousineType[]] => [
+    year,
+    Array.from(
+      new Set(
+        (restaurantsByYear.get(year) ?? []).flatMap((restaurant) =>
+          restaurant.menus.flatMap((menu) => menu.cousineType ?? []),
+        ),
+      ),
     ).toSorted(compareNames),
   ]),
 );
@@ -187,10 +217,14 @@ const restaurantsBySlug = allRestaurants.reduce<Map<string, Restaurant[]>>(
   new Map<string, Restaurant[]>(),
 );
 
-const sortComparators: Record<SortMode, (left: Restaurant, right: Restaurant) => number> = {
+const sortComparators: Record<
+  SortMode,
+  (left: Restaurant, right: Restaurant) => number
+> = {
   name: (left, right) => compareNames(left.name, right.name),
   "name-reversed": (left, right) => compareNames(right.name, left.name),
-  price: (left, right) => right.maxPrice - left.maxPrice || compareNames(left.name, right.name),
+  price: (left, right) =>
+    right.maxPrice - left.maxPrice || compareNames(left.name, right.name),
   "price-reversed": (left, right) =>
     left.maxPrice - right.maxPrice || compareNames(left.name, right.name),
 };
@@ -207,11 +241,17 @@ export const getPlacesForYear = (year: number) => {
   return placesByYear.get(year) ?? [];
 };
 
+export const getCousineTypesForYear = (year: number) => {
+  return cousineTypesByYear.get(year) ?? [];
+};
+
 export const getRestaurantSlugs = () => {
   return [...restaurantsBySlug.keys()];
 };
 
-export const getRestaurantPageData = (slug: string): RestaurantPageData | null => {
+export const getRestaurantPageData = (
+  slug: string,
+): RestaurantPageData | null => {
   const restaurants = restaurantsBySlug.get(slug);
 
   if (!restaurants || restaurants.length === 0) {
@@ -220,8 +260,8 @@ export const getRestaurantPageData = (slug: string): RestaurantPageData | null =
 
   const [firstRestaurant, ...otherRestaurants] = restaurants;
 
-  const latest = otherRestaurants.reduce<Restaurant>((current, next) =>
-    next.year > current.year ? next : current,
+  const latest = otherRestaurants.reduce<Restaurant>(
+    (current, next) => (next.year > current.year ? next : current),
     firstRestaurant,
   );
 
@@ -229,21 +269,16 @@ export const getRestaurantPageData = (slug: string): RestaurantPageData | null =
     .flatMap((restaurant): MenuWithYear[] => {
       const { menus, year } = restaurant;
 
-      return menus.map((menu): MenuWithYear => ({
-        ...menu,
-        year,
-      }));
+      return menus.map(
+        (menu): MenuWithYear => ({
+          ...menu,
+          year,
+        }),
+      );
     })
     .toSorted((a, b) => b.year - a.year || a.price - b.price);
 
-  const {
-    address,
-    description,
-    mail,
-    name,
-    phone,
-    place,
-  } = latest;
+  const { address, description, mail, name, phone, place } = latest;
 
   return {
     slug,
@@ -278,15 +313,32 @@ const includesQuery = (source: string, query: string) => {
 
 export function filterRestaurants(
   restaurants: Restaurant[],
-  options: { query: string; places: string[]; sort: SortMode },
+  options: {
+    query: string;
+    places: string[];
+    cousineTypes: string[];
+    sort: SortMode;
+  },
 ) {
-  const { places, query: rawQuery, sort } = options;
+  const { cousineTypes, places, query: rawQuery, sort } = options;
   const query = rawQuery.trim().toLowerCase();
 
   const filtered = restaurants.filter((restaurant) => {
     const { address, description, menus, name, place } = restaurant;
 
     if (places.length > 0 && !places.includes(place)) {
+      return false;
+    }
+
+    const restaurantCousineTypes = menus.flatMap(
+      (menu) => menu.cousineType ?? [],
+    );
+
+    if (
+      cousineTypes.length > 0 &&
+      restaurantCousineTypes.length > 0 &&
+      !restaurantCousineTypes.some((type) => cousineTypes.includes(type))
+    ) {
       return false;
     }
 
@@ -339,6 +391,9 @@ export const groupMenusByYear = (
   }, {});
 
   return Object.entries(groups)
-    .map(([year, yearMenus]) => [Number(year), yearMenus] as [number, MenuWithYear[]])
+    .map(
+      ([year, yearMenus]) =>
+        [Number(year), yearMenus] as [number, MenuWithYear[]],
+    )
     .toSorted(([leftYear], [rightYear]) => rightYear - leftYear);
 };

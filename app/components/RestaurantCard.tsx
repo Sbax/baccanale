@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { formatPrice, getMapsUrl, getPhoneUrl } from "../lib/baccanale";
+import { cousineTypeStyles } from "../lib/cousineTypes";
 import type { Menu, MenuWithYear, Restaurant } from "../types";
 
 type RestaurantCardData = Pick<
@@ -34,13 +35,13 @@ export const RestaurantCard = ({
   const showRestaurantMeta = !hideRestaurantName;
 
   return (
-    <article className="surface-panel flex h-full flex-col p-4">
+    <article className="flex flex-col p-4 h-full surface-panel">
       {heading && <p className="mono-label">{heading}</p>}
 
       {showRestaurantMeta && (
-        <div className="flex items-start justify-between gap-4">
+        <div className="flex justify-between items-start gap-4">
           <Link href={`/restaurant/${slug}`} className="group">
-            <h2 className="text-2xl font-bold uppercase text-foreground decoration-2 underline group-hover:bg-accent-strong group-hover:text-background">
+            <h2 className="font-bold text-foreground group-hover:text-background text-2xl decoration-2 underline uppercase group-hover:bg-accent-strong">
               {name}
             </h2>
           </Link>
@@ -51,20 +52,32 @@ export const RestaurantCard = ({
         className={`${showRestaurantMeta || heading ? "mt-4 " : ""}stack-md`}
       >
         {menus.map((menu, index) => {
-          const { description, notes, price, title, year } = menu;
+          const { cousineType, description, notes, price, title, year } = menu;
 
           return (
             <div
               key={getMenuKey(menu)}
               className={index > 0 ? "border-border border-t pt-4" : undefined}
             >
-              <div className="mb-2 flex flex-wrap items-start justify-between gap-2">
+              <div className="flex flex-wrap justify-between items-start gap-2 mb-2">
                 <div className="stack-xs">
                   {showYear && year && <p className="mono-label">{year}</p>}
                   {title && <p className="text-muted text-sm">{title}</p>}
+                  {cousineType && cousineType.length > 0 && (
+                    <div className="flex flex-wrap gap-1">
+                      {cousineType.map((type) => (
+                        <span
+                          key={type}
+                          className={`border px-1 text-xs uppercase ${cousineTypeStyles[type].className}`}
+                        >
+                          {cousineTypeStyles[type].badgeLabel}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
-                <p className="text-muted font-mono text-sm uppercase whitespace-nowrap">
+                <p className="font-mono text-muted text-sm uppercase whitespace-nowrap">
                   {formatPrice(price)}
                 </p>
               </div>
@@ -74,7 +87,7 @@ export const RestaurantCard = ({
               />
               {notes && (
                 <div
-                  className="text-muted mt-2 italic"
+                  className="mt-2 text-muted italic"
                   dangerouslySetInnerHTML={{ __html: notes }}
                 />
               )}
@@ -84,19 +97,19 @@ export const RestaurantCard = ({
       </div>
 
       {showRestaurantMeta && (
-        <div className="mt-auto flex flex-col items-start gap-2 pt-2">
+        <div className="flex flex-col items-start gap-2 mt-auto pt-2">
           <a
             href={mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="interactive-link text-sm font-semibold"
+            className="font-semibold text-sm interactive-link"
           >
             {address}
           </a>
           {phoneUrl && (
             <a
               href={phoneUrl}
-              className="interactive-link text-sm font-semibold"
+              className="font-semibold text-sm interactive-link"
             >
               {phone}
             </a>

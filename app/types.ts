@@ -3,6 +3,7 @@ export type Menu = {
   description: string;
   price: number;
   year?: number;
+  cousineType?: ("vegetariana/vegana" | "carne" | "pesce")[];
   notes?: string | null;
 };
 
