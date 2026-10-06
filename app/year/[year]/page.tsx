@@ -25,7 +25,7 @@ export const generateMetadata = async ({
   const resolvedYear = Number.isFinite(value) ? value : latestYear;
 
   return {
-    title: `Baccanale ${resolvedYear}`,
+    title: `Baccanale ${resolvedYear}, ${getYearTheme(resolvedYear)}`,
     description: `Menù e ristoranti dell'edizione ${resolvedYear} del Baccanale`,
   };
 };

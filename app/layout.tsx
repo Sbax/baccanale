@@ -27,8 +27,8 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
       lang="it"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col space-y-6">
-        <section className="page-gutter flex min-h-full flex-1 flex-col">
+      <body className="flex flex-col space-y-6 min-h-full">
+        <section className="flex flex-col flex-1 min-h-full page-gutter">
           {children}
         </section>
         <SiteFooter />
