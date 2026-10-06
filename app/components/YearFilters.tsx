@@ -113,7 +113,12 @@ export const YearFilters = ({
                     style?.accentClassName ?? "accent-accent"
                   }`}
                 />
-                <span className="uppercase">{style?.label ?? cousineType}</span>
+                <span className="hidden sm:block uppercase">
+                  {style?.label ?? cousineType}
+                </span>
+                <span className="sm:hidden uppercase">
+                  {style?.badgeLabel ?? cousineType}
+                </span>
               </label>
             );
           })}

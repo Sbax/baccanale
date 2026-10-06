@@ -25,8 +25,8 @@ export const cousineTypeStyles: Record<CousineType, CousineTypeStyle> = {
   "vegetariana/vegana": {
     className: "border-green-600 bg-green-100 text-green-700",
     accentClassName: "accent-green-600",
-    badgeLabel: "veg",
-    label: "Vegetariana o Vegana",
+    badgeLabel: "vege/vegan",
+    label: "Vegetariana o vegana",
   },
 };
 

@@ -12,7 +12,7 @@
         "title": "Incontri. La cucina italiana senza confini... regionali",
         "description": "<p>Trentino</p><p>Entrée di benvenuto la nostra focaccia incontra lo speck</p><p>Lombardia</p><p>Flan di zucca mantovana con fonduta al Formaggio di Fossa di Sogliano DOP</p><p>Piemonte</p><p>Tortelloni fatti in casa ripieni di stracotto di carne su specchio di cavolo nero (plin alla romagnola)</p><p>Toscana</p><p>Peposo con crostini di polenta</p><p>Sicilia</p><p>Biancomangiare ai frutti di bosco</p>",
         "price": 40,
-        "cousineType": ["carne"],
+        "cousineType": ["carne", "vegetariana/vegana"],
         "notes": "<p>Acqua e coperto inclusi</p><p>Variante vegetariana sul menu solo su prenotazione.</p><p>Info e prenotazioni SMS o whatsapp 3393448493 Lorenzo</p>"
       }
     ]
