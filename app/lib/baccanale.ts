@@ -371,9 +371,33 @@ export const sortChoices: Array<{ value: SortMode; label: string }> = [
   { value: "price-reversed", label: "€ - €€€" },
 ];
 
-export const getMapsUrl = (name: string, address: string): string => {
+export const getGoogleMapsUrl = (name: string, address: string): string => {
   return `https://www.google.com/maps/search/${encodeURIComponent(
     `${name} ${address}`,
+  )}`;
+};
+
+// Nominatim (OpenStreetMap's geocoder) indexes POI/business names poorly and
+// is easily thrown off by free-text noise, so we drop the restaurant name and
+// feed it a cleaned, structured-ish address anchored to the country.
+export const getOpenStreetMapUrl = (address: string): string => {
+  const cleanedAddress = address
+    // Drop parenthetical notes, e.g. "(adiacente Anusca Palace Hotel)".
+    .replace(/\([^)]*\)/g, "")
+    // Drop connector clauses that confuse the geocoder.
+    .replace(/\b(c\/o|angolo|adiacente|presso|localit[àa])\b.*?(?=,|$)/gi, "")
+    .replace(/\s*-\s*/g, ", ")
+    .replace(/\s*,\s*/g, ", ")
+    .replace(/,\s*(?=,|$)/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/,+$/g, "")
+    .trim();
+
+  const query = cleanedAddress ? `${cleanedAddress}, Italia` : address;
+
+  return `https://www.openstreetmap.org/search?query=${encodeURIComponent(
+    query,
   )}`;
 };
 

@@ -46,7 +46,6 @@ export const YearFilters = ({
             className="bg-transparent outline-none w-full placeholder:text-muted text-base"
           />
         </label>
-
         <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 lg:col-span-2">
           {sortChoices.map((choice) => {
             const selected = sort === choice.value;
@@ -67,28 +66,33 @@ export const YearFilters = ({
         </div>
       </div>
 
-      <div className="gap-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
-        {places.map((place) => {
-          const selected = activePlaces.includes(place);
+      <details className="places-filter">
+        <summary className="md:hidden inline-flex items-center gap-3 cursor-pointer select-none">
+          <span className="mono-label interactive-link">Filtra per luogo</span>
+        </summary>
+        <div className="gap-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 mt-2 md:mt-0">
+          {places.map((place) => {
+            const selected = activePlaces.includes(place);
 
-          return (
-            <label
-              key={place}
-              className={`check-chip ${
-                selected ? "check-chip-active" : "check-chip-idle"
-              }`}
-            >
-              <input
-                type="checkbox"
-                checked={selected}
-                onChange={() => onTogglePlace(place)}
-                className="w-4 h-4 accent-accent cursor-pointer"
-              />
-              <span>{place}</span>
-            </label>
-          );
-        })}
-      </div>
+            return (
+              <label
+                key={place}
+                className={`check-chip ${
+                  selected ? "check-chip-active" : "check-chip-idle"
+                }`}
+              >
+                <input
+                  type="checkbox"
+                  checked={selected}
+                  onChange={() => onTogglePlace(place)}
+                  className="w-4 h-4 accent-accent cursor-pointer"
+                />
+                <span>{place}</span>
+              </label>
+            );
+          })}
+        </div>
+      </details>
 
       {cousineTypes.length > 0 && (
         <div className="gap-2 grid grid-cols-3">

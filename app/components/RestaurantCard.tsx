@@ -1,5 +1,10 @@
 import Link from "next/link";
-import { formatPrice, getMapsUrl, getPhoneUrl } from "../lib/baccanale";
+import {
+  formatPrice,
+  getGoogleMapsUrl,
+  getOpenStreetMapUrl,
+  getPhoneUrl,
+} from "../lib/baccanale";
 import { cousineTypeStyles } from "../lib/cousineTypes";
 import type { Menu, MenuWithYear, Restaurant } from "../types";
 
@@ -30,7 +35,8 @@ export const RestaurantCard = ({
   heading,
 }: RestaurantCardProps) => {
   const { address, menus, name, phone, slug } = restaurant;
-  const mapsUrl = getMapsUrl(name, address);
+  const mapsUrl = getGoogleMapsUrl(name, address);
+  const openStreetMapUrl = getOpenStreetMapUrl(address);
   const phoneUrl = phone ? getPhoneUrl(phone) : null;
   const showRestaurantMeta = !hideRestaurantName;
 
@@ -98,14 +104,25 @@ export const RestaurantCard = ({
 
       {showRestaurantMeta && (
         <div className="flex flex-col items-start gap-2 mt-auto pt-2">
-          <a
-            href={mapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-sm interactive-link"
-          >
-            {address}
-          </a>
+          <p className="font-semibold text-foreground text-sm">{address}</p>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href={mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-sm interactive-link"
+            >
+              Google Maps
+            </a>
+            <a
+              href={openStreetMapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-sm interactive-link"
+            >
+              OpenStreetMap
+            </a>
+          </div>
           {phoneUrl && (
             <a
               href={phoneUrl}
